@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* 帯 */
+
+.editor-styles-wrapper .article h2,
+.article h2,
+.main .article .widget-title,
+.main .under-entry-content h2 {
+  background-color: var(--main-color);
+  border-bottom: 4px double var(--content-bgcolor, #fff);
+  border-top: 4px double var(--content-bgcolor, #fff);
+  color: var(--text-color);
+  padding: 16px 25px;
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cocoon-blocks/campaign",
+  "title": "キャンペーン",
+  "category": "cocoon-block",
+  "description": "指定した期間中のみコンテンツを表示するブロックです。開始日時と終了日時を設定できます。",
+  "textdomain": "cocoon",
+  "keywords": [
+    "campaign",
+    "キャンペーン",
+    "期間"
+  ],
+  "attributes": {
+    "from": {
+      "type": "string",
+      "default": ""
+    },
+    "to": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {
+    "attributes": {
+      "from": "2030/01/01",
+      "to": "2030/12/31"
+    },
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "キャンペーン期間中のみ表示されるコンテンツです。"
+        }
+      }
+    ]
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "className": true
+  }
+}

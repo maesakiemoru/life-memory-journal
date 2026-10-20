@@ -1,0 +1,363 @@
+
+  .slick-dots li.slick-active button:before,
+  .slick-dots li button:before,
+  .shortcut{
+    color: #757575;
+  }
+  .header{
+    background-color: #757575;
+    color: #ffffff;
+  }
+  .site-name-text{
+    color: #ffffff;
+  }
+  .eye-catch .cat-label{
+    color: #ffffff;
+    background-color: #757575;
+    left: auto;
+    top: .5em;
+    bottom: auto;
+    right: .5em;
+    padding: 4px 9px 1.9px;
+    opacity: .7;
+    border: 1.3px solid #ffffff;
+    border-radius: 7px;
+  }
+  .page-numbers,
+  .tagcloud a,
+  .author-box,
+  .ranking-item,
+  .pagination-next-link,
+  .comment-reply-link,
+  .toc {
+    border: 2px solid #757575;
+    border-radius: 6px;
+  }
+  .pagination .current,
+  .search-submit {
+    background: #757575;
+  }
+  .search-submit{
+    border: solid 2px #757575;
+  }
+  .blogcard-label::after,
+  .fas .fa-folder,
+  .search-submit{
+    color: #ffffff;
+  }
+  .blogcard-label, .cat-link, .cat-label,
+  .tag-link, .comment-reply-link,
+  .mobile-menu-buttons,
+  .mobile-menu-buttons .menu-button > a,
+  .navi-menu-content,
+  .navi-menu-content a,
+  .go-to-top-button,
+  #submit{
+    background-color: #757575;
+    color: #ffffff;
+  }
+  .box-menu{
+    box-shadow: inset 1px 1px 0 0 #757575, 1px 1px 0 0 #757575, 1px 0 0 0 #757575;
+  }
+  .search-form>div {
+    border: 2px solid #757575;
+  }
+  .search-form div.sbtn {
+    background-color: #757575;
+    color: #ffffff;
+    text-align: center;
+    width: 140px;
+    position: relative;
+  }
+  .search-form div.sbtn:hover{
+    border: 2px solid #757575;
+  }
+  .article h2 {
+    border-bottom: 3px solid #757575;
+  }
+  .article h3,
+  .sidebar h2,
+  .sidebar h3,
+  .under-entry-content h2{
+    padding: 1rem 2rem;
+    border-left: 5px solid #757575;
+    border-radius: 4px 0px 0px 4px;
+  }
+  .article h4 {
+    padding: 1rem 2rem;
+    border-left: 4px dashed #757575;
+  }
+  .article h5 {
+    padding: 1rem 2rem;
+    border-left: 4px dotted #757575;
+  }
+  
+.header .header-in{
+  min-height: 299px;
+}
+.header{
+  background-image: url(https://maesakiemoru.github.io/life-memory-journal/wp-content/uploads/2026/07/2780243-lantern-6826691-e1784874169282.jpg);
+}
+.go-to-top .go-to-top-button{
+  background-color: #685353;
+}
+.main{
+  width: 1060px;
+}
+.sidebar{
+  width: 376px;
+}
+/* .toc-content, */
+.toc-checkbox {
+  display: none;
+}
+.toc-content{
+  visibility: hidden;
+  /*display: block; */
+  /* margin-top: -24px; */
+  height: 0;
+  opacity: 0.2;
+  transition: all 0.5s ease-out;
+}
+.toc-checkbox:checked ~ .toc-content {
+  /* display: block; */
+  visibility: visible;
+  padding-top: 0.6em;
+  height: 100%;
+  opacity: 1;
+}
+.toc-title::after{
+  content: '[開く]';
+  margin-left: 0.5em;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+.toc-title:hover::after{
+  text-decoration: underline;
+}
+
+.toc-checkbox:checked + .toc-title::after{
+  content: '[閉じる]';
+}#navi .navi-in > ul > li{
+  width: auto;
+}
+#navi .navi-in > ul > li > a{
+  padding: 0 1.4em;
+}
+#footer {
+  background: #0a0a0a;
+}
+#footer,
+#footer a:not(.sns-button),
+.footer-title {
+  color: #ffffff;
+}
+.entry-content > *,
+.demo .entry-content p {
+  line-height: 1.8;
+}
+    .main,
+  .main p,
+  .main p.wp-block-paragraph {
+    line-height: 1.8;
+  }
+  .entry-content > *,
+.mce-content-body > *,
+.article p,
+.demo .entry-content p,
+.article dl,
+.article ul,
+.article ol,
+.article blockquote,
+.article pre,
+.article table,
+.article .toc,
+.body .article,
+.body .column-wrap,
+.body .new-entry-cards,
+.body .info-list,
+.body .popular-entry-cards,
+.body .navi-entry-cards,
+.body .box-menus,
+.body .ranking-item,
+.body .rss-entry-cards,
+.body .widget,
+.body .author-box,
+.body .blogcard-wrap,
+.body .login-user-only,
+.body .information-box,
+.body .question-box,
+.body .alert-box,
+.body .information,
+.body .question,
+.body .alert,
+.body .memo-box,
+.body .comment-box,
+.body .common-icon-box,
+.body .blank-box,
+.body .button-block,
+.body .micro-bottom,
+.body .caption-box,
+.body .tab-caption-box,
+.body .label-box,
+.body .toggle-wrap,
+.body .wp-block-image,
+.body .booklink-box,
+.body .kaerebalink-box,
+.body .tomarebalink-box,
+.body .product-item-box,
+.body .speech-wrap,
+.body .wp-block-categories,
+.body .wp-block-archives,
+.body .wp-block-archives-dropdown,
+.body .wp-block-calendar,
+.body .ad-area,
+.body .wp-block-gallery,
+.body .wp-block-audio,
+.body .wp-block-cover,
+.body .wp-block-file,
+.body .wp-block-media-text,
+.body .wp-block-video,
+.body .wp-block-buttons,
+.body .wp-block-columns,
+.body .wp-block-separator,
+.body .components-placeholder,
+.body .wp-block-search,
+.body .wp-block-social-links,
+.body .timeline-box,
+.body .blogcard-type,
+.body .btn-wrap,
+.body .btn-wrap a,
+.body .block-box,
+.body .wp-block-embed,
+.body .wp-block-group,
+.body .wp-block-table,
+.body .scrollable-table,
+.body .wp-block-separator,
+.body .wp-block,
+.body .video-container,
+.comment-area,
+.related-entries,
+.pager-post-navi,
+.comment-respond {
+  margin-bottom: 1.8em;
+}
+
+#wpcontent #wpbody .is-root-container > * {
+  margin-bottom: 1.8em;
+}
+
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6{
+  margin-bottom: 1.62em;
+}
+@media screen and (max-width: 480px){
+  .body,
+  .menu-content{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:781px) {
+  .wp-block-column{
+    margin-bottom: 1.8em;
+  }
+}
+@media screen and (max-width:834px) {
+  .container .column-wrap{
+    gap: 1.8em;
+  }
+}
+.article .micro-top{
+  margin-bottom: 0.36em;
+}
+.article .micro-bottom{
+  margin-top: -1.62em;
+}
+
+.article .micro-balloon{
+  margin-bottom: 0.9em;
+}
+.article .micro-bottom.micro-balloon{
+  margin-top: -1.26em;
+}
+
+.blank-box.bb-key-color{
+  border-color: #757575;
+}
+.iic-key-color li::before{
+  color: #757575;
+}
+.blank-box.bb-tab.bb-key-color::before {
+  background-color: #757575;
+}
+.tb-key-color .toggle-button {
+  border: 1px solid #757575;
+  background: #757575;
+  color: #fff;
+}
+.tb-key-color .toggle-button::before {
+  color: #ccc;
+}
+.tb-key-color .toggle-checkbox:checked ~ .toggle-content {
+  border-color: #757575;
+}
+.cb-key-color.caption-box {
+  border-color: #757575;
+}
+.cb-key-color .caption-box-label {
+  background-color: #757575;
+  color: #fff;
+}
+.tcb-key-color .tab-caption-box-label {
+  background-color: #757575;
+  color: #fff;
+}
+.tcb-key-color .tab-caption-box-content {
+  border-color: #757575;
+}
+.lb-key-color .label-box-content {
+  border-color: #757575;
+}
+.mc-key-color {
+  background-color: #757575;
+  color: #fff;
+  border: none;
+}
+.mc-key-color.micro-bottom::after {
+  border-bottom-color: #757575;
+  border-top-color: transparent;
+}
+.mc-key-color::before {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.mc-key-color::after {
+  border-top-color: #757575;
+}
+.btn-key-color, .btn-wrap.btn-wrap-key-color > a {
+  background-color: #757575;
+}
+.has-text-color.has-key-color-color {
+  color: #757575;
+}
+.has-background.has-key-color-background-color {
+  background-color: #757575;
+}
+.body.article,
+body#tinymce.wp-editor{
+  background-color: #fff}
+.body.article,
+.editor-post-title__block .editor-post-title__input,
+body#tinymce.wp-editor{
+  color: #333}
+.box-menu:hover{
+  box-shadow: inset 2px 2px 0 0 #f6a068, 2px 2px 0 0 #f6a068, 2px 0 0 0 #f6a068, 0 2px 0 0
+#f6a068;
+}
+.box-menu-icon{
+  color: #f6a068;
+}
+

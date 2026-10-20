@@ -1,0 +1,14 @@
+{
+  "apiVersion": 3,
+  "name": "cocoon-blocks/comparison-box",
+  "category": "cocoon-block",
+  "keywords": [
+    "comparison",
+    "box"
+  ],
+  "attributes": {},
+  "supports": {
+    "anchor": true,
+    "html": false
+  }
+}

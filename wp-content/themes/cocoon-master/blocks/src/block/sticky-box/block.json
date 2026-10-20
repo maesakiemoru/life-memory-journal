@@ -1,0 +1,32 @@
+{
+  "apiVersion": 3,
+  "name": "cocoon-blocks/sticky-box",
+  "category": "cocoon-block",
+  "keywords": [
+    "sticky",
+    "box"
+  ],
+  "attributes": {
+    "boxStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "style": {
+      "type": "object"
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facilis in molestiae quod! Aut doloribus est illum iure porro sunt. Eius illo iusto maxime nihil possimus quae tempora voluptas voluptates."
+        }
+      }
+    ]
+  },
+  "supports": {
+    "anchor": true,
+    "html": false
+  }
+}

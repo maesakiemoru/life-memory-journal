@@ -1,0 +1,6437 @@
+{
+    "AC": null,
+    "AD": null,
+    "AE": [
+        {
+            "iso": "AZ",
+            "key": "أبو ظبي"
+        },
+        {
+            "iso": "SH",
+            "key": "إمارة الشارقةّ"
+        },
+        {
+            "iso": "FU",
+            "key": "الفجيرة"
+        },
+        {
+            "iso": "UQ",
+            "key": "ام القيوين"
+        },
+        {
+            "iso": "DU",
+            "key": "إمارة دبيّ"
+        },
+        {
+            "iso": "RK",
+            "key": "إمارة رأس الخيمة"
+        },
+        {
+            "iso": "AJ",
+            "key": "عجمان"
+        }
+    ],
+    "AF": null,
+    "AG": null,
+    "AI": null,
+    "AL": null,
+    "AM": [
+        {
+            "iso": "AG",
+            "key": "Արագածոտն"
+        },
+        {
+            "iso": "AR",
+            "key": "Արարատ"
+        },
+        {
+            "iso": "AV",
+            "key": "Արմավիր"
+        },
+        {
+            "iso": "GR",
+            "key": "Գեղարքունիք"
+        },
+        {
+            "iso": "ER",
+            "key": "Երևան"
+        },
+        {
+            "iso": "LO",
+            "key": "Լոռի"
+        },
+        {
+            "iso": "KT",
+            "key": "Կոտայք"
+        },
+        {
+            "iso": "SH",
+            "key": "Շիրակ"
+        },
+        {
+            "iso": "SU",
+            "key": "Սյունիք"
+        },
+        {
+            "iso": "VD",
+            "key": "Վայոց ձոր"
+        },
+        {
+            "iso": "TV",
+            "key": "Տավուշ"
+        }
+    ],
+    "AO": null,
+    "AQ": null,
+    "AR": [
+        {
+            "iso": "B",
+            "key": "Buenos Aires"
+        },
+        {
+            "iso": "K",
+            "key": "Catamarca"
+        },
+        {
+            "iso": "H",
+            "key": "Chaco"
+        },
+        {
+            "iso": "U",
+            "key": "Chubut"
+        },
+        {
+            "iso": "C",
+            "key": "Ciudad Autónoma de Buenos Aires"
+        },
+        {
+            "iso": "X",
+            "key": "Córdoba"
+        },
+        {
+            "iso": "W",
+            "key": "Corrientes"
+        },
+        {
+            "iso": "E",
+            "key": "Entre Ríos"
+        },
+        {
+            "iso": "P",
+            "key": "Formosa"
+        },
+        {
+            "iso": "Y",
+            "key": "Jujuy"
+        },
+        {
+            "iso": "L",
+            "key": "La Pampa"
+        },
+        {
+            "iso": "F",
+            "key": "La Rioja"
+        },
+        {
+            "iso": "M",
+            "key": "Mendoza"
+        },
+        {
+            "iso": "N",
+            "key": "Misiones"
+        },
+        {
+            "iso": "Q",
+            "key": "Neuquén"
+        },
+        {
+            "iso": "R",
+            "key": "Río Negro"
+        },
+        {
+            "iso": "A",
+            "key": "Salta"
+        },
+        {
+            "iso": "J",
+            "key": "San Juan"
+        },
+        {
+            "iso": "D",
+            "key": "San Luis"
+        },
+        {
+            "iso": "Z",
+            "key": "Santa Cruz"
+        },
+        {
+            "iso": "S",
+            "key": "Santa Fe"
+        },
+        {
+            "iso": "G",
+            "key": "Santiago del Estero"
+        },
+        {
+            "iso": "V",
+            "key": "Tierra del Fuego"
+        },
+        {
+            "iso": "T",
+            "key": "Tucumán"
+        }
+    ],
+    "AS": [],
+    "AT": null,
+    "AU": [
+        {
+            "iso": "ACT",
+            "key": "ACT"
+        },
+        {
+            "iso": "NSW",
+            "key": "NSW"
+        },
+        {
+            "iso": "NT",
+            "key": "NT"
+        },
+        {
+            "iso": "QLD",
+            "key": "QLD"
+        },
+        {
+            "iso": "SA",
+            "key": "SA"
+        },
+        {
+            "iso": "TAS",
+            "key": "TAS"
+        },
+        {
+            "iso": "VIC",
+            "key": "VIC"
+        },
+        {
+            "iso": "WA",
+            "key": "WA"
+        }
+    ],
+    "AW": null,
+    "AX": null,
+    "AZ": null,
+    "BA": null,
+    "BB": [
+        {
+            "iso": "Christ Church",
+            "key": "Christ Church"
+        },
+        {
+            "iso": "Saint Andrew",
+            "key": "Saint Andrew"
+        },
+        {
+            "iso": "Saint George",
+            "key": "Saint George"
+        },
+        {
+            "iso": "Saint James",
+            "key": "Saint James"
+        },
+        {
+            "iso": "Saint John",
+            "key": "Saint John"
+        },
+        {
+            "iso": "Saint Joseph",
+            "key": "Saint Joseph"
+        },
+        {
+            "iso": "Saint Lucy",
+            "key": "Saint Lucy"
+        },
+        {
+            "iso": "Saint Michael",
+            "key": "Saint Michael"
+        },
+        {
+            "iso": "Saint Peter",
+            "key": "Saint Peter"
+        },
+        {
+            "iso": "Saint Philip",
+            "key": "Saint Philip"
+        },
+        {
+            "iso": "Saint Thomas",
+            "key": "Saint Thomas"
+        }
+    ],
+    "BD": null,
+    "BE": null,
+    "BF": null,
+    "BG": null,
+    "BH": null,
+    "BI": null,
+    "BJ": null,
+    "BL": null,
+    "BM": null,
+    "BN": null,
+    "BO": null,
+    "BQ": null,
+    "BR": [
+        {
+            "iso": "AC",
+            "key": "AC"
+        },
+        {
+            "iso": "AL",
+            "key": "AL"
+        },
+        {
+            "iso": "AP",
+            "key": "AP"
+        },
+        {
+            "iso": "AM",
+            "key": "AM"
+        },
+        {
+            "iso": "BA",
+            "key": "BA"
+        },
+        {
+            "iso": "CE",
+            "key": "CE"
+        },
+        {
+            "iso": "DF",
+            "key": "DF"
+        },
+        {
+            "iso": "ES",
+            "key": "ES"
+        },
+        {
+            "iso": "GO",
+            "key": "GO"
+        },
+        {
+            "iso": "MA",
+            "key": "MA"
+        },
+        {
+            "iso": "MT",
+            "key": "MT"
+        },
+        {
+            "iso": "MS",
+            "key": "MS"
+        },
+        {
+            "iso": "MG",
+            "key": "MG"
+        },
+        {
+            "iso": "PA",
+            "key": "PA"
+        },
+        {
+            "iso": "PB",
+            "key": "PB"
+        },
+        {
+            "iso": "PR",
+            "key": "PR"
+        },
+        {
+            "iso": "PE",
+            "key": "PE"
+        },
+        {
+            "iso": "PI",
+            "key": "PI"
+        },
+        {
+            "iso": "RJ",
+            "key": "RJ"
+        },
+        {
+            "iso": "RN",
+            "key": "RN"
+        },
+        {
+            "iso": "RS",
+            "key": "RS"
+        },
+        {
+            "iso": "RO",
+            "key": "RO"
+        },
+        {
+            "iso": "RR",
+            "key": "RR"
+        },
+        {
+            "iso": "SC",
+            "key": "SC"
+        },
+        {
+            "iso": "SP",
+            "key": "SP"
+        },
+        {
+            "iso": "SE",
+            "key": "SE"
+        },
+        {
+            "iso": "TO",
+            "key": "TO"
+        }
+    ],
+    "BS": [
+        {
+            "iso": "",
+            "key": "Abaco"
+        },
+        {
+            "iso": "AK",
+            "key": "Acklins"
+        },
+        {
+            "iso": "",
+            "key": "Andros"
+        },
+        {
+            "iso": "BY",
+            "key": "Berry Islands"
+        },
+        {
+            "iso": "BI",
+            "key": "Bimini"
+        },
+        {
+            "iso": "CI",
+            "key": "Cat Island"
+        },
+        {
+            "iso": "",
+            "key": "Crooked Island"
+        },
+        {
+            "iso": "",
+            "key": "Eleuthera"
+        },
+        {
+            "iso": "EX",
+            "key": "Exuma"
+        },
+        {
+            "iso": "",
+            "key": "Grand Bahama"
+        },
+        {
+            "iso": "HI",
+            "key": "Harbour Island"
+        },
+        {
+            "iso": "IN",
+            "key": "Inagua"
+        },
+        {
+            "iso": "LI",
+            "key": "Long Island"
+        },
+        {
+            "iso": "MG",
+            "key": "Mayaguana"
+        },
+        {
+            "iso": "",
+            "key": "N.P."
+        },
+        {
+            "iso": "RI",
+            "key": "Ragged Island"
+        },
+        {
+            "iso": "RC",
+            "key": "Rum Cay"
+        },
+        {
+            "iso": "SS",
+            "key": "San Salvador"
+        },
+        {
+            "iso": "SW",
+            "key": "Spanish Wells"
+        }
+    ],
+    "BT": null,
+    "BV": null,
+    "BW": null,
+    "BY": [
+        {
+            "iso": "BR",
+            "key": "Brestskaya oblast'"
+        },
+        {
+            "iso": "HO",
+            "key": "Gomel'skaya oblast'"
+        },
+        {
+            "iso": "HR",
+            "key": "Grodnenskaya oblast'"
+        },
+        {
+            "iso": "MA",
+            "key": "Mogilevskaya oblast'"
+        },
+        {
+            "iso": "MI",
+            "key": "Minskaya oblast'"
+        },
+        {
+            "iso": "VI",
+            "key": "Vitebskaya oblast'"
+        },
+        {
+            "iso": "HM",
+            "key": "Gorod Minsk"
+        }
+    ],
+    "BZ": null,
+    "CA": [
+        {
+            "iso": "AB",
+            "key": "AB"
+        },
+        {
+            "iso": "BC",
+            "key": "BC"
+        },
+        {
+            "iso": "MB",
+            "key": "MB"
+        },
+        {
+            "iso": "NB",
+            "key": "NB"
+        },
+        {
+            "iso": "NL",
+            "key": "NL"
+        },
+        {
+            "iso": "NT",
+            "key": "NT"
+        },
+        {
+            "iso": "NS",
+            "key": "NS"
+        },
+        {
+            "iso": "NU",
+            "key": "NU"
+        },
+        {
+            "iso": "ON",
+            "key": "ON"
+        },
+        {
+            "iso": "PE",
+            "key": "PE"
+        },
+        {
+            "iso": "QC",
+            "key": "QC"
+        },
+        {
+            "iso": "SK",
+            "key": "SK"
+        },
+        {
+            "iso": "YT",
+            "key": "YT"
+        }
+    ],
+    "CC": [],
+    "CD": null,
+    "CF": null,
+    "CG": null,
+    "CH": null,
+    "CI": null,
+    "CK": null,
+    "CL": [
+        {
+            "iso": "AN",
+            "key": "Antofagasta"
+        },
+        {
+            "iso": "AR",
+            "key": "Araucanía"
+        },
+        {
+            "iso": "AP",
+            "key": "Arica y Parinacota"
+        },
+        {
+            "iso": "AT",
+            "key": "Atacama"
+        },
+        {
+            "iso": "AI",
+            "key": "Aysén"
+        },
+        {
+            "iso": "BI",
+            "key": "Biobío"
+        },
+        {
+            "iso": "CO",
+            "key": "Coquimbo"
+        },
+        {
+            "iso": "LI",
+            "key": "O'Higgins"
+        },
+        {
+            "iso": "LL",
+            "key": "Los Lagos"
+        },
+        {
+            "iso": "LR",
+            "key": "Los Ríos"
+        },
+        {
+            "iso": "MA",
+            "key": "Magallanes"
+        },
+        {
+            "iso": "ML",
+            "key": "Maule"
+        },
+        {
+            "iso": "RM",
+            "key": "Región Metropolitana"
+        },
+        {
+            "iso": "NB",
+            "key": "Ñuble"
+        },
+        {
+            "iso": "TA",
+            "key": "Tarapacá"
+        },
+        {
+            "iso": "VS",
+            "key": "Valparaíso"
+        }
+    ],
+    "CM": null,
+    "CN": [
+        {
+            "iso": "34",
+            "key": "安徽省"
+        },
+        {
+            "iso": "92",
+            "key": "澳门"
+        },
+        {
+            "iso": "11",
+            "key": "北京市"
+        },
+        {
+            "iso": "50",
+            "key": "重庆市"
+        },
+        {
+            "iso": "35",
+            "key": "福建省"
+        },
+        {
+            "iso": "62",
+            "key": "甘肃省"
+        },
+        {
+            "iso": "44",
+            "key": "广东省"
+        },
+        {
+            "iso": "45",
+            "key": "广西壮族自治区"
+        },
+        {
+            "iso": "52",
+            "key": "贵州省"
+        },
+        {
+            "iso": "46",
+            "key": "海南省"
+        },
+        {
+            "iso": "13",
+            "key": "河北省"
+        },
+        {
+            "iso": "41",
+            "key": "河南省"
+        },
+        {
+            "iso": "23",
+            "key": "黑龙江省"
+        },
+        {
+            "iso": "42",
+            "key": "湖北省"
+        },
+        {
+            "iso": "43",
+            "key": "湖南省"
+        },
+        {
+            "iso": "22",
+            "key": "吉林省"
+        },
+        {
+            "iso": "32",
+            "key": "江苏省"
+        },
+        {
+            "iso": "36",
+            "key": "江西省"
+        },
+        {
+            "iso": "21",
+            "key": "辽宁省"
+        },
+        {
+            "iso": "15",
+            "key": "内蒙古自治区"
+        },
+        {
+            "iso": "64",
+            "key": "宁夏回族自治区"
+        },
+        {
+            "iso": "63",
+            "key": "青海省"
+        },
+        {
+            "iso": "37",
+            "key": "山东省"
+        },
+        {
+            "iso": "14",
+            "key": "山西省"
+        },
+        {
+            "iso": "61",
+            "key": "陕西省"
+        },
+        {
+            "iso": "31",
+            "key": "上海市"
+        },
+        {
+            "iso": "51",
+            "key": "四川省"
+        },
+        {
+            "iso": "71",
+            "key": "台湾"
+        },
+        {
+            "iso": "12",
+            "key": "天津市"
+        },
+        {
+            "iso": "54",
+            "key": "西藏自治区"
+        },
+        {
+            "iso": "91",
+            "key": "香港"
+        },
+        {
+            "iso": "65",
+            "key": "新疆维吾尔自治区"
+        },
+        {
+            "iso": "53",
+            "key": "云南省"
+        },
+        {
+            "iso": "33",
+            "key": "浙江省"
+        }
+    ],
+    "CO": [
+        {
+            "iso": "DC",
+            "key": "DC"
+        },
+        {
+            "iso": "AMA",
+            "key": "AMA"
+        },
+        {
+            "iso": "ANT",
+            "key": "ANT"
+        },
+        {
+            "iso": "ARA",
+            "key": "ARA"
+        },
+        {
+            "iso": "ATL",
+            "key": "ATL"
+        },
+        {
+            "iso": "BOL",
+            "key": "BOL"
+        },
+        {
+            "iso": "BOY",
+            "key": "BOY"
+        },
+        {
+            "iso": "CAL",
+            "key": "CAL"
+        },
+        {
+            "iso": "CAQ",
+            "key": "CAQ"
+        },
+        {
+            "iso": "CAS",
+            "key": "CAS"
+        },
+        {
+            "iso": "CAU",
+            "key": "CAU"
+        },
+        {
+            "iso": "CES",
+            "key": "CES"
+        },
+        {
+            "iso": "COR",
+            "key": "COR"
+        },
+        {
+            "iso": "CUN",
+            "key": "CUN"
+        },
+        {
+            "iso": "CHO",
+            "key": "CHO"
+        },
+        {
+            "iso": "GUA",
+            "key": "GUA"
+        },
+        {
+            "iso": "GUV",
+            "key": "GUV"
+        },
+        {
+            "iso": "HUI",
+            "key": "HUI"
+        },
+        {
+            "iso": "LAG",
+            "key": "LAG"
+        },
+        {
+            "iso": "MAG",
+            "key": "MAG"
+        },
+        {
+            "iso": "MET",
+            "key": "MET"
+        },
+        {
+            "iso": "NAR",
+            "key": "NAR"
+        },
+        {
+            "iso": "NSA",
+            "key": "NSA"
+        },
+        {
+            "iso": "PUT",
+            "key": "PUT"
+        },
+        {
+            "iso": "QUI",
+            "key": "QUI"
+        },
+        {
+            "iso": "RIS",
+            "key": "RIS"
+        },
+        {
+            "iso": "SAP",
+            "key": "SAP"
+        },
+        {
+            "iso": "SAN",
+            "key": "SAN"
+        },
+        {
+            "iso": "SUC",
+            "key": "SUC"
+        },
+        {
+            "iso": "TOL",
+            "key": "TOL"
+        },
+        {
+            "iso": "VAC",
+            "key": "VAC"
+        },
+        {
+            "iso": "VAU",
+            "key": "VAU"
+        },
+        {
+            "iso": "VID",
+            "key": "VID"
+        }
+    ],
+    "CR": [
+        {
+            "iso": "A",
+            "key": "Alajuela"
+        },
+        {
+            "iso": "C",
+            "key": "Cartago"
+        },
+        {
+            "iso": "G",
+            "key": "Guanacaste"
+        },
+        {
+            "iso": "H",
+            "key": "Heredia"
+        },
+        {
+            "iso": "L",
+            "key": "Limón"
+        },
+        {
+            "iso": "P",
+            "key": "Puntarenas"
+        },
+        {
+            "iso": "SJ",
+            "key": "San José"
+        }
+    ],
+    "CU": [
+        {
+            "iso": "15",
+            "key": "Artemisa"
+        },
+        {
+            "iso": "09",
+            "key": "Camagüey"
+        },
+        {
+            "iso": "08",
+            "key": "Ciego de Ávila"
+        },
+        {
+            "iso": "06",
+            "key": "Cienfuegos"
+        },
+        {
+            "iso": "12",
+            "key": "Granma"
+        },
+        {
+            "iso": "14",
+            "key": "Guantánamo"
+        },
+        {
+            "iso": "11",
+            "key": "Holguín"
+        },
+        {
+            "iso": "99",
+            "key": "Isla de la Juventud"
+        },
+        {
+            "iso": "03",
+            "key": "La Habana"
+        },
+        {
+            "iso": "10",
+            "key": "Las Tunas"
+        },
+        {
+            "iso": "04",
+            "key": "Matanzas"
+        },
+        {
+            "iso": "16",
+            "key": "Mayabeque"
+        },
+        {
+            "iso": "01",
+            "key": "Pinar del Río"
+        },
+        {
+            "iso": "07",
+            "key": "Sancti Spíritus"
+        },
+        {
+            "iso": "13",
+            "key": "Santiago de Cuba"
+        },
+        {
+            "iso": "05",
+            "key": "Villa Clara"
+        }
+    ],
+    "CV": [
+        {
+            "iso": "BV",
+            "key": "Boa Vista"
+        },
+        {
+            "iso": "BR",
+            "key": "Brava"
+        },
+        {
+            "iso": "",
+            "key": "Fogo"
+        },
+        {
+            "iso": "MA",
+            "key": "Maio"
+        },
+        {
+            "iso": "SL",
+            "key": "Sal"
+        },
+        {
+            "iso": "",
+            "key": "Santiago"
+        },
+        {
+            "iso": "",
+            "key": "Santo Antão"
+        },
+        {
+            "iso": "",
+            "key": "São Nicolau"
+        },
+        {
+            "iso": "SV",
+            "key": "São Vicente"
+        }
+    ],
+    "CW": null,
+    "CX": [],
+    "CY": null,
+    "CZ": null,
+    "DE": null,
+    "DJ": null,
+    "DK": null,
+    "DM": null,
+    "DO": null,
+    "DZ": null,
+    "EC": null,
+    "EE": null,
+    "EG": [
+        {
+            "iso": "ASN",
+            "key": "أسوان"
+        },
+        {
+            "iso": "AST",
+            "key": "أسيوط"
+        },
+        {
+            "iso": "ALX",
+            "key": "الإسكندرية"
+        },
+        {
+            "iso": "IS",
+            "key": "الإسماعيلية"
+        },
+        {
+            "iso": "LX",
+            "key": "الأقصر"
+        },
+        {
+            "iso": "BA",
+            "key": "البحر الأحمر"
+        },
+        {
+            "iso": "BH",
+            "key": "البحيرة"
+        },
+        {
+            "iso": "GZ",
+            "key": "الجيزة"
+        },
+        {
+            "iso": "DK",
+            "key": "الدقهلية"
+        },
+        {
+            "iso": "SUZ",
+            "key": "السويس"
+        },
+        {
+            "iso": "SHR",
+            "key": "الشرقية"
+        },
+        {
+            "iso": "GH",
+            "key": "الغربية"
+        },
+        {
+            "iso": "FYM",
+            "key": "الفيوم"
+        },
+        {
+            "iso": "C",
+            "key": "القاهرة"
+        },
+        {
+            "iso": "KB",
+            "key": "القليوبية"
+        },
+        {
+            "iso": "MNF",
+            "key": "المنوفية"
+        },
+        {
+            "iso": "MN",
+            "key": "المنيا"
+        },
+        {
+            "iso": "WAD",
+            "key": "الوادي الجديد"
+        },
+        {
+            "iso": "BNS",
+            "key": "بني سويف"
+        },
+        {
+            "iso": "PTS",
+            "key": "بورسعيد"
+        },
+        {
+            "iso": "JS",
+            "key": "جنوب سيناء"
+        },
+        {
+            "iso": "DT",
+            "key": "دمياط"
+        },
+        {
+            "iso": "SHG",
+            "key": "سوهاج"
+        },
+        {
+            "iso": "SIN",
+            "key": "شمال سيناء"
+        },
+        {
+            "iso": "KN",
+            "key": "قنا"
+        },
+        {
+            "iso": "KFS",
+            "key": "كفر الشيخ"
+        },
+        {
+            "iso": "MT",
+            "key": "مطروح"
+        }
+    ],
+    "EH": null,
+    "ER": null,
+    "ES": [
+        {
+            "iso": "VI",
+            "key": "VI"
+        },
+        {
+            "iso": "AB",
+            "key": "AB"
+        },
+        {
+            "iso": "A",
+            "key": "A"
+        },
+        {
+            "iso": "AL",
+            "key": "AL"
+        },
+        {
+            "iso": "O",
+            "key": "O"
+        },
+        {
+            "iso": "AV",
+            "key": "AV"
+        },
+        {
+            "iso": "BA",
+            "key": "BA"
+        },
+        {
+            "iso": "B",
+            "key": "B"
+        },
+        {
+            "iso": "BU",
+            "key": "BU"
+        },
+        {
+            "iso": "CC",
+            "key": "CC"
+        },
+        {
+            "iso": "CA",
+            "key": "CA"
+        },
+        {
+            "iso": "S",
+            "key": "S"
+        },
+        {
+            "iso": "CS",
+            "key": "CS"
+        },
+        {
+            "iso": "CE",
+            "key": "CE"
+        },
+        {
+            "iso": "CR",
+            "key": "CR"
+        },
+        {
+            "iso": "CO",
+            "key": "CO"
+        },
+        {
+            "iso": "CU",
+            "key": "CU"
+        },
+        {
+            "iso": "GI",
+            "key": "GI"
+        },
+        {
+            "iso": "GR",
+            "key": "GR"
+        },
+        {
+            "iso": "GU",
+            "key": "GU"
+        },
+        {
+            "iso": "SS",
+            "key": "SS"
+        },
+        {
+            "iso": "H",
+            "key": "H"
+        },
+        {
+            "iso": "HU",
+            "key": "HU"
+        },
+        {
+            "iso": "PM",
+            "key": "PM"
+        },
+        {
+            "iso": "J",
+            "key": "J"
+        },
+        {
+            "iso": "C",
+            "key": "C"
+        },
+        {
+            "iso": "LO",
+            "key": "LO"
+        },
+        {
+            "iso": "GC",
+            "key": "GC"
+        },
+        {
+            "iso": "LE",
+            "key": "LE"
+        },
+        {
+            "iso": "L",
+            "key": "L"
+        },
+        {
+            "iso": "LU",
+            "key": "LU"
+        },
+        {
+            "iso": "M",
+            "key": "M"
+        },
+        {
+            "iso": "MA",
+            "key": "MA"
+        },
+        {
+            "iso": "ML",
+            "key": "ML"
+        },
+        {
+            "iso": "MU",
+            "key": "MU"
+        },
+        {
+            "iso": "NA",
+            "key": "NA"
+        },
+        {
+            "iso": "OR",
+            "key": "OR"
+        },
+        {
+            "iso": "P",
+            "key": "P"
+        },
+        {
+            "iso": "PO",
+            "key": "PO"
+        },
+        {
+            "iso": "SA",
+            "key": "SA"
+        },
+        {
+            "iso": "TF",
+            "key": "TF"
+        },
+        {
+            "iso": "SG",
+            "key": "SG"
+        },
+        {
+            "iso": "SE",
+            "key": "SE"
+        },
+        {
+            "iso": "SO",
+            "key": "SO"
+        },
+        {
+            "iso": "T",
+            "key": "T"
+        },
+        {
+            "iso": "TE",
+            "key": "TE"
+        },
+        {
+            "iso": "TO",
+            "key": "TO"
+        },
+        {
+            "iso": "V",
+            "key": "V"
+        },
+        {
+            "iso": "VA",
+            "key": "VA"
+        },
+        {
+            "iso": "BI",
+            "key": "BI"
+        },
+        {
+            "iso": "ZA",
+            "key": "ZA"
+        },
+        {
+            "iso": "Z",
+            "key": "Z"
+        }
+    ],
+    "ET": null,
+    "FI": null,
+    "FJ": null,
+    "FK": null,
+    "FM": [],
+    "FO": null,
+    "FR": null,
+    "GA": null,
+    "GB": null,
+    "GD": null,
+    "GE": null,
+    "GF": null,
+    "GG": null,
+    "GH": null,
+    "GI": null,
+    "GL": null,
+    "GM": null,
+    "GN": null,
+    "GP": null,
+    "GQ": null,
+    "GR": null,
+    "GS": null,
+    "GT": null,
+    "GU": null,
+    "GW": null,
+    "GY": null,
+    "HK": [
+        {
+            "iso": "Kowloon",
+            "key": "Kowloon"
+        },
+        {
+            "iso": "Hong Kong",
+            "key": "Hong Kong"
+        },
+        {
+            "iso": "New Territories",
+            "key": "New Territories"
+        }
+    ],
+    "HM": [],
+    "HN": [
+        {
+            "iso": "AT",
+            "key": "Atlántida"
+        },
+        {
+            "iso": "CH",
+            "key": "Choluteca"
+        },
+        {
+            "iso": "CL",
+            "key": "Colón"
+        },
+        {
+            "iso": "CM",
+            "key": "Comayagua"
+        },
+        {
+            "iso": "CP",
+            "key": "Copán"
+        },
+        {
+            "iso": "CR",
+            "key": "Cortés"
+        },
+        {
+            "iso": "EP",
+            "key": "El Paraíso"
+        },
+        {
+            "iso": "FM",
+            "key": "Francisco Morazán"
+        },
+        {
+            "iso": "GD",
+            "key": "Gracias a Dios"
+        },
+        {
+            "iso": "IN",
+            "key": "Intibucá"
+        },
+        {
+            "iso": "IB",
+            "key": "Islas de la Bahía"
+        },
+        {
+            "iso": "LP",
+            "key": "La Paz"
+        },
+        {
+            "iso": "LM",
+            "key": "Lempira"
+        },
+        {
+            "iso": "OC",
+            "key": "Ocotepeque"
+        },
+        {
+            "iso": "OL",
+            "key": "Olancho"
+        },
+        {
+            "iso": "SB",
+            "key": "Santa Bárbara"
+        },
+        {
+            "iso": "VL",
+            "key": "Valle"
+        },
+        {
+            "iso": "YO",
+            "key": "Yoro"
+        }
+    ],
+    "HR": null,
+    "HT": null,
+    "HU": null,
+    "ID": [
+        {
+            "iso": "AC",
+            "key": "Aceh"
+        },
+        {
+            "iso": "BA",
+            "key": "Bali"
+        },
+        {
+            "iso": "BT",
+            "key": "Banten"
+        },
+        {
+            "iso": "BE",
+            "key": "Bengkulu"
+        },
+        {
+            "iso": "YO",
+            "key": "Daerah Istimewa Yogyakarta"
+        },
+        {
+            "iso": "JK",
+            "key": "DKI Jakarta"
+        },
+        {
+            "iso": "GO",
+            "key": "Gorontalo"
+        },
+        {
+            "iso": "JA",
+            "key": "Jambi"
+        },
+        {
+            "iso": "JB",
+            "key": "Jawa Barat"
+        },
+        {
+            "iso": "JT",
+            "key": "Jawa Tengah"
+        },
+        {
+            "iso": "JI",
+            "key": "Jawa Timur"
+        },
+        {
+            "iso": "KB",
+            "key": "Kalimantan Barat"
+        },
+        {
+            "iso": "KS",
+            "key": "Kalimantan Selatan"
+        },
+        {
+            "iso": "KT",
+            "key": "Kalimantan Tengah"
+        },
+        {
+            "iso": "KI",
+            "key": "Kalimantan Timur"
+        },
+        {
+            "iso": "KU",
+            "key": "Kalimantan Utara"
+        },
+        {
+            "iso": "BB",
+            "key": "Kepulauan Bangka Belitung"
+        },
+        {
+            "iso": "KR",
+            "key": "Kepulauan Riau"
+        },
+        {
+            "iso": "LA",
+            "key": "Lampung"
+        },
+        {
+            "iso": "MA",
+            "key": "Maluku"
+        },
+        {
+            "iso": "MU",
+            "key": "Maluku Utara"
+        },
+        {
+            "iso": "NB",
+            "key": "Nusa Tenggara Barat"
+        },
+        {
+            "iso": "NT",
+            "key": "Nusa Tenggara Timur"
+        },
+        {
+            "iso": "PA",
+            "key": "Papua"
+        },
+        {
+            "iso": "PB",
+            "key": "Papua Barat"
+        },
+        {
+            "iso": "RI",
+            "key": "Riau"
+        },
+        {
+            "iso": "SR",
+            "key": "Sulawesi Barat"
+        },
+        {
+            "iso": "SN",
+            "key": "Sulawesi Selatan"
+        },
+        {
+            "iso": "ST",
+            "key": "Sulawesi Tengah"
+        },
+        {
+            "iso": "SG",
+            "key": "Sulawesi Tenggara"
+        },
+        {
+            "iso": "SA",
+            "key": "Sulawesi Utara"
+        },
+        {
+            "iso": "SB",
+            "key": "Sumatera Barat"
+        },
+        {
+            "iso": "SS",
+            "key": "Sumatera Selatan"
+        },
+        {
+            "iso": "SU",
+            "key": "Sumatera Utara"
+        }
+    ],
+    "IE": [
+        {
+            "iso": "CW",
+            "key": "Co. Carlow"
+        },
+        {
+            "iso": "CN",
+            "key": "Co. Cavan"
+        },
+        {
+            "iso": "CE",
+            "key": "Co. Clare"
+        },
+        {
+            "iso": "CO",
+            "key": "Co. Cork"
+        },
+        {
+            "iso": "DL",
+            "key": "Co. Donegal"
+        },
+        {
+            "iso": "D",
+            "key": "Co. Dublin"
+        },
+        {
+            "iso": "G",
+            "key": "Co. Galway"
+        },
+        {
+            "iso": "KY",
+            "key": "Co. Kerry"
+        },
+        {
+            "iso": "KE",
+            "key": "Co. Kildare"
+        },
+        {
+            "iso": "KK",
+            "key": "Co. Kilkenny"
+        },
+        {
+            "iso": "LS",
+            "key": "Co. Laois"
+        },
+        {
+            "iso": "LM",
+            "key": "Co. Leitrim"
+        },
+        {
+            "iso": "LK",
+            "key": "Co. Limerick"
+        },
+        {
+            "iso": "LD",
+            "key": "Co. Longford"
+        },
+        {
+            "iso": "LH",
+            "key": "Co. Louth"
+        },
+        {
+            "iso": "MO",
+            "key": "Co. Mayo"
+        },
+        {
+            "iso": "MH",
+            "key": "Co. Meath"
+        },
+        {
+            "iso": "MN",
+            "key": "Co. Monaghan"
+        },
+        {
+            "iso": "OY",
+            "key": "Co. Offaly"
+        },
+        {
+            "iso": "RN",
+            "key": "Co. Roscommon"
+        },
+        {
+            "iso": "SO",
+            "key": "Co. Sligo"
+        },
+        {
+            "iso": "TA",
+            "key": "Co. Tipperary"
+        },
+        {
+            "iso": "WD",
+            "key": "Co. Waterford"
+        },
+        {
+            "iso": "WH",
+            "key": "Co. Westmeath"
+        },
+        {
+            "iso": "WX",
+            "key": "Co. Wexford"
+        },
+        {
+            "iso": "WW",
+            "key": "Co. Wicklow"
+        }
+    ],
+    "IL": null,
+    "IM": null,
+    "IN": [
+        {
+            "iso": "AN",
+            "key": "AN"
+        },
+        {
+            "iso": "AP",
+            "key": "AP"
+        },
+        {
+            "iso": "AR",
+            "key": "AR"
+        },
+        {
+            "iso": "AS",
+            "key": "AS"
+        },
+        {
+            "iso": "BR",
+            "key": "BR"
+        },
+        {
+            "iso": "CH",
+            "key": "CH"
+        },
+        {
+            "iso": "CT",
+            "key": "CT"
+        },
+        {
+            "iso": "DN",
+            "key": "DN"
+        },
+        {
+            "iso": "DD",
+            "key": "DD"
+        },
+        {
+            "iso": "DL",
+            "key": "DL"
+        },
+        {
+            "iso": "GA",
+            "key": "GA"
+        },
+        {
+            "iso": "GJ",
+            "key": "GJ"
+        },
+        {
+            "iso": "HR",
+            "key": "HR"
+        },
+        {
+            "iso": "HP",
+            "key": "HP"
+        },
+        {
+            "iso": "JK",
+            "key": "JK"
+        },
+        {
+            "iso": "JH",
+            "key": "JH"
+        },
+        {
+            "iso": "KA",
+            "key": "KA"
+        },
+        {
+            "iso": "KL",
+            "key": "KL"
+        },
+        {
+            "iso": "LD",
+            "key": "LD"
+        },
+        {
+            "iso": "MP",
+            "key": "MP"
+        },
+        {
+            "iso": "MH",
+            "key": "MH"
+        },
+        {
+            "iso": "MN",
+            "key": "MN"
+        },
+        {
+            "iso": "ML",
+            "key": "ML"
+        },
+        {
+            "iso": "MZ",
+            "key": "MZ"
+        },
+        {
+            "iso": "NL",
+            "key": "NL"
+        },
+        {
+            "iso": "OR",
+            "key": "OR"
+        },
+        {
+            "iso": "PY",
+            "key": "PY"
+        },
+        {
+            "iso": "PB",
+            "key": "PB"
+        },
+        {
+            "iso": "RJ",
+            "key": "RJ"
+        },
+        {
+            "iso": "SK",
+            "key": "SK"
+        },
+        {
+            "iso": "TN",
+            "key": "TN"
+        },
+        {
+            "iso": "TG",
+            "key": "TG"
+        },
+        {
+            "iso": "TR",
+            "key": "TR"
+        },
+        {
+            "iso": "UP",
+            "key": "UP"
+        },
+        {
+            "iso": "UT",
+            "key": "UT"
+        },
+        {
+            "iso": "WB",
+            "key": "WB"
+        }
+    ],
+    "IO": null,
+    "IQ": [
+        {
+            "iso": "AN",
+            "key": "Al Anbar Governorate"
+        },
+        {
+            "iso": "BA",
+            "key": "Basra Governorate"
+        },
+        {
+            "iso": "MU",
+            "key": "Muthanna Governorate"
+        },
+        {
+            "iso": "QA",
+            "key": "Al-Qadisiyah Governorate"
+        },
+        {
+            "iso": "NA",
+            "key": "Najaf Governorate"
+        },
+        {
+            "iso": "AR",
+            "key": "Erbil Governorate"
+        },
+        {
+            "iso": "SU",
+            "key": "Sulaymaniyah Governorate"
+        },
+        {
+            "iso": "BB",
+            "key": "Babil Governorate"
+        },
+        {
+            "iso": "BG",
+            "key": "Baghdad Governorate"
+        },
+        {
+            "iso": "DA",
+            "key": "Dohuk Governorate"
+        },
+        {
+            "iso": "DQ",
+            "key": "Dhi Qar Governorate"
+        },
+        {
+            "iso": "DI",
+            "key": "Diyala Governorate"
+        },
+        {
+            "iso": "KA",
+            "key": "Karbala Governorate"
+        },
+        {
+            "iso": "KI",
+            "key": "Kirkuk Governorate"
+        },
+        {
+            "iso": "MA",
+            "key": "Maysan Governorate"
+        },
+        {
+            "iso": "NI",
+            "key": "Nineveh Governorate"
+        },
+        {
+            "iso": "SD",
+            "key": "Saladin Governorate"
+        },
+        {
+            "iso": "WA",
+            "key": "Wasit Governorate"
+        }
+    ],
+    "IR": [
+        {
+            "iso": "01",
+            "key": "Alborz Province"
+        },
+        {
+            "iso": "02",
+            "key": "Ardabil Province"
+        },
+        {
+            "iso": "03",
+            "key": "West Azerbaijan Province"
+        },
+        {
+            "iso": "04",
+            "key": "East Azerbaijan Province"
+        },
+        {
+            "iso": "32",
+            "key": "Bushehr Province"
+        },
+        {
+            "iso": "05",
+            "key": "Chaharmahal and Bakhtiari Province"
+        },
+        {
+            "iso": "06",
+            "key": "Isfahan Province"
+        },
+        {
+            "iso": "07",
+            "key": "Fars Province"
+        },
+        {
+            "iso": "08",
+            "key": "Gilan Province"
+        },
+        {
+            "iso": "29",
+            "key": "Golestan Province"
+        },
+        {
+            "iso": "30",
+            "key": "Hamadan Province"
+        },
+        {
+            "iso": "31",
+            "key": "Hormozgan Province"
+        },
+        {
+            "iso": "10",
+            "key": "Ilam Province"
+        },
+        {
+            "iso": "11",
+            "key": "Kerman Province"
+        },
+        {
+            "iso": "12",
+            "key": "Kermanshah Province"
+        },
+        {
+            "iso": "13",
+            "key": "South Khorasan Province"
+        },
+        {
+            "iso": "14",
+            "key": "Razavi Khorasan Province"
+        },
+        {
+            "iso": "28",
+            "key": "North Khorasan Province"
+        },
+        {
+            "iso": "26",
+            "key": "Khuzestan Province"
+        },
+        {
+            "iso": "16",
+            "key": "Kohgiluyeh and Boyer-Ahmad Province"
+        },
+        {
+            "iso": "15",
+            "key": "Kurdistan Province"
+        },
+        {
+            "iso": "17",
+            "key": "Lorestan Province"
+        },
+        {
+            "iso": "18",
+            "key": "Markazi Province"
+        },
+        {
+            "iso": "27",
+            "key": "Mazandaran Province"
+        },
+        {
+            "iso": "19",
+            "key": "Qazvin Province"
+        },
+        {
+            "iso": "20",
+            "key": "Qom Province"
+        },
+        {
+            "iso": "21",
+            "key": "Semnan Province"
+        },
+        {
+            "iso": "22",
+            "key": "Sistan and Baluchestan Province"
+        },
+        {
+            "iso": "23",
+            "key": "Tehran Province"
+        },
+        {
+            "iso": "24",
+            "key": "Yazd Province"
+        },
+        {
+            "iso": "25",
+            "key": "Zanjan Province"
+        }
+    ],
+    "IS": null,
+    "IT": [
+        {
+            "iso": "AG",
+            "key": "AG"
+        },
+        {
+            "iso": "AL",
+            "key": "AL"
+        },
+        {
+            "iso": "AN",
+            "key": "AN"
+        },
+        {
+            "iso": "AO",
+            "key": "AO"
+        },
+        {
+            "iso": "AR",
+            "key": "AR"
+        },
+        {
+            "iso": "AP",
+            "key": "AP"
+        },
+        {
+            "iso": "AT",
+            "key": "AT"
+        },
+        {
+            "iso": "AV",
+            "key": "AV"
+        },
+        {
+            "iso": "BA",
+            "key": "BA"
+        },
+        {
+            "iso": "BT",
+            "key": "BT"
+        },
+        {
+            "iso": "BL",
+            "key": "BL"
+        },
+        {
+            "iso": "BN",
+            "key": "BN"
+        },
+        {
+            "iso": "BG",
+            "key": "BG"
+        },
+        {
+            "iso": "BI",
+            "key": "BI"
+        },
+        {
+            "iso": "BO",
+            "key": "BO"
+        },
+        {
+            "iso": "BZ",
+            "key": "BZ"
+        },
+        {
+            "iso": "BS",
+            "key": "BS"
+        },
+        {
+            "iso": "BR",
+            "key": "BR"
+        },
+        {
+            "iso": "CA",
+            "key": "CA"
+        },
+        {
+            "iso": "CL",
+            "key": "CL"
+        },
+        {
+            "iso": "CB",
+            "key": "CB"
+        },
+        {
+            "iso": "CE",
+            "key": "CE"
+        },
+        {
+            "iso": "CT",
+            "key": "CT"
+        },
+        {
+            "iso": "CZ",
+            "key": "CZ"
+        },
+        {
+            "iso": "CH",
+            "key": "CH"
+        },
+        {
+            "iso": "CO",
+            "key": "CO"
+        },
+        {
+            "iso": "CS",
+            "key": "CS"
+        },
+        {
+            "iso": "CR",
+            "key": "CR"
+        },
+        {
+            "iso": "KR",
+            "key": "KR"
+        },
+        {
+            "iso": "CN",
+            "key": "CN"
+        },
+        {
+            "iso": "EN",
+            "key": "EN"
+        },
+        {
+            "iso": "FM",
+            "key": "FM"
+        },
+        {
+            "iso": "FE",
+            "key": "FE"
+        },
+        {
+            "iso": "FI",
+            "key": "FI"
+        },
+        {
+            "iso": "FG",
+            "key": "FG"
+        },
+        {
+            "iso": "FC",
+            "key": "FC"
+        },
+        {
+            "iso": "FR",
+            "key": "FR"
+        },
+        {
+            "iso": "GE",
+            "key": "GE"
+        },
+        {
+            "iso": "GO",
+            "key": "GO"
+        },
+        {
+            "iso": "GR",
+            "key": "GR"
+        },
+        {
+            "iso": "IM",
+            "key": "IM"
+        },
+        {
+            "iso": "IS",
+            "key": "IS"
+        },
+        {
+            "iso": "AQ",
+            "key": "AQ"
+        },
+        {
+            "iso": "SP",
+            "key": "SP"
+        },
+        {
+            "iso": "LT",
+            "key": "LT"
+        },
+        {
+            "iso": "LE",
+            "key": "LE"
+        },
+        {
+            "iso": "LC",
+            "key": "LC"
+        },
+        {
+            "iso": "LI",
+            "key": "LI"
+        },
+        {
+            "iso": "LO",
+            "key": "LO"
+        },
+        {
+            "iso": "LU",
+            "key": "LU"
+        },
+        {
+            "iso": "MC",
+            "key": "MC"
+        },
+        {
+            "iso": "MN",
+            "key": "MN"
+        },
+        {
+            "iso": "MS",
+            "key": "MS"
+        },
+        {
+            "iso": "MT",
+            "key": "MT"
+        },
+        {
+            "iso": "ME",
+            "key": "ME"
+        },
+        {
+            "iso": "MI",
+            "key": "MI"
+        },
+        {
+            "iso": "MO",
+            "key": "MO"
+        },
+        {
+            "iso": "MB",
+            "key": "MB"
+        },
+        {
+            "iso": "NA",
+            "key": "NA"
+        },
+        {
+            "iso": "NO",
+            "key": "NO"
+        },
+        {
+            "iso": "NU",
+            "key": "NU"
+        },
+        {
+            "iso": "OR",
+            "key": "OR"
+        },
+        {
+            "iso": "PD",
+            "key": "PD"
+        },
+        {
+            "iso": "PA",
+            "key": "PA"
+        },
+        {
+            "iso": "PR",
+            "key": "PR"
+        },
+        {
+            "iso": "PV",
+            "key": "PV"
+        },
+        {
+            "iso": "PG",
+            "key": "PG"
+        },
+        {
+            "iso": "PU",
+            "key": "PU"
+        },
+        {
+            "iso": "PE",
+            "key": "PE"
+        },
+        {
+            "iso": "PC",
+            "key": "PC"
+        },
+        {
+            "iso": "PI",
+            "key": "PI"
+        },
+        {
+            "iso": "PT",
+            "key": "PT"
+        },
+        {
+            "iso": "PN",
+            "key": "PN"
+        },
+        {
+            "iso": "PZ",
+            "key": "PZ"
+        },
+        {
+            "iso": "PO",
+            "key": "PO"
+        },
+        {
+            "iso": "RG",
+            "key": "RG"
+        },
+        {
+            "iso": "RA",
+            "key": "RA"
+        },
+        {
+            "iso": "RC",
+            "key": "RC"
+        },
+        {
+            "iso": "RE",
+            "key": "RE"
+        },
+        {
+            "iso": "RI",
+            "key": "RI"
+        },
+        {
+            "iso": "RN",
+            "key": "RN"
+        },
+        {
+            "iso": "RM",
+            "key": "RM"
+        },
+        {
+            "iso": "RO",
+            "key": "RO"
+        },
+        {
+            "iso": "SA",
+            "key": "SA"
+        },
+        {
+            "iso": "SS",
+            "key": "SS"
+        },
+        {
+            "iso": "SV",
+            "key": "SV"
+        },
+        {
+            "iso": "SI",
+            "key": "SI"
+        },
+        {
+            "iso": "SR",
+            "key": "SR"
+        },
+        {
+            "iso": "SO",
+            "key": "SO"
+        },
+        {
+            "iso": "SU",
+            "key": "SU"
+        },
+        {
+            "iso": "TA",
+            "key": "TA"
+        },
+        {
+            "iso": "TE",
+            "key": "TE"
+        },
+        {
+            "iso": "TR",
+            "key": "TR"
+        },
+        {
+            "iso": "TO",
+            "key": "TO"
+        },
+        {
+            "iso": "TP",
+            "key": "TP"
+        },
+        {
+            "iso": "TN",
+            "key": "TN"
+        },
+        {
+            "iso": "TV",
+            "key": "TV"
+        },
+        {
+            "iso": "TS",
+            "key": "TS"
+        },
+        {
+            "iso": "UD",
+            "key": "UD"
+        },
+        {
+            "iso": "VA",
+            "key": "VA"
+        },
+        {
+            "iso": "VE",
+            "key": "VE"
+        },
+        {
+            "iso": "VB",
+            "key": "VB"
+        },
+        {
+            "iso": "VC",
+            "key": "VC"
+        },
+        {
+            "iso": "VR",
+            "key": "VR"
+        },
+        {
+            "iso": "VV",
+            "key": "VV"
+        },
+        {
+            "iso": "VI",
+            "key": "VI"
+        },
+        {
+            "iso": "VT",
+            "key": "VT"
+        }
+    ],
+    "JE": null,
+    "JM": [
+        {
+            "iso": "13",
+            "key": "Clarendon"
+        },
+        {
+            "iso": "09",
+            "key": "Hanover"
+        },
+        {
+            "iso": "01",
+            "key": "Kingston"
+        },
+        {
+            "iso": "12",
+            "key": "Manchester"
+        },
+        {
+            "iso": "04",
+            "key": "Portland"
+        },
+        {
+            "iso": "02",
+            "key": "St. Andrew"
+        },
+        {
+            "iso": "06",
+            "key": "St. Ann"
+        },
+        {
+            "iso": "14",
+            "key": "St. Catherine"
+        },
+        {
+            "iso": "11",
+            "key": "St. Elizabeth"
+        },
+        {
+            "iso": "08",
+            "key": "St. James"
+        },
+        {
+            "iso": "05",
+            "key": "St. Mary"
+        },
+        {
+            "iso": "03",
+            "key": "St. Thomas"
+        },
+        {
+            "iso": "07",
+            "key": "Trelawny"
+        },
+        {
+            "iso": "10",
+            "key": "Westmoreland"
+        }
+    ],
+    "JO": null,
+    "JP": [
+        {
+            "iso": "01",
+            "key": "北海道"
+        },
+        {
+            "iso": "02",
+            "key": "青森県"
+        },
+        {
+            "iso": "03",
+            "key": "岩手県"
+        },
+        {
+            "iso": "04",
+            "key": "宮城県"
+        },
+        {
+            "iso": "05",
+            "key": "秋田県"
+        },
+        {
+            "iso": "06",
+            "key": "山形県"
+        },
+        {
+            "iso": "07",
+            "key": "福島県"
+        },
+        {
+            "iso": "08",
+            "key": "茨城県"
+        },
+        {
+            "iso": "09",
+            "key": "栃木県"
+        },
+        {
+            "iso": "10",
+            "key": "群馬県"
+        },
+        {
+            "iso": "11",
+            "key": "埼玉県"
+        },
+        {
+            "iso": "12",
+            "key": "千葉県"
+        },
+        {
+            "iso": "13",
+            "key": "東京都"
+        },
+        {
+            "iso": "14",
+            "key": "神奈川県"
+        },
+        {
+            "iso": "15",
+            "key": "新潟県"
+        },
+        {
+            "iso": "16",
+            "key": "富山県"
+        },
+        {
+            "iso": "17",
+            "key": "石川県"
+        },
+        {
+            "iso": "18",
+            "key": "福井県"
+        },
+        {
+            "iso": "19",
+            "key": "山梨県"
+        },
+        {
+            "iso": "20",
+            "key": "長野県"
+        },
+        {
+            "iso": "21",
+            "key": "岐阜県"
+        },
+        {
+            "iso": "22",
+            "key": "静岡県"
+        },
+        {
+            "iso": "23",
+            "key": "愛知県"
+        },
+        {
+            "iso": "24",
+            "key": "三重県"
+        },
+        {
+            "iso": "25",
+            "key": "滋賀県"
+        },
+        {
+            "iso": "26",
+            "key": "京都府"
+        },
+        {
+            "iso": "27",
+            "key": "大阪府"
+        },
+        {
+            "iso": "28",
+            "key": "兵庫県"
+        },
+        {
+            "iso": "29",
+            "key": "奈良県"
+        },
+        {
+            "iso": "30",
+            "key": "和歌山県"
+        },
+        {
+            "iso": "31",
+            "key": "鳥取県"
+        },
+        {
+            "iso": "32",
+            "key": "島根県"
+        },
+        {
+            "iso": "33",
+            "key": "岡山県"
+        },
+        {
+            "iso": "34",
+            "key": "広島県"
+        },
+        {
+            "iso": "35",
+            "key": "山口県"
+        },
+        {
+            "iso": "36",
+            "key": "徳島県"
+        },
+        {
+            "iso": "37",
+            "key": "香川県"
+        },
+        {
+            "iso": "38",
+            "key": "愛媛県"
+        },
+        {
+            "iso": "39",
+            "key": "高知県"
+        },
+        {
+            "iso": "40",
+            "key": "福岡県"
+        },
+        {
+            "iso": "41",
+            "key": "佐賀県"
+        },
+        {
+            "iso": "42",
+            "key": "長崎県"
+        },
+        {
+            "iso": "43",
+            "key": "熊本県"
+        },
+        {
+            "iso": "44",
+            "key": "大分県"
+        },
+        {
+            "iso": "45",
+            "key": "宮崎県"
+        },
+        {
+            "iso": "46",
+            "key": "鹿児島県"
+        },
+        {
+            "iso": "47",
+            "key": "沖縄県"
+        }
+    ],
+    "KE": null,
+    "KG": null,
+    "KH": null,
+    "KI": [
+        {
+            "iso": "Gilbert Islands",
+            "key": "Gilbert Islands"
+        },
+        {
+            "iso": "Line Islands",
+            "key": "Line Islands"
+        },
+        {
+            "iso": "Phoenix Islands",
+            "key": "Phoenix Islands"
+        }
+    ],
+    "KM": null,
+    "KN": [
+        {
+            "iso": "N",
+            "key": "Nevis"
+        },
+        {
+            "iso": "K",
+            "key": "St. Kitts"
+        }
+    ],
+    "KP": [
+        {
+            "iso": "07",
+            "key": "강원도"
+        },
+        {
+            "iso": "13",
+            "key": "라선 특별시"
+        },
+        {
+            "iso": "10",
+            "key": "량강도"
+        },
+        {
+            "iso": "04",
+            "key": "자강도"
+        },
+        {
+            "iso": "02",
+            "key": "평안 남도"
+        },
+        {
+            "iso": "03",
+            "key": "평안 북도"
+        },
+        {
+            "iso": "01",
+            "key": "평양 직할시"
+        },
+        {
+            "iso": "08",
+            "key": "함경 남도"
+        },
+        {
+            "iso": "09",
+            "key": "함경 북도"
+        },
+        {
+            "iso": "05",
+            "key": "황해남도"
+        },
+        {
+            "iso": "06",
+            "key": "황해북도"
+        }
+    ],
+    "KR": [
+        {
+            "iso": "42",
+            "key": "강원도"
+        },
+        {
+            "iso": "41",
+            "key": "경기도"
+        },
+        {
+            "iso": "48",
+            "key": "경상남도"
+        },
+        {
+            "iso": "47",
+            "key": "경상북도"
+        },
+        {
+            "iso": "29",
+            "key": "광주광역시"
+        },
+        {
+            "iso": "27",
+            "key": "대구광역시"
+        },
+        {
+            "iso": "30",
+            "key": "대전광역시"
+        },
+        {
+            "iso": "26",
+            "key": "부산광역시"
+        },
+        {
+            "iso": "11",
+            "key": "서울특별시"
+        },
+        {
+            "iso": "50",
+            "key": "세종특별자치시"
+        },
+        {
+            "iso": "31",
+            "key": "울산광역시"
+        },
+        {
+            "iso": "28",
+            "key": "인천광역시"
+        },
+        {
+            "iso": "46",
+            "key": "전라남도"
+        },
+        {
+            "iso": "45",
+            "key": "전라북도"
+        },
+        {
+            "iso": "49",
+            "key": "제주특별자치도"
+        },
+        {
+            "iso": "44",
+            "key": "충청남도"
+        },
+        {
+            "iso": "43",
+            "key": "충청북도"
+        }
+    ],
+    "KW": null,
+    "KY": [
+        {
+            "iso": "Cayman Brac",
+            "key": "Cayman Brac"
+        },
+        {
+            "iso": "Grand Cayman",
+            "key": "Grand Cayman"
+        },
+        {
+            "iso": "Little Cayman",
+            "key": "Little Cayman"
+        }
+    ],
+    "KZ": [
+        {
+            "iso": "ALA",
+            "key": "Almaty"
+        },
+        {
+            "iso": "AST",
+            "key": "Astana"
+        },
+        {
+            "iso": "ALM",
+            "key": "Almatinskaya oblast'"
+        },
+        {
+            "iso": "AKM",
+            "key": "Akmolinskaya oblast'"
+        },
+        {
+            "iso": "AKT",
+            "key": "Aktyubinskaya oblast'"
+        },
+        {
+            "iso": "ATY",
+            "key": "Atyrauskaya oblast'"
+        },
+        {
+            "iso": "BAY",
+            "key": "Baykonyr"
+        },
+        {
+            "iso": "ZAP",
+            "key": "Zapadno-Kazakhstanskaya oblast'"
+        },
+        {
+            "iso": "MAN",
+            "key": "Mangistauskaya oblast'"
+        },
+        {
+            "iso": "YUZ",
+            "key": "Yuzhno-Kazakhstankaya oblast'"
+        },
+        {
+            "iso": "PAV",
+            "key": "Pavlodarskaya oblast'"
+        },
+        {
+            "iso": "KAR",
+            "key": "Karagandinskaya oblast'"
+        },
+        {
+            "iso": "KUS",
+            "key": "Kostanayskaya oblast'"
+        },
+        {
+            "iso": "KZY",
+            "key": "Kyzylordinskaya oblast'"
+        },
+        {
+            "iso": "VOS",
+            "key": "Vostochno-Kazakhstanskaya oblast'"
+        },
+        {
+            "iso": "SEV",
+            "key": "Severo-Kazakhstanskaya oblast'"
+        },
+        {
+            "iso": "ZHA",
+            "key": "Zhambylskaya oblast'"
+        }
+    ],
+    "LA": null,
+    "LB": null,
+    "LC": null,
+    "LI": null,
+    "LK": null,
+    "LR": null,
+    "LS": null,
+    "LT": null,
+    "LU": null,
+    "LV": null,
+    "LY": null,
+    "MA": null,
+    "MC": null,
+    "MD": null,
+    "ME": null,
+    "MF": null,
+    "MG": null,
+    "MH": [],
+    "MK": null,
+    "ML": null,
+    "MM": null,
+    "MN": [
+        {
+            "iso": "Ulaanbaatar",
+            "key": "Ulaanbaatar"
+        },
+        {
+            "iso": "Arkhangai Province",
+            "key": "Arkhangai Province"
+        },
+        {
+            "iso": "Bayankhongor Province",
+            "key": "Bayankhongor Province"
+        },
+        {
+            "iso": "Bayan-Ölgii Province",
+            "key": "Bayan-Ölgii Province"
+        },
+        {
+            "iso": "Bulgan Province",
+            "key": "Bulgan Province"
+        },
+        {
+            "iso": "Darkhan-Uul Province",
+            "key": "Darkhan-Uul Province"
+        },
+        {
+            "iso": "Dornod Province",
+            "key": "Dornod Province"
+        },
+        {
+            "iso": "Dornogovi Province",
+            "key": "Dornogovi Province"
+        },
+        {
+            "iso": "Dundgovi Province",
+            "key": "Dundgovi Province"
+        },
+        {
+            "iso": "Zavkhan Province",
+            "key": "Zavkhan Province"
+        },
+        {
+            "iso": "Govi-Altai Province",
+            "key": "Govi-Altai Province"
+        },
+        {
+            "iso": "Govisümber Province",
+            "key": "Govisümber Province"
+        },
+        {
+            "iso": "Khentii Province",
+            "key": "Khentii Province"
+        },
+        {
+            "iso": "Khovd Province",
+            "key": "Khovd Province"
+        },
+        {
+            "iso": "Khövsgöl Province",
+            "key": "Khövsgöl Province"
+        },
+        {
+            "iso": "Ömnögovi Province",
+            "key": "Ömnögovi Province"
+        },
+        {
+            "iso": "Orkhon Province",
+            "key": "Orkhon Province"
+        },
+        {
+            "iso": "Övörkhangai Province",
+            "key": "Övörkhangai Province"
+        },
+        {
+            "iso": "Selenge Province",
+            "key": "Selenge Province"
+        },
+        {
+            "iso": "Sükhbaatar Province",
+            "key": "Sükhbaatar Province"
+        },
+        {
+            "iso": "Töv Province",
+            "key": "Töv Province"
+        },
+        {
+            "iso": "Uvs Province",
+            "key": "Uvs Province"
+        }
+    ],
+    "MO": null,
+    "MP": [],
+    "MQ": null,
+    "MR": null,
+    "MS": null,
+    "MT": null,
+    "MU": null,
+    "MV": null,
+    "MW": null,
+    "MX": [
+        {
+            "iso": "AGU",
+            "key": "Ags."
+        },
+        {
+            "iso": "BCN",
+            "key": "B.C."
+        },
+        {
+            "iso": "BCS",
+            "key": "B.C.S."
+        },
+        {
+            "iso": "CAM",
+            "key": "Camp."
+        },
+        {
+            "iso": "CHP",
+            "key": "Chis."
+        },
+        {
+            "iso": "CHH",
+            "key": "Chih."
+        },
+        {
+            "iso": "CMX",
+            "key": "CDMX"
+        },
+        {
+            "iso": "COA",
+            "key": "Coah."
+        },
+        {
+            "iso": "COL",
+            "key": "Col."
+        },
+        {
+            "iso": "DUR",
+            "key": "Dgo."
+        },
+        {
+            "iso": "MEX",
+            "key": "Méx."
+        },
+        {
+            "iso": "GUA",
+            "key": "Gto."
+        },
+        {
+            "iso": "GRO",
+            "key": "Gro."
+        },
+        {
+            "iso": "HID",
+            "key": "Hgo."
+        },
+        {
+            "iso": "JAL",
+            "key": "Jal."
+        },
+        {
+            "iso": "MIC",
+            "key": "Mich."
+        },
+        {
+            "iso": "MOR",
+            "key": "Mor."
+        },
+        {
+            "iso": "NAY",
+            "key": "Nay."
+        },
+        {
+            "iso": "NLE",
+            "key": "N.L."
+        },
+        {
+            "iso": "OAX",
+            "key": "Oax."
+        },
+        {
+            "iso": "PUE",
+            "key": "Pue."
+        },
+        {
+            "iso": "QUE",
+            "key": "Qro."
+        },
+        {
+            "iso": "ROO",
+            "key": "Q.R."
+        },
+        {
+            "iso": "SLP",
+            "key": "S.L.P."
+        },
+        {
+            "iso": "SIN",
+            "key": "Sin."
+        },
+        {
+            "iso": "SON",
+            "key": "Son."
+        },
+        {
+            "iso": "TAB",
+            "key": "Tab."
+        },
+        {
+            "iso": "TAM",
+            "key": "Tamps."
+        },
+        {
+            "iso": "TLA",
+            "key": "Tlax."
+        },
+        {
+            "iso": "VER",
+            "key": "Ver."
+        },
+        {
+            "iso": "YUC",
+            "key": "Yuc."
+        },
+        {
+            "iso": "ZAC",
+            "key": "Zac."
+        }
+    ],
+    "MY": [
+        {
+            "iso": "01",
+            "key": "Johor"
+        },
+        {
+            "iso": "02",
+            "key": "Kedah"
+        },
+        {
+            "iso": "03",
+            "key": "Kelantan"
+        },
+        {
+            "iso": "14",
+            "key": "Kuala Lumpur"
+        },
+        {
+            "iso": "15",
+            "key": "Labuan"
+        },
+        {
+            "iso": "04",
+            "key": "Melaka"
+        },
+        {
+            "iso": "05",
+            "key": "Negeri Sembilan"
+        },
+        {
+            "iso": "06",
+            "key": "Pahang"
+        },
+        {
+            "iso": "08",
+            "key": "Perak"
+        },
+        {
+            "iso": "09",
+            "key": "Perlis"
+        },
+        {
+            "iso": "07",
+            "key": "Pulau Pinang"
+        },
+        {
+            "iso": "16",
+            "key": "Putrajaya"
+        },
+        {
+            "iso": "12",
+            "key": "Sabah"
+        },
+        {
+            "iso": "13",
+            "key": "Sarawak"
+        },
+        {
+            "iso": "10",
+            "key": "Selangor"
+        },
+        {
+            "iso": "11",
+            "key": "Terengganu"
+        }
+    ],
+    "MZ": [
+        {
+            "iso": "P",
+            "key": "Cabo Delgado"
+        },
+        {
+            "iso": "MPM",
+            "key": "Cidade de Maputo"
+        },
+        {
+            "iso": "G",
+            "key": "Gaza"
+        },
+        {
+            "iso": "I",
+            "key": "Inhambane"
+        },
+        {
+            "iso": "B",
+            "key": "Manica"
+        },
+        {
+            "iso": "L",
+            "key": "Maputo"
+        },
+        {
+            "iso": "N",
+            "key": "Nampula"
+        },
+        {
+            "iso": "A",
+            "key": "Niassa"
+        },
+        {
+            "iso": "S",
+            "key": "Sofala"
+        },
+        {
+            "iso": "T",
+            "key": "Tete"
+        },
+        {
+            "iso": "Q",
+            "key": "Zambezia"
+        }
+    ],
+    "NA": null,
+    "NC": null,
+    "NE": null,
+    "NF": [],
+    "NG": [
+        {
+            "iso": "AB",
+            "key": "Abia"
+        },
+        {
+            "iso": "AD",
+            "key": "Adamawa"
+        },
+        {
+            "iso": "AK",
+            "key": "Akwa Ibom"
+        },
+        {
+            "iso": "AN",
+            "key": "Anambra"
+        },
+        {
+            "iso": "BA",
+            "key": "Bauchi"
+        },
+        {
+            "iso": "BY",
+            "key": "Bayelsa"
+        },
+        {
+            "iso": "BE",
+            "key": "Benue"
+        },
+        {
+            "iso": "BO",
+            "key": "Borno"
+        },
+        {
+            "iso": "CR",
+            "key": "Cross River"
+        },
+        {
+            "iso": "DE",
+            "key": "Delta"
+        },
+        {
+            "iso": "EB",
+            "key": "Ebonyi"
+        },
+        {
+            "iso": "ED",
+            "key": "Edo"
+        },
+        {
+            "iso": "EK",
+            "key": "Ekiti"
+        },
+        {
+            "iso": "EN",
+            "key": "Enugu"
+        },
+        {
+            "iso": "FC",
+            "key": "Federal Capital Territory"
+        },
+        {
+            "iso": "GO",
+            "key": "Gombe"
+        },
+        {
+            "iso": "IM",
+            "key": "Imo"
+        },
+        {
+            "iso": "JI",
+            "key": "Jigawa"
+        },
+        {
+            "iso": "KD",
+            "key": "Kaduna"
+        },
+        {
+            "iso": "KN",
+            "key": "Kano"
+        },
+        {
+            "iso": "KT",
+            "key": "Katsina"
+        },
+        {
+            "iso": "KE",
+            "key": "Kebbi"
+        },
+        {
+            "iso": "KO",
+            "key": "Kogi"
+        },
+        {
+            "iso": "KW",
+            "key": "Kwara"
+        },
+        {
+            "iso": "LA",
+            "key": "Lagos"
+        },
+        {
+            "iso": "NA",
+            "key": "Nasarawa"
+        },
+        {
+            "iso": "NI",
+            "key": "Niger"
+        },
+        {
+            "iso": "OG",
+            "key": "Ogun State"
+        },
+        {
+            "iso": "ON",
+            "key": "Ondo"
+        },
+        {
+            "iso": "OS",
+            "key": "Osun"
+        },
+        {
+            "iso": "OY",
+            "key": "Oyo"
+        },
+        {
+            "iso": "PL",
+            "key": "Plateau"
+        },
+        {
+            "iso": "RI",
+            "key": "Rivers"
+        },
+        {
+            "iso": "SO",
+            "key": "Sokoto"
+        },
+        {
+            "iso": "TA",
+            "key": "Taraba"
+        },
+        {
+            "iso": "YO",
+            "key": "Yobe"
+        },
+        {
+            "iso": "ZA",
+            "key": "Zamfara"
+        }
+    ],
+    "NI": [
+        {
+            "iso": "BO",
+            "key": "Boaco"
+        },
+        {
+            "iso": "CA",
+            "key": "Carazo"
+        },
+        {
+            "iso": "CI",
+            "key": "Chinandega"
+        },
+        {
+            "iso": "CO",
+            "key": "Chontales"
+        },
+        {
+            "iso": "ES",
+            "key": "Estelí"
+        },
+        {
+            "iso": "GR",
+            "key": "Granada"
+        },
+        {
+            "iso": "JI",
+            "key": "Jinotega"
+        },
+        {
+            "iso": "LE",
+            "key": "León"
+        },
+        {
+            "iso": "MD",
+            "key": "Madriz"
+        },
+        {
+            "iso": "MN",
+            "key": "Managua"
+        },
+        {
+            "iso": "MS",
+            "key": "Masaya"
+        },
+        {
+            "iso": "MT",
+            "key": "Matagalpa"
+        },
+        {
+            "iso": "NS",
+            "key": "Nueva Segovia"
+        },
+        {
+            "iso": "AN",
+            "key": "Región Autónoma de la Costa Caribe Norte"
+        },
+        {
+            "iso": "AS",
+            "key": "Región Autónoma de la Costa Caribe Sur"
+        },
+        {
+            "iso": "SJ",
+            "key": "Río San Juan"
+        },
+        {
+            "iso": "RI",
+            "key": "Rivas"
+        }
+    ],
+    "NL": null,
+    "NO": null,
+    "NP": null,
+    "NR": [
+        {
+            "iso": "01",
+            "key": "Aiwo District"
+        },
+        {
+            "iso": "02",
+            "key": "Anabar District"
+        },
+        {
+            "iso": "03",
+            "key": "Anetan District"
+        },
+        {
+            "iso": "04",
+            "key": "Anibare District"
+        },
+        {
+            "iso": "05",
+            "key": "Baiti District"
+        },
+        {
+            "iso": "06",
+            "key": "Boe District"
+        },
+        {
+            "iso": "07",
+            "key": "Buada District"
+        },
+        {
+            "iso": "08",
+            "key": "Denigomodu District"
+        },
+        {
+            "iso": "09",
+            "key": "Ewa District"
+        },
+        {
+            "iso": "10",
+            "key": "Ijuw District"
+        },
+        {
+            "iso": "11",
+            "key": "Meneng District"
+        },
+        {
+            "iso": "12",
+            "key": "Nibok District"
+        },
+        {
+            "iso": "13",
+            "key": "Uaboe District"
+        },
+        {
+            "iso": "14",
+            "key": "Yaren District"
+        }
+    ],
+    "NU": null,
+    "NZ": null,
+    "OM": null,
+    "PA": [
+        {
+            "iso": "1",
+            "key": "Bocas del Toro"
+        },
+        {
+            "iso": "4",
+            "key": "Chiriquí"
+        },
+        {
+            "iso": "2",
+            "key": "Coclé"
+        },
+        {
+            "iso": "3",
+            "key": "Colón"
+        },
+        {
+            "iso": "5",
+            "key": "Darién"
+        },
+        {
+            "iso": "6",
+            "key": "Herrera"
+        },
+        {
+            "iso": "7",
+            "key": "Los Santos"
+        },
+        {
+            "iso": "8",
+            "key": "Panamá"
+        },
+        {
+            "iso": "9",
+            "key": "Veraguas"
+        },
+        {
+            "iso": "10",
+            "key": "Panamá Oeste"
+        },
+        {
+            "iso": "EM",
+            "key": "Emberá"
+        },
+        {
+            "iso": "KY",
+            "key": "Guna Yala"
+        },
+        {
+            "iso": "NB",
+            "key": "Ngäbe-Buglé"
+        }
+    ],
+    "PE": [
+        {
+            "iso": "LMA",
+            "key": "Municipalidad Metropolitana de Lima"
+        },
+        {
+            "iso": "AMA",
+            "key": "Amazonas"
+        },
+        {
+            "iso": "ANC",
+            "key": "Ancash"
+        },
+        {
+            "iso": "APU",
+            "key": "Apurímac"
+        },
+        {
+            "iso": "ARE",
+            "key": "Arequipa"
+        },
+        {
+            "iso": "AYA",
+            "key": "Ayacucho"
+        },
+        {
+            "iso": "CAJ",
+            "key": "Cajamarca"
+        },
+        {
+            "iso": "CUS",
+            "key": "Cusco"
+        },
+        {
+            "iso": "CAL",
+            "key": "El Callao"
+        },
+        {
+            "iso": "HUV",
+            "key": "Huancavelica"
+        },
+        {
+            "iso": "HUC",
+            "key": "Huánuco"
+        },
+        {
+            "iso": "ICA",
+            "key": "Ica"
+        },
+        {
+            "iso": "JUN",
+            "key": "Junín"
+        },
+        {
+            "iso": "LAL",
+            "key": "La Libertad"
+        },
+        {
+            "iso": "LAM",
+            "key": "Lambayeque"
+        },
+        {
+            "iso": "LIM",
+            "key": "Lima"
+        },
+        {
+            "iso": "LOR",
+            "key": "Loreto"
+        },
+        {
+            "iso": "MDD",
+            "key": "Madre de Dios"
+        },
+        {
+            "iso": "MOQ",
+            "key": "Moquegua"
+        },
+        {
+            "iso": "PAS",
+            "key": "Pasco"
+        },
+        {
+            "iso": "PIU",
+            "key": "Piura"
+        },
+        {
+            "iso": "PUN",
+            "key": "Puno"
+        },
+        {
+            "iso": "SAM",
+            "key": "San Martín"
+        },
+        {
+            "iso": "TAC",
+            "key": "Tacna"
+        },
+        {
+            "iso": "TUM",
+            "key": "Tumbes"
+        },
+        {
+            "iso": "UCA",
+            "key": "Ucayali"
+        }
+    ],
+    "PF": [
+        {
+            "iso": "Windward Islands",
+            "key": "Windward Islands"
+        },
+        {
+            "iso": "Austral Islands",
+            "key": "Austral Islands"
+        },
+        {
+            "iso": "Tuamotu-Gambier",
+            "key": "Tuamotu-Gambier"
+        },
+        {
+            "iso": "Leeward Islands",
+            "key": "Leeward Islands"
+        },
+        {
+            "iso": "Marquesas Islands",
+            "key": "Marquesas Islands"
+        }
+    ],
+    "PG": [
+        {
+            "iso": "NCD",
+            "key": "National Capital District"
+        },
+        {
+            "iso": "CPM",
+            "key": "Central"
+        },
+        {
+            "iso": "CPK",
+            "key": "Chimbu"
+        },
+        {
+            "iso": "EHG",
+            "key": "Eastern Highlands"
+        },
+        {
+            "iso": "EBR",
+            "key": "East New Britain"
+        },
+        {
+            "iso": "ESW",
+            "key": "East Sepik"
+        },
+        {
+            "iso": "EPW",
+            "key": "Enga"
+        },
+        {
+            "iso": "GPK",
+            "key": "Gulf"
+        },
+        {
+            "iso": "HLA",
+            "key": "Hela"
+        },
+        {
+            "iso": "JWK",
+            "key": "Jiwaka"
+        },
+        {
+            "iso": "MPM",
+            "key": "Madang"
+        },
+        {
+            "iso": "MRL",
+            "key": "Manus"
+        },
+        {
+            "iso": "MBA",
+            "key": "Milne Bay"
+        },
+        {
+            "iso": "MPL",
+            "key": "Morobe"
+        },
+        {
+            "iso": "NIK",
+            "key": "New Ireland"
+        },
+        {
+            "iso": "NPP",
+            "key": "Northern"
+        },
+        {
+            "iso": "SAN",
+            "key": "West Sepik"
+        },
+        {
+            "iso": "SHM",
+            "key": "Southern Highlands"
+        },
+        {
+            "iso": "WPD",
+            "key": "Western"
+        },
+        {
+            "iso": "WHM",
+            "key": "Western Highlands"
+        },
+        {
+            "iso": "WBK",
+            "key": "West New Britain"
+        },
+        {
+            "iso": "NSB",
+            "key": "Bougainville"
+        }
+    ],
+    "PH": [
+        {
+            "iso": "ABR",
+            "key": "Abra"
+        },
+        {
+            "iso": "AGN",
+            "key": "Agusan del Norte"
+        },
+        {
+            "iso": "AGS",
+            "key": "Agusan del Sur"
+        },
+        {
+            "iso": "AKL",
+            "key": "Aklan"
+        },
+        {
+            "iso": "ALB",
+            "key": "Albay"
+        },
+        {
+            "iso": "ANT",
+            "key": "Antique"
+        },
+        {
+            "iso": "APA",
+            "key": "Apayao"
+        },
+        {
+            "iso": "AUR",
+            "key": "Aurora"
+        },
+        {
+            "iso": "BAS",
+            "key": "Basilan"
+        },
+        {
+            "iso": "BAN",
+            "key": "Bataan"
+        },
+        {
+            "iso": "BTN",
+            "key": "Batanes"
+        },
+        {
+            "iso": "BTG",
+            "key": "Batangas"
+        },
+        {
+            "iso": "BEN",
+            "key": "Benguet"
+        },
+        {
+            "iso": "BIL",
+            "key": "Biliran"
+        },
+        {
+            "iso": "BOH",
+            "key": "Bohol"
+        },
+        {
+            "iso": "BUK",
+            "key": "Bukidnon"
+        },
+        {
+            "iso": "BUL",
+            "key": "Bulacan"
+        },
+        {
+            "iso": "CAG",
+            "key": "Cagayan"
+        },
+        {
+            "iso": "CAN",
+            "key": "Camarines Norte"
+        },
+        {
+            "iso": "CAS",
+            "key": "Camarines Sur"
+        },
+        {
+            "iso": "CAM",
+            "key": "Camiguin"
+        },
+        {
+            "iso": "CAP",
+            "key": "Capiz"
+        },
+        {
+            "iso": "CAT",
+            "key": "Catanduanes"
+        },
+        {
+            "iso": "CAV",
+            "key": "Cavite"
+        },
+        {
+            "iso": "CEB",
+            "key": "Cebu"
+        },
+        {
+            "iso": "COM",
+            "key": "Compostela Valley"
+        },
+        {
+            "iso": "NCO",
+            "key": "Cotabato"
+        },
+        {
+            "iso": "DAV",
+            "key": "Davao del Norte"
+        },
+        {
+            "iso": "DAS",
+            "key": "Davao del Sur"
+        },
+        {
+            "iso": "DVO",
+            "key": "Davao Occidental"
+        },
+        {
+            "iso": "DAO",
+            "key": "Davao Oriental"
+        },
+        {
+            "iso": "DIN",
+            "key": "Dinagat Islands"
+        },
+        {
+            "iso": "EAS",
+            "key": "Eastern Samar"
+        },
+        {
+            "iso": "GUI",
+            "key": "Guimaras"
+        },
+        {
+            "iso": "IFU",
+            "key": "Ifugao"
+        },
+        {
+            "iso": "ILN",
+            "key": "Ilocos Norte"
+        },
+        {
+            "iso": "ILS",
+            "key": "Ilocos Sur"
+        },
+        {
+            "iso": "ILI",
+            "key": "Iloilo"
+        },
+        {
+            "iso": "ISA",
+            "key": "Isabela"
+        },
+        {
+            "iso": "KAL",
+            "key": "Kalinga"
+        },
+        {
+            "iso": "LUN",
+            "key": "La Union"
+        },
+        {
+            "iso": "LAG",
+            "key": "Laguna"
+        },
+        {
+            "iso": "LAN",
+            "key": "Lanao del Norte"
+        },
+        {
+            "iso": "LAS",
+            "key": "Lanao del Sur"
+        },
+        {
+            "iso": "LEY",
+            "key": "Leyte"
+        },
+        {
+            "iso": "MAG",
+            "key": "Maguindanao"
+        },
+        {
+            "iso": "MAD",
+            "key": "Marinduque"
+        },
+        {
+            "iso": "MAS",
+            "key": "Masbate"
+        },
+        {
+            "iso": "00",
+            "key": "Metro Manila"
+        },
+        {
+            "iso": "MDC",
+            "key": "Mindoro Occidental"
+        },
+        {
+            "iso": "MDR",
+            "key": "Mindoro Oriental"
+        },
+        {
+            "iso": "MSC",
+            "key": "Misamis Occidental"
+        },
+        {
+            "iso": "MSR",
+            "key": "Misamis Oriental"
+        },
+        {
+            "iso": "MOU",
+            "key": "Mountain Province"
+        },
+        {
+            "iso": "NEC",
+            "key": "Negros Occidental"
+        },
+        {
+            "iso": "NER",
+            "key": "Negros Oriental"
+        },
+        {
+            "iso": "NSA",
+            "key": "Northern Samar"
+        },
+        {
+            "iso": "NUE",
+            "key": "Nueva Ecija"
+        },
+        {
+            "iso": "NUV",
+            "key": "Nueva Vizcaya"
+        },
+        {
+            "iso": "PLW",
+            "key": "Palawan"
+        },
+        {
+            "iso": "PAM",
+            "key": "Pampanga"
+        },
+        {
+            "iso": "PAN",
+            "key": "Pangasinan"
+        },
+        {
+            "iso": "QUE",
+            "key": "Quezon Province"
+        },
+        {
+            "iso": "QUI",
+            "key": "Quirino"
+        },
+        {
+            "iso": "RIZ",
+            "key": "Rizal"
+        },
+        {
+            "iso": "ROM",
+            "key": "Romblon"
+        },
+        {
+            "iso": "WSA",
+            "key": "Samar"
+        },
+        {
+            "iso": "SAR",
+            "key": "Sarangani"
+        },
+        {
+            "iso": "SIG",
+            "key": "Siquijor"
+        },
+        {
+            "iso": "SOR",
+            "key": "Sorsogon"
+        },
+        {
+            "iso": "SCO",
+            "key": "South Cotabato"
+        },
+        {
+            "iso": "SLE",
+            "key": "Southern Leyte"
+        },
+        {
+            "iso": "SUK",
+            "key": "Sultan Kudarat"
+        },
+        {
+            "iso": "SLU",
+            "key": "Sulu"
+        },
+        {
+            "iso": "SUN",
+            "key": "Surigao del Norte"
+        },
+        {
+            "iso": "SUR",
+            "key": "Surigao del Sur"
+        },
+        {
+            "iso": "TAR",
+            "key": "Tarlac"
+        },
+        {
+            "iso": "TAW",
+            "key": "Tawi-Tawi"
+        },
+        {
+            "iso": "ZMB",
+            "key": "Zambales"
+        },
+        {
+            "iso": "ZAN",
+            "key": "Zamboanga del Norte"
+        },
+        {
+            "iso": "ZAS",
+            "key": "Zamboanga del Sur"
+        },
+        {
+            "iso": "ZSI",
+            "key": "Zamboanga Sibuguey"
+        }
+    ],
+    "PK": null,
+    "PL": null,
+    "PM": null,
+    "PN": null,
+    "PR": null,
+    "PS": null,
+    "PT": null,
+    "PW": [],
+    "PY": null,
+    "QA": null,
+    "RE": null,
+    "RO": null,
+    "RS": null,
+    "RU": [
+        {
+            "iso": "ALT",
+            "key": "Алтайский край"
+        },
+        {
+            "iso": "AMU",
+            "key": "Амурская область"
+        },
+        {
+            "iso": "ARK",
+            "key": "Архангельская область"
+        },
+        {
+            "iso": "AST",
+            "key": "Астраханская область"
+        },
+        {
+            "iso": "BEL",
+            "key": "Белгородская область"
+        },
+        {
+            "iso": "BRY",
+            "key": "Брянская область"
+        },
+        {
+            "iso": "VLA",
+            "key": "Владимирская область"
+        },
+        {
+            "iso": "VGG",
+            "key": "Волгоградская область"
+        },
+        {
+            "iso": "VLG",
+            "key": "Вологодская область"
+        },
+        {
+            "iso": "VOR",
+            "key": "Воронежская область"
+        },
+        {
+            "iso": "YEV",
+            "key": "Еврейская автономная область"
+        },
+        {
+            "iso": "ZAB",
+            "key": "Забайкальский край"
+        },
+        {
+            "iso": "IVA",
+            "key": "Ивановская область"
+        },
+        {
+            "iso": "IRK",
+            "key": "Иркутская область"
+        },
+        {
+            "iso": "KB",
+            "key": "Кабардино-Балкарская Республика"
+        },
+        {
+            "iso": "KGD",
+            "key": "Калининградская область"
+        },
+        {
+            "iso": "KLU",
+            "key": "Калужская область"
+        },
+        {
+            "iso": "KAM",
+            "key": "Камчатский край"
+        },
+        {
+            "iso": "KC",
+            "key": "Карачаево-Черкесская Республика"
+        },
+        {
+            "iso": "KEM",
+            "key": "Кемеровская область"
+        },
+        {
+            "iso": "KIR",
+            "key": "Кировская область"
+        },
+        {
+            "iso": "KOS",
+            "key": "Костромская область"
+        },
+        {
+            "iso": "KDA",
+            "key": "Краснодарский край"
+        },
+        {
+            "iso": "KYA",
+            "key": "Красноярский край"
+        },
+        {
+            "iso": "KGN",
+            "key": "Курганская область"
+        },
+        {
+            "iso": "KRS",
+            "key": "Курская область"
+        },
+        {
+            "iso": "LEN",
+            "key": "Ленинградская область"
+        },
+        {
+            "iso": "LIP",
+            "key": "Липецкая область"
+        },
+        {
+            "iso": "MAG",
+            "key": "Магаданская область"
+        },
+        {
+            "iso": "MOW",
+            "key": "Москва"
+        },
+        {
+            "iso": "MOS",
+            "key": "Московская область"
+        },
+        {
+            "iso": "MUR",
+            "key": "Мурманская область"
+        },
+        {
+            "iso": "NEN",
+            "key": "Ненецкий автономный округ"
+        },
+        {
+            "iso": "NIZ",
+            "key": "Нижегородская область"
+        },
+        {
+            "iso": "NGR",
+            "key": "Новгородская область"
+        },
+        {
+            "iso": "NVS",
+            "key": "Новосибирская область"
+        },
+        {
+            "iso": "OMS",
+            "key": "Омская область"
+        },
+        {
+            "iso": "ORE",
+            "key": "Оренбургская область"
+        },
+        {
+            "iso": "ORL",
+            "key": "Орловская область"
+        },
+        {
+            "iso": "PNZ",
+            "key": "Пензенская область"
+        },
+        {
+            "iso": "PER",
+            "key": "Пермский край"
+        },
+        {
+            "iso": "PRI",
+            "key": "Приморский край"
+        },
+        {
+            "iso": "PSK",
+            "key": "Псковская область"
+        },
+        {
+            "iso": "AD",
+            "key": "Республика Адыгея"
+        },
+        {
+            "iso": "AL",
+            "key": "Республика Алтай"
+        },
+        {
+            "iso": "BA",
+            "key": "Республика Башкортостан"
+        },
+        {
+            "iso": "BU",
+            "key": "Республика Бурятия"
+        },
+        {
+            "iso": "DA",
+            "key": "Республика Дагестан"
+        },
+        {
+            "iso": "IN",
+            "key": "Республика Ингушетия"
+        },
+        {
+            "iso": "KL",
+            "key": "Республика Калмыкия"
+        },
+        {
+            "iso": "KR",
+            "key": "Республика Карелия"
+        },
+        {
+            "iso": "KO",
+            "key": "Республика Коми"
+        },
+        {
+            "iso": "",
+            "key": "Автономна Республіка Крим"
+        },
+        {
+            "iso": "ME",
+            "key": "Республика Марий Эл"
+        },
+        {
+            "iso": "MO",
+            "key": "Республика Мордовия"
+        },
+        {
+            "iso": "SA",
+            "key": "Республика Саха (Якутия)"
+        },
+        {
+            "iso": "SE",
+            "key": "Республика Северная Осетия-Алания"
+        },
+        {
+            "iso": "TA",
+            "key": "Республика Татарстан"
+        },
+        {
+            "iso": "TY",
+            "key": "Республика Тыва"
+        },
+        {
+            "iso": "UD",
+            "key": "Республика Удмуртия"
+        },
+        {
+            "iso": "KK",
+            "key": "Республика Хакасия"
+        },
+        {
+            "iso": "ROS",
+            "key": "Ростовская область"
+        },
+        {
+            "iso": "RYA",
+            "key": "Рязанская область"
+        },
+        {
+            "iso": "SAM",
+            "key": "Самарская область"
+        },
+        {
+            "iso": "SPE",
+            "key": "Санкт-Петербург"
+        },
+        {
+            "iso": "SAR",
+            "key": "Саратовская область"
+        },
+        {
+            "iso": "SAK",
+            "key": "Сахалинская область"
+        },
+        {
+            "iso": "SVE",
+            "key": "Свердловская область"
+        },
+        {
+            "iso": "",
+            "key": "Севастополь"
+        },
+        {
+            "iso": "SMO",
+            "key": "Смоленская область"
+        },
+        {
+            "iso": "STA",
+            "key": "Ставропольский край"
+        },
+        {
+            "iso": "TAM",
+            "key": "Тамбовская область"
+        },
+        {
+            "iso": "TVE",
+            "key": "Тверская область"
+        },
+        {
+            "iso": "TOM",
+            "key": "Томская область"
+        },
+        {
+            "iso": "TUL",
+            "key": "Тульская область"
+        },
+        {
+            "iso": "TYU",
+            "key": "Тюменская область"
+        },
+        {
+            "iso": "ULY",
+            "key": "Ульяновская область"
+        },
+        {
+            "iso": "KHA",
+            "key": "Хабаровский край"
+        },
+        {
+            "iso": "KHM",
+            "key": "Ханты-Мансийский автономный округ"
+        },
+        {
+            "iso": "CHE",
+            "key": "Челябинская область"
+        },
+        {
+            "iso": "CE",
+            "key": "Чеченская Республика"
+        },
+        {
+            "iso": "CU",
+            "key": "Чувашская Республика"
+        },
+        {
+            "iso": "CHU",
+            "key": "Чукотский автономный округ"
+        },
+        {
+            "iso": "YAN",
+            "key": "Ямало-Ненецкий автономный округ"
+        },
+        {
+            "iso": "YAR",
+            "key": "Ярославская область"
+        }
+    ],
+    "RW": null,
+    "SA": null,
+    "SB": null,
+    "SC": [],
+    "SD": null,
+    "SE": null,
+    "SG": null,
+    "SH": null,
+    "SI": null,
+    "SJ": null,
+    "SK": null,
+    "SL": null,
+    "SM": null,
+    "SN": null,
+    "SO": [
+        {
+            "iso": "AW",
+            "key": "AD"
+        },
+        {
+            "iso": "BK",
+            "key": "BK"
+        },
+        {
+            "iso": "BN",
+            "key": "BN"
+        },
+        {
+            "iso": "BR",
+            "key": "BR"
+        },
+        {
+            "iso": "BY",
+            "key": "BY"
+        },
+        {
+            "iso": "GA",
+            "key": "GG"
+        },
+        {
+            "iso": "GE",
+            "key": "GD"
+        },
+        {
+            "iso": "HI",
+            "key": "HR"
+        },
+        {
+            "iso": "JD",
+            "key": "JD"
+        },
+        {
+            "iso": "JH",
+            "key": "JH"
+        },
+        {
+            "iso": "MU",
+            "key": "MD"
+        },
+        {
+            "iso": "NU",
+            "key": "NG"
+        },
+        {
+            "iso": "SA",
+            "key": "SG"
+        },
+        {
+            "iso": "SD",
+            "key": "SD"
+        },
+        {
+            "iso": "SH",
+            "key": "SH"
+        },
+        {
+            "iso": "SO",
+            "key": "SL"
+        },
+        {
+            "iso": "TO",
+            "key": "TG"
+        },
+        {
+            "iso": "WO",
+            "key": "WG"
+        }
+    ],
+    "SR": [
+        {
+            "iso": "BR",
+            "key": "Brokopondo"
+        },
+        {
+            "iso": "CM",
+            "key": "Commewijne"
+        },
+        {
+            "iso": "CR",
+            "key": "Coronie"
+        },
+        {
+            "iso": "MA",
+            "key": "Marowijne"
+        },
+        {
+            "iso": "NI",
+            "key": "Nickerie"
+        },
+        {
+            "iso": "PR",
+            "key": "Para"
+        },
+        {
+            "iso": "PM",
+            "key": "Paramaribo"
+        },
+        {
+            "iso": "SA",
+            "key": "Saramacca"
+        },
+        {
+            "iso": "SI",
+            "key": "Sipaliwini"
+        },
+        {
+            "iso": "WA",
+            "key": "Wanica"
+        }
+    ],
+    "SS": null,
+    "ST": null,
+    "SV": [
+        {
+            "iso": "AH",
+            "key": "Ahuachapan"
+        },
+        {
+            "iso": "CA",
+            "key": "Cabanas"
+        },
+        {
+            "iso": "CH",
+            "key": "Calatenango"
+        },
+        {
+            "iso": "CU",
+            "key": "Cuscatlan"
+        },
+        {
+            "iso": "LI",
+            "key": "La Libertad"
+        },
+        {
+            "iso": "PA",
+            "key": "La Paz"
+        },
+        {
+            "iso": "UN",
+            "key": "La Union"
+        },
+        {
+            "iso": "MO",
+            "key": "Morazan"
+        },
+        {
+            "iso": "SM",
+            "key": "San Miguel"
+        },
+        {
+            "iso": "SS",
+            "key": "San Salvador"
+        },
+        {
+            "iso": "SV",
+            "key": "San Vicente"
+        },
+        {
+            "iso": "SA",
+            "key": "Santa Ana"
+        },
+        {
+            "iso": "SO",
+            "key": "Sonsonate"
+        },
+        {
+            "iso": "US",
+            "key": "Usulutan"
+        }
+    ],
+    "SX": null,
+    "SY": null,
+    "SZ": null,
+    "TA": null,
+    "TC": null,
+    "TD": null,
+    "TF": null,
+    "TG": null,
+    "TH": [
+        {
+            "iso": "81",
+            "key": "กระบี่"
+        },
+        {
+            "iso": "10",
+            "key": "กรุงเทพมหานคร"
+        },
+        {
+            "iso": "71",
+            "key": "กาญจนบุรี"
+        },
+        {
+            "iso": "46",
+            "key": "กาฬสินธุ์"
+        },
+        {
+            "iso": "62",
+            "key": "กำแพงเพชร"
+        },
+        {
+            "iso": "40",
+            "key": "ขอนแก่น"
+        },
+        {
+            "iso": "38",
+            "key": "บึงกาฬ"
+        },
+        {
+            "iso": "22",
+            "key": "จันทบุรี"
+        },
+        {
+            "iso": "24",
+            "key": "ฉะเชิงเทรา"
+        },
+        {
+            "iso": "20",
+            "key": "ชลบุรี"
+        },
+        {
+            "iso": "18",
+            "key": "ชัยนาท"
+        },
+        {
+            "iso": "36",
+            "key": "ชัยภูมิ"
+        },
+        {
+            "iso": "86",
+            "key": "ชุมพร"
+        },
+        {
+            "iso": "57",
+            "key": "เชียงราย"
+        },
+        {
+            "iso": "50",
+            "key": "เชียงใหม่"
+        },
+        {
+            "iso": "92",
+            "key": "ตรัง"
+        },
+        {
+            "iso": "23",
+            "key": "ตราด"
+        },
+        {
+            "iso": "63",
+            "key": "ตาก"
+        },
+        {
+            "iso": "26",
+            "key": "นครนายก"
+        },
+        {
+            "iso": "73",
+            "key": "นครปฐม"
+        },
+        {
+            "iso": "48",
+            "key": "นครพนม"
+        },
+        {
+            "iso": "30",
+            "key": "นครราชสีมา"
+        },
+        {
+            "iso": "80",
+            "key": "นครศรีธรรมราช"
+        },
+        {
+            "iso": "60",
+            "key": "นครสวรรค์"
+        },
+        {
+            "iso": "12",
+            "key": "นนทบุรี"
+        },
+        {
+            "iso": "96",
+            "key": "นราธิวาส"
+        },
+        {
+            "iso": "55",
+            "key": "น่าน"
+        },
+        {
+            "iso": "31",
+            "key": "บุรีรัมย์"
+        },
+        {
+            "iso": "13",
+            "key": "ปทุมธานี"
+        },
+        {
+            "iso": "77",
+            "key": "ประจวบคีรีขันธ์"
+        },
+        {
+            "iso": "25",
+            "key": "ปราจีนบุรี"
+        },
+        {
+            "iso": "94",
+            "key": "ปัตตานี"
+        },
+        {
+            "iso": "14",
+            "key": "พระนครศรีอยุธยา"
+        },
+        {
+            "iso": "56",
+            "key": "พะเยา"
+        },
+        {
+            "iso": "82",
+            "key": "พังงา"
+        },
+        {
+            "iso": "93",
+            "key": "พัทลุง"
+        },
+        {
+            "iso": "66",
+            "key": "พิจิตร"
+        },
+        {
+            "iso": "65",
+            "key": "พิษณุโลก"
+        },
+        {
+            "iso": "76",
+            "key": "เพชรบุรี"
+        },
+        {
+            "iso": "67",
+            "key": "เพชรบูรณ์"
+        },
+        {
+            "iso": "54",
+            "key": "แพร่"
+        },
+        {
+            "iso": "83",
+            "key": "ภูเก็ต"
+        },
+        {
+            "iso": "44",
+            "key": "มหาสารคาม"
+        },
+        {
+            "iso": "49",
+            "key": "มุกดาหาร"
+        },
+        {
+            "iso": "58",
+            "key": "แม่ฮ่องสอน"
+        },
+        {
+            "iso": "35",
+            "key": "ยโสธร"
+        },
+        {
+            "iso": "95",
+            "key": "ยะลา"
+        },
+        {
+            "iso": "45",
+            "key": "ร้อยเอ็ด"
+        },
+        {
+            "iso": "85",
+            "key": "ระนอง"
+        },
+        {
+            "iso": "21",
+            "key": "ระยอง"
+        },
+        {
+            "iso": "70",
+            "key": "ราชบุรี"
+        },
+        {
+            "iso": "16",
+            "key": "ลพบุรี"
+        },
+        {
+            "iso": "52",
+            "key": "ลำปาง"
+        },
+        {
+            "iso": "51",
+            "key": "ลำพูน"
+        },
+        {
+            "iso": "42",
+            "key": "เลย"
+        },
+        {
+            "iso": "33",
+            "key": "ศรีสะเกษ"
+        },
+        {
+            "iso": "47",
+            "key": "สกลนคร"
+        },
+        {
+            "iso": "90",
+            "key": "สงขลา"
+        },
+        {
+            "iso": "91",
+            "key": "สตูล"
+        },
+        {
+            "iso": "11",
+            "key": "สมุทรปราการ"
+        },
+        {
+            "iso": "75",
+            "key": "สมุทรสงคราม"
+        },
+        {
+            "iso": "74",
+            "key": "สมุทรสาคร"
+        },
+        {
+            "iso": "27",
+            "key": "สระแก้ว"
+        },
+        {
+            "iso": "19",
+            "key": "สระบุรี"
+        },
+        {
+            "iso": "17",
+            "key": "สิงห์บุรี"
+        },
+        {
+            "iso": "64",
+            "key": "สุโขทัย"
+        },
+        {
+            "iso": "72",
+            "key": "สุพรรณบุรี"
+        },
+        {
+            "iso": "84",
+            "key": "สุราษฎร์ธานี"
+        },
+        {
+            "iso": "32",
+            "key": "สุรินทร์"
+        },
+        {
+            "iso": "43",
+            "key": "หนองคาย"
+        },
+        {
+            "iso": "39",
+            "key": "หนองบัวลำภู"
+        },
+        {
+            "iso": "15",
+            "key": "อ่างทอง"
+        },
+        {
+            "iso": "37",
+            "key": "อำนาจเจริญ"
+        },
+        {
+            "iso": "41",
+            "key": "อุดรธานี"
+        },
+        {
+            "iso": "53",
+            "key": "อุตรดิตถ์"
+        },
+        {
+            "iso": "61",
+            "key": "อุทัยธานี"
+        },
+        {
+            "iso": "34",
+            "key": "อุบลราชธานี"
+        }
+    ],
+    "TJ": null,
+    "TK": null,
+    "TL": null,
+    "TM": null,
+    "TN": null,
+    "TO": null,
+    "TR": [
+        {
+            "iso": "01",
+            "key": "Adana"
+        },
+        {
+            "iso": "02",
+            "key": "Adıyaman"
+        },
+        {
+            "iso": "03",
+            "key": "Afyon"
+        },
+        {
+            "iso": "04",
+            "key": "Ağrı"
+        },
+        {
+            "iso": "68",
+            "key": "Aksaray"
+        },
+        {
+            "iso": "05",
+            "key": "Amasya"
+        },
+        {
+            "iso": "06",
+            "key": "Ankara"
+        },
+        {
+            "iso": "07",
+            "key": "Antalya"
+        },
+        {
+            "iso": "75",
+            "key": "Ardahan"
+        },
+        {
+            "iso": "08",
+            "key": "Artvin"
+        },
+        {
+            "iso": "09",
+            "key": "Aydın"
+        },
+        {
+            "iso": "10",
+            "key": "Balıkesir"
+        },
+        {
+            "iso": "74",
+            "key": "Bartın"
+        },
+        {
+            "iso": "72",
+            "key": "Batman"
+        },
+        {
+            "iso": "69",
+            "key": "Bayburt"
+        },
+        {
+            "iso": "11",
+            "key": "Bilecik"
+        },
+        {
+            "iso": "12",
+            "key": "Bingöl"
+        },
+        {
+            "iso": "13",
+            "key": "Bitlis"
+        },
+        {
+            "iso": "14",
+            "key": "Bolu"
+        },
+        {
+            "iso": "15",
+            "key": "Burdur"
+        },
+        {
+            "iso": "16",
+            "key": "Bursa"
+        },
+        {
+            "iso": "17",
+            "key": "Çanakkale"
+        },
+        {
+            "iso": "18",
+            "key": "Çankırı"
+        },
+        {
+            "iso": "19",
+            "key": "Çorum"
+        },
+        {
+            "iso": "20",
+            "key": "Denizli"
+        },
+        {
+            "iso": "21",
+            "key": "Diyarbakır"
+        },
+        {
+            "iso": "81",
+            "key": "Düzce"
+        },
+        {
+            "iso": "22",
+            "key": "Edirne"
+        },
+        {
+            "iso": "23",
+            "key": "Elazığ"
+        },
+        {
+            "iso": "24",
+            "key": "Erzincan"
+        },
+        {
+            "iso": "25",
+            "key": "Erzurum"
+        },
+        {
+            "iso": "26",
+            "key": "Eskişehir"
+        },
+        {
+            "iso": "27",
+            "key": "Gaziantep"
+        },
+        {
+            "iso": "28",
+            "key": "Giresun"
+        },
+        {
+            "iso": "29",
+            "key": "Gümüşhane"
+        },
+        {
+            "iso": "30",
+            "key": "Hakkari"
+        },
+        {
+            "iso": "31",
+            "key": "Hatay"
+        },
+        {
+            "iso": "76",
+            "key": "Iğdır"
+        },
+        {
+            "iso": "32",
+            "key": "Isparta"
+        },
+        {
+            "iso": "34",
+            "key": "İstanbul"
+        },
+        {
+            "iso": "35",
+            "key": "İzmir"
+        },
+        {
+            "iso": "46",
+            "key": "Kahramanmaraş"
+        },
+        {
+            "iso": "78",
+            "key": "Karabük"
+        },
+        {
+            "iso": "70",
+            "key": "Karaman"
+        },
+        {
+            "iso": "36",
+            "key": "Kars"
+        },
+        {
+            "iso": "37",
+            "key": "Kastamonu"
+        },
+        {
+            "iso": "38",
+            "key": "Kayseri"
+        },
+        {
+            "iso": "71",
+            "key": "Kırıkkale"
+        },
+        {
+            "iso": "39",
+            "key": "Kırklareli"
+        },
+        {
+            "iso": "40",
+            "key": "Kırşehir"
+        },
+        {
+            "iso": "79",
+            "key": "Kilis"
+        },
+        {
+            "iso": "41",
+            "key": "Kocaeli"
+        },
+        {
+            "iso": "42",
+            "key": "Konya"
+        },
+        {
+            "iso": "43",
+            "key": "Kütahya"
+        },
+        {
+            "iso": "44",
+            "key": "Malatya"
+        },
+        {
+            "iso": "45",
+            "key": "Manisa"
+        },
+        {
+            "iso": "47",
+            "key": "Mardin"
+        },
+        {
+            "iso": "33",
+            "key": "Mersin"
+        },
+        {
+            "iso": "48",
+            "key": "Muğla"
+        },
+        {
+            "iso": "49",
+            "key": "Muş"
+        },
+        {
+            "iso": "50",
+            "key": "Nevşehir"
+        },
+        {
+            "iso": "51",
+            "key": "Niğde"
+        },
+        {
+            "iso": "52",
+            "key": "Ordu"
+        },
+        {
+            "iso": "80",
+            "key": "Osmaniye"
+        },
+        {
+            "iso": "53",
+            "key": "Rize"
+        },
+        {
+            "iso": "54",
+            "key": "Sakarya"
+        },
+        {
+            "iso": "55",
+            "key": "Samsun"
+        },
+        {
+            "iso": "56",
+            "key": "Siirt"
+        },
+        {
+            "iso": "57",
+            "key": "Sinop"
+        },
+        {
+            "iso": "58",
+            "key": "Sivas"
+        },
+        {
+            "iso": "63",
+            "key": "Şanlıurfa"
+        },
+        {
+            "iso": "73",
+            "key": "Şırnak"
+        },
+        {
+            "iso": "59",
+            "key": "Tekirdağ"
+        },
+        {
+            "iso": "60",
+            "key": "Tokat"
+        },
+        {
+            "iso": "61",
+            "key": "Trabzon"
+        },
+        {
+            "iso": "62",
+            "key": "Tunceli"
+        },
+        {
+            "iso": "64",
+            "key": "Uşak"
+        },
+        {
+            "iso": "65",
+            "key": "Van"
+        },
+        {
+            "iso": "77",
+            "key": "Yalova"
+        },
+        {
+            "iso": "66",
+            "key": "Yozgat"
+        },
+        {
+            "iso": "67",
+            "key": "Zonguldak"
+        }
+    ],
+    "TT": null,
+    "TV": [
+        {
+            "iso": "FUN",
+            "key": "Funafuti"
+        },
+        {
+            "iso": "NMG",
+            "key": "Nanumanga"
+        },
+        {
+            "iso": "NMA",
+            "key": "Nanumea"
+        },
+        {
+            "iso": "",
+            "key": "Niulakita"
+        },
+        {
+            "iso": "NIT",
+            "key": "Niutao"
+        },
+        {
+            "iso": "NUI",
+            "key": "Nui"
+        },
+        {
+            "iso": "NKF",
+            "key": "Nukufetau"
+        },
+        {
+            "iso": "NKL",
+            "key": "Nukulaelae"
+        },
+        {
+            "iso": "VAI",
+            "key": "Vaitupu"
+        }
+    ],
+    "TW": [
+        {
+            "iso": "TXG",
+            "key": "台中市"
+        },
+        {
+            "iso": "TPE",
+            "key": "台北市"
+        },
+        {
+            "iso": "TTT",
+            "key": "台東縣"
+        },
+        {
+            "iso": "TNN",
+            "key": "台南市"
+        },
+        {
+            "iso": "ILA",
+            "key": "宜蘭縣"
+        },
+        {
+            "iso": "HUA",
+            "key": "花蓮縣"
+        },
+        {
+            "iso": "",
+            "key": "金門縣"
+        },
+        {
+            "iso": "NAN",
+            "key": "南投縣"
+        },
+        {
+            "iso": "PIF",
+            "key": "屏東縣"
+        },
+        {
+            "iso": "MIA",
+            "key": "苗栗縣"
+        },
+        {
+            "iso": "TAO",
+            "key": "桃園市"
+        },
+        {
+            "iso": "KHH",
+            "key": "高雄市"
+        },
+        {
+            "iso": "KEE",
+            "key": "基隆市"
+        },
+        {
+            "iso": "",
+            "key": "連江縣"
+        },
+        {
+            "iso": "YUN",
+            "key": "雲林縣"
+        },
+        {
+            "iso": "NWT",
+            "key": "新北市"
+        },
+        {
+            "iso": "HSZ",
+            "key": "新竹市"
+        },
+        {
+            "iso": "HSQ",
+            "key": "新竹縣"
+        },
+        {
+            "iso": "CYI",
+            "key": "嘉義市"
+        },
+        {
+            "iso": "CYQ",
+            "key": "嘉義縣"
+        },
+        {
+            "iso": "CHA",
+            "key": "彰化縣"
+        },
+        {
+            "iso": "PEN",
+            "key": "澎湖縣"
+        }
+    ],
+    "TZ": null,
+    "UA": [
+        {
+            "iso": "43",
+            "key": "Автономна Республіка Крим"
+        },
+        {
+            "iso": "05",
+            "key": "Вінницька область"
+        },
+        {
+            "iso": "07",
+            "key": "Волинська область"
+        },
+        {
+            "iso": "12",
+            "key": "Дніпропетровська область"
+        },
+        {
+            "iso": "14",
+            "key": "Донецька область"
+        },
+        {
+            "iso": "18",
+            "key": "Житомирська область"
+        },
+        {
+            "iso": "21",
+            "key": "Закарпатська область"
+        },
+        {
+            "iso": "23",
+            "key": "Запорізька область"
+        },
+        {
+            "iso": "26",
+            "key": "Івано-Франківська область"
+        },
+        {
+            "iso": "30",
+            "key": "місто Київ"
+        },
+        {
+            "iso": "32",
+            "key": "Київська область"
+        },
+        {
+            "iso": "35",
+            "key": "Кіровоградська область"
+        },
+        {
+            "iso": "09",
+            "key": "Луганська область"
+        },
+        {
+            "iso": "46",
+            "key": "Львівська область"
+        },
+        {
+            "iso": "48",
+            "key": "Миколаївська область"
+        },
+        {
+            "iso": "51",
+            "key": "Одеська область"
+        },
+        {
+            "iso": "53",
+            "key": "Полтавська область"
+        },
+        {
+            "iso": "56",
+            "key": "Рівненська область"
+        },
+        {
+            "iso": "40",
+            "key": "місто Севастополь"
+        },
+        {
+            "iso": "59",
+            "key": "Сумська область"
+        },
+        {
+            "iso": "61",
+            "key": "Тернопільська область"
+        },
+        {
+            "iso": "63",
+            "key": "Харківська область"
+        },
+        {
+            "iso": "65",
+            "key": "Херсонська область"
+        },
+        {
+            "iso": "68",
+            "key": "Хмельницька область"
+        },
+        {
+            "iso": "71",
+            "key": "Черкаська область"
+        },
+        {
+            "iso": "77",
+            "key": "Чернівецька область"
+        },
+        {
+            "iso": "74",
+            "key": "Чернігівська область"
+        }
+    ],
+    "UG": null,
+    "UM": [],
+    "US": [
+        {
+            "iso": "AL",
+            "key": "AL"
+        },
+        {
+            "iso": "AK",
+            "key": "AK"
+        },
+        {
+            "iso": "",
+            "key": "AS"
+        },
+        {
+            "iso": "AZ",
+            "key": "AZ"
+        },
+        {
+            "iso": "AR",
+            "key": "AR"
+        },
+        {
+            "iso": "",
+            "key": "AA"
+        },
+        {
+            "iso": "",
+            "key": "AE"
+        },
+        {
+            "iso": "",
+            "key": "AP"
+        },
+        {
+            "iso": "CA",
+            "key": "CA"
+        },
+        {
+            "iso": "CO",
+            "key": "CO"
+        },
+        {
+            "iso": "CT",
+            "key": "CT"
+        },
+        {
+            "iso": "DE",
+            "key": "DE"
+        },
+        {
+            "iso": "DC",
+            "key": "DC"
+        },
+        {
+            "iso": "FL",
+            "key": "FL"
+        },
+        {
+            "iso": "GA",
+            "key": "GA"
+        },
+        {
+            "iso": "",
+            "key": "GU"
+        },
+        {
+            "iso": "HI",
+            "key": "HI"
+        },
+        {
+            "iso": "ID",
+            "key": "ID"
+        },
+        {
+            "iso": "IL",
+            "key": "IL"
+        },
+        {
+            "iso": "IN",
+            "key": "IN"
+        },
+        {
+            "iso": "IA",
+            "key": "IA"
+        },
+        {
+            "iso": "KS",
+            "key": "KS"
+        },
+        {
+            "iso": "KY",
+            "key": "KY"
+        },
+        {
+            "iso": "LA",
+            "key": "LA"
+        },
+        {
+            "iso": "ME",
+            "key": "ME"
+        },
+        {
+            "iso": "",
+            "key": "MH"
+        },
+        {
+            "iso": "MD",
+            "key": "MD"
+        },
+        {
+            "iso": "MA",
+            "key": "MA"
+        },
+        {
+            "iso": "MI",
+            "key": "MI"
+        },
+        {
+            "iso": "",
+            "key": "FM"
+        },
+        {
+            "iso": "MN",
+            "key": "MN"
+        },
+        {
+            "iso": "MS",
+            "key": "MS"
+        },
+        {
+            "iso": "MO",
+            "key": "MO"
+        },
+        {
+            "iso": "MT",
+            "key": "MT"
+        },
+        {
+            "iso": "NE",
+            "key": "NE"
+        },
+        {
+            "iso": "NV",
+            "key": "NV"
+        },
+        {
+            "iso": "NH",
+            "key": "NH"
+        },
+        {
+            "iso": "NJ",
+            "key": "NJ"
+        },
+        {
+            "iso": "NM",
+            "key": "NM"
+        },
+        {
+            "iso": "NY",
+            "key": "NY"
+        },
+        {
+            "iso": "NC",
+            "key": "NC"
+        },
+        {
+            "iso": "ND",
+            "key": "ND"
+        },
+        {
+            "iso": "",
+            "key": "MP"
+        },
+        {
+            "iso": "OH",
+            "key": "OH"
+        },
+        {
+            "iso": "OK",
+            "key": "OK"
+        },
+        {
+            "iso": "OR",
+            "key": "OR"
+        },
+        {
+            "iso": "",
+            "key": "PW"
+        },
+        {
+            "iso": "PA",
+            "key": "PA"
+        },
+        {
+            "iso": "",
+            "key": "PR"
+        },
+        {
+            "iso": "RI",
+            "key": "RI"
+        },
+        {
+            "iso": "SC",
+            "key": "SC"
+        },
+        {
+            "iso": "SD",
+            "key": "SD"
+        },
+        {
+            "iso": "TN",
+            "key": "TN"
+        },
+        {
+            "iso": "TX",
+            "key": "TX"
+        },
+        {
+            "iso": "UT",
+            "key": "UT"
+        },
+        {
+            "iso": "VT",
+            "key": "VT"
+        },
+        {
+            "iso": "",
+            "key": "VI"
+        },
+        {
+            "iso": "VA",
+            "key": "VA"
+        },
+        {
+            "iso": "WA",
+            "key": "WA"
+        },
+        {
+            "iso": "WV",
+            "key": "WV"
+        },
+        {
+            "iso": "WI",
+            "key": "WI"
+        },
+        {
+            "iso": "WY",
+            "key": "WY"
+        }
+    ],
+    "UY": [
+        {
+            "iso": "AR",
+            "key": "Artigas"
+        },
+        {
+            "iso": "CA",
+            "key": "Canelones"
+        },
+        {
+            "iso": "CL",
+            "key": "Cerro Largo"
+        },
+        {
+            "iso": "CO",
+            "key": "Colonia"
+        },
+        {
+            "iso": "DU",
+            "key": "Durazno"
+        },
+        {
+            "iso": "FS",
+            "key": "Flores"
+        },
+        {
+            "iso": "FD",
+            "key": "Florida"
+        },
+        {
+            "iso": "LA",
+            "key": "Lavalleja"
+        },
+        {
+            "iso": "MA",
+            "key": "Maldonado"
+        },
+        {
+            "iso": "MO",
+            "key": "Montevideo"
+        },
+        {
+            "iso": "PA",
+            "key": "Paysandú"
+        },
+        {
+            "iso": "RN",
+            "key": "Río Negro"
+        },
+        {
+            "iso": "RV",
+            "key": "Rivera"
+        },
+        {
+            "iso": "RO",
+            "key": "Rocha"
+        },
+        {
+            "iso": "SA",
+            "key": "Salto"
+        },
+        {
+            "iso": "SJ",
+            "key": "San José"
+        },
+        {
+            "iso": "SO",
+            "key": "Soriano"
+        },
+        {
+            "iso": "TA",
+            "key": "Tacuarembó"
+        },
+        {
+            "iso": "TT",
+            "key": "Treinta y Tres"
+        }
+    ],
+    "UZ": [
+        {
+            "iso": "TK",
+            "key": "Tashkent"
+        },
+        {
+            "iso": "AN",
+            "key": "Andijan Region"
+        },
+        {
+            "iso": "BU",
+            "key": "Bukhara Region"
+        },
+        {
+            "iso": "FA",
+            "key": "Fergana Region"
+        },
+        {
+            "iso": "JI",
+            "key": "Jizzakh Region"
+        },
+        {
+            "iso": "NG",
+            "key": "Namangan Region"
+        },
+        {
+            "iso": "NW",
+            "key": "Navoiy Region"
+        },
+        {
+            "iso": "QA",
+            "key": "Qashqadaryo Region"
+        },
+        {
+            "iso": "SA",
+            "key": "Samarqand Region"
+        },
+        {
+            "iso": "SI",
+            "key": "Sirdaryo Region"
+        },
+        {
+            "iso": "SU",
+            "key": "Surxondaryo Region"
+        },
+        {
+            "iso": "TO",
+            "key": "Tashkent Region"
+        },
+        {
+            "iso": "XO",
+            "key": "Xorazm Region"
+        },
+        {
+            "iso": "QR",
+            "key": "Karakalpakstan"
+        }
+    ],
+    "VA": null,
+    "VC": null,
+    "VE": [
+        {
+            "iso": "Z",
+            "key": "Amazonas"
+        },
+        {
+            "iso": "B",
+            "key": "Anzoátegui"
+        },
+        {
+            "iso": "C",
+            "key": "Apure"
+        },
+        {
+            "iso": "D",
+            "key": "Aragua"
+        },
+        {
+            "iso": "E",
+            "key": "Barinas"
+        },
+        {
+            "iso": "F",
+            "key": "Bolívar"
+        },
+        {
+            "iso": "G",
+            "key": "Carabobo"
+        },
+        {
+            "iso": "H",
+            "key": "Cojedes"
+        },
+        {
+            "iso": "Y",
+            "key": "Delta Amacuro"
+        },
+        {
+            "iso": "W",
+            "key": "Dependencias Federales"
+        },
+        {
+            "iso": "A",
+            "key": "Distrito Federal"
+        },
+        {
+            "iso": "I",
+            "key": "Falcón"
+        },
+        {
+            "iso": "J",
+            "key": "Guárico"
+        },
+        {
+            "iso": "K",
+            "key": "Lara"
+        },
+        {
+            "iso": "L",
+            "key": "Mérida"
+        },
+        {
+            "iso": "M",
+            "key": "Miranda"
+        },
+        {
+            "iso": "N",
+            "key": "Monagas"
+        },
+        {
+            "iso": "O",
+            "key": "Nueva Esparta"
+        },
+        {
+            "iso": "P",
+            "key": "Portuguesa"
+        },
+        {
+            "iso": "R",
+            "key": "Sucre"
+        },
+        {
+            "iso": "S",
+            "key": "Táchira"
+        },
+        {
+            "iso": "T",
+            "key": "Trujillo"
+        },
+        {
+            "iso": "X",
+            "key": "Vargas"
+        },
+        {
+            "iso": "U",
+            "key": "Yaracuy"
+        },
+        {
+            "iso": "V",
+            "key": "Zulia"
+        }
+    ],
+    "VG": null,
+    "VI": [],
+    "VN": [
+        {
+            "iso": "44",
+            "key": "An Giang"
+        },
+        {
+            "iso": "43",
+            "key": "Bà Rịa–Vũng Tàu"
+        },
+        {
+            "iso": "55",
+            "key": "Bạc Liêu"
+        },
+        {
+            "iso": "54",
+            "key": "Bắc Giang"
+        },
+        {
+            "iso": "53",
+            "key": "Bắc Kạn"
+        },
+        {
+            "iso": "56",
+            "key": "Bắc Ninh"
+        },
+        {
+            "iso": "50",
+            "key": "Bến Tre"
+        },
+        {
+            "iso": "57",
+            "key": "Bình Dương"
+        },
+        {
+            "iso": "31",
+            "key": "Bình Định"
+        },
+        {
+            "iso": "58",
+            "key": "Bình Phước"
+        },
+        {
+            "iso": "40",
+            "key": "Bình Thuận"
+        },
+        {
+            "iso": "59",
+            "key": "Cà Mau"
+        },
+        {
+            "iso": "04",
+            "key": "Cao Bằng"
+        },
+        {
+            "iso": "CT",
+            "key": "Cần Thơ"
+        },
+        {
+            "iso": "DN",
+            "key": "Đà Nẵng"
+        },
+        {
+            "iso": "33",
+            "key": "Đắk Lắk"
+        },
+        {
+            "iso": "72",
+            "key": "Đăk Nông"
+        },
+        {
+            "iso": "71",
+            "key": "Điện Biên"
+        },
+        {
+            "iso": "39",
+            "key": "Đồng Nai"
+        },
+        {
+            "iso": "45",
+            "key": "Đồng Tháp"
+        },
+        {
+            "iso": "30",
+            "key": "Gia Lai"
+        },
+        {
+            "iso": "03",
+            "key": "Hà Giang"
+        },
+        {
+            "iso": "63",
+            "key": "Hà Nam"
+        },
+        {
+            "iso": "HN",
+            "key": "Hà Nội"
+        },
+        {
+            "iso": "23",
+            "key": "Hà Tĩnh"
+        },
+        {
+            "iso": "61",
+            "key": "Hải Dương"
+        },
+        {
+            "iso": "HP",
+            "key": "Hải Phòng"
+        },
+        {
+            "iso": "73",
+            "key": "Hậu Giang"
+        },
+        {
+            "iso": "14",
+            "key": "Hòa Bình"
+        },
+        {
+            "iso": "66",
+            "key": "Hưng Yên"
+        },
+        {
+            "iso": "34",
+            "key": "Khánh Hòa"
+        },
+        {
+            "iso": "47",
+            "key": "Kiên Giang"
+        },
+        {
+            "iso": "28",
+            "key": "Kon Tum"
+        },
+        {
+            "iso": "01",
+            "key": "Lai Châu"
+        },
+        {
+            "iso": "09",
+            "key": "Lạng Sơn"
+        },
+        {
+            "iso": "02",
+            "key": "Lào Cai"
+        },
+        {
+            "iso": "35",
+            "key": "Lâm Đồng"
+        },
+        {
+            "iso": "41",
+            "key": "Long An"
+        },
+        {
+            "iso": "67",
+            "key": "Nam Định"
+        },
+        {
+            "iso": "22",
+            "key": "Nghệ An"
+        },
+        {
+            "iso": "18",
+            "key": "Ninh Bình"
+        },
+        {
+            "iso": "36",
+            "key": "Ninh Thuận"
+        },
+        {
+            "iso": "68",
+            "key": "Phú Thọ"
+        },
+        {
+            "iso": "32",
+            "key": "Phú Yên"
+        },
+        {
+            "iso": "24",
+            "key": "Quảng Bình"
+        },
+        {
+            "iso": "27",
+            "key": "Quảng Nam"
+        },
+        {
+            "iso": "29",
+            "key": "Quảng Ngãi"
+        },
+        {
+            "iso": "13",
+            "key": "Quảng Ninh"
+        },
+        {
+            "iso": "25",
+            "key": "Quảng Trị"
+        },
+        {
+            "iso": "52",
+            "key": "Sóc Trăng"
+        },
+        {
+            "iso": "05",
+            "key": "Sơn La"
+        },
+        {
+            "iso": "37",
+            "key": "Tây Ninh"
+        },
+        {
+            "iso": "20",
+            "key": "Thái Bình"
+        },
+        {
+            "iso": "69",
+            "key": "Thái Nguyên"
+        },
+        {
+            "iso": "21",
+            "key": "Thanh Hóa"
+        },
+        {
+            "iso": "SG",
+            "key": "Thành phố Hồ Chí Minh"
+        },
+        {
+            "iso": "26",
+            "key": "Thừa Thiên–Huế"
+        },
+        {
+            "iso": "46",
+            "key": "Tiền Giang"
+        },
+        {
+            "iso": "51",
+            "key": "Trà Vinh"
+        },
+        {
+            "iso": "07",
+            "key": "Tuyên Quang"
+        },
+        {
+            "iso": "49",
+            "key": "Vĩnh Long"
+        },
+        {
+            "iso": "70",
+            "key": "Vĩnh Phúc"
+        },
+        {
+            "iso": "06",
+            "key": "Yên Bái"
+        }
+    ],
+    "VU": null,
+    "WF": null,
+    "WS": null,
+    "XK": null,
+    "YE": null,
+    "YT": null,
+    "ZA": null,
+    "ZM": null,
+    "ZW": null
+}

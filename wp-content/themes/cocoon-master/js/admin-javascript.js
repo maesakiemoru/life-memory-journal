@@ -1,0 +1,55 @@
+/**
+ * Cocoon WordPress Theme
+ * @author: yhira
+ * @link: https://wp-cocoon.com/
+ * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ */
+
+// 管理タブの何番目がクリックされたか
+document.querySelectorAll( '#tabs > ul > li' ).forEach( ( tab, index ) => {
+  tab.addEventListener( 'click', () => {
+    document.getElementById( 'select_index' ).value = index;
+  } );
+} );
+
+// トグルスイッチ
+document.querySelectorAll( '.toggle-link' ).forEach( ( toggleLink ) => {
+  toggleLink.addEventListener( 'click', () => {
+    const toggleContent = toggleLink.nextElementSibling;
+    if (
+      toggleContent &&
+      toggleContent.classList.contains( 'toggle-content' )
+    ) {
+      toggleContent.style.display =
+        toggleContent.style.display === 'none' ? 'block' : 'none';
+    }
+  } );
+} );
+
+// WordPressの管理バー削除処理
+function deleteWpAdminBar( selector ) {
+  document.querySelectorAll( selector ).forEach( ( iframe ) => {
+    iframe.addEventListener( 'load', () => {
+      const iframeContent = iframe.contentDocument;
+      if ( iframeContent ) {
+        const wpAdminBar = iframeContent.getElementById( 'wpadminbar' );
+        if ( wpAdminBar ) wpAdminBar.style.display = 'none';
+        const adminPanel = iframeContent.querySelector( '.admin-panel' );
+        if ( adminPanel ) adminPanel.style.display = 'none';
+        // インラインスタイルを個別に設定し、他のプロパティ（WPコアのCSS変数等）を保持する
+        iframeContent.documentElement.style.setProperty(
+          'margin-top',
+          '0px',
+          'important'
+        );
+        // プレビュー内でadminbarを非表示にした際、ヘッダーモバイルボタンの位置ずれを防ぐため、CSS変数も0pxに設定
+        iframeContent.documentElement.style.setProperty(
+          '--wp-admin--admin-bar--height',
+          '0px'
+        );
+      }
+    } );
+  } );
+}
+
+deleteWpAdminBar( '.iframe-demo' );

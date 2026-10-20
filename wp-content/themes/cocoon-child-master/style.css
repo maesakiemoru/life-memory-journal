@@ -1,0 +1,638 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.3
+*/
+
+/* ブラウザの自動変換を防ぎ、標準配色をライト固定にする */
+/* スマホ（iOS Safari / Android Chrome）の自動ダークモード・色反転を完全に強制無効化 */
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+
+/* CSS でボタンのデザイン */
+.jump-to-comments-wrapper {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.jump-to-comments-button {
+  display: inline-block;
+  background-color: #B9E089;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.jump-to-comments-button:hover {
+  background-color: #B9E089;
+  color: #EA6969;
+}
+
+.logo {
+  background-color: #3d2323c7;
+  transform: translateY(90%);
+  height: 90px;
+  padding-top: 30px;
+}
+
+.tagline {
+  transform: translateY(-60%);
+}
+
+/* 固定ヘッダーになった時は解除 */
+.fixed-header .logo {
+  transform: none !important;
+}
+
+.cocoon-custom-text-1 {
+  color: #EA6969;
+  font-weight: bold;
+}
+
+/* HOME固定ページ h3の左線を消す */
+.page-id-513 h3 {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* ダークモード切替ボタン（デフォルト設定） */
+.dark-menu {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+.dark-menu button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/* ==================================
+** ダークモード全般
+================================== */
+
+/* 背景・基本カラー */
+body.dark-mode {
+  background: #171411;
+  color: #ddd;
+}
+
+/* Cocoon全体ダーク背景 */
+body.dark-mode,
+body.dark-mode #container,
+body.dark-mode #content,
+body.dark-mode .main,
+body.dark-mode .article,
+body.dark-mode .entry-content,
+body.dark-mode .sidebar {
+  background: #171411 !important;
+}
+
+/* ヘッダー・ナビ */
+body.dark-mode #header-container,
+body.dark-mode .navi {
+  background: #171411 !important;
+}
+
+/* グローバルナビ文字・ホバー */
+body.dark-mode .navi a {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .navi a:hover,
+body.dark-mode .sub-menu a:hover,
+body.dark-mode #header-container a:hover {
+  background: #3a3128 !important;
+}
+
+body.dark-mode .sub-menu {
+  background: #24201c !important;
+  color: #e8dcc5 !important;
+}
+
+/* サイト名・記事タイトル・見出し */
+body.dark-mode .site-name-text,
+body.dark-mode .entry-title,
+body.dark-mode .widget-title,
+body.dark-mode #archive-title,
+body.dark-mode .breadcrumb,
+body.dark-mode .breadcrumb a,
+body.dark-mode .breadcrumb-caption,
+body.dark-mode .sns-share,
+body.dark-mode .sns-share a,
+body.dark-mode .sns-share-message,
+body.dark-mode .related-entry-main-heading {
+  color: #e8dcc5 !important;
+}
+
+/* 投稿本文・記事カード */
+body.dark-mode .a-wrap,
+body.dark-mode .widget,
+body.dark-mode .sidebar .widget {
+  background: #24201c !important;
+  color: #ddd;
+  border-color: #444 !important;
+}
+
+body.dark-mode .article-header,
+body.dark-mode .entry-content,
+body.dark-mode .article-footer {
+  background: #171411 !important;
+  color: #ddd !important;
+}
+
+body.dark-mode .entry-content p,
+body.dark-mode .entry-content li {
+  color: #ddd !important;
+}
+
+body.dark-mode .entry-content h1,
+body.dark-mode .entry-content h2,
+body.dark-mode .entry-content h3,
+body.dark-mode .entry-content h4 {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .entry-content a {
+  color: #d9a85f !important;
+}
+
+/* コメント欄 */
+body.dark-mode #comments,
+body.dark-mode .comment-area {
+  background: #171411 !important;
+  color: #ddd !important;
+}
+
+body.dark-mode #comments p,
+body.dark-mode #comments label,
+body.dark-mode .comment-notes,
+body.dark-mode .comment-user-info {
+  color: #ddd !important;
+}
+
+body.dark-mode #comments a {
+  color: #d9a85f !important;
+}
+
+/* フォーム・入力欄（標準） */
+body.dark-mode textarea,
+body.dark-mode input[type="text"],
+body.dark-mode select {
+  background: #24201c !important;
+  color: #ddd !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode select {
+  color: #e8dcc5 !important;
+}
+
+/* 検索ボックス */
+body.dark-mode .search-edit {
+  background: #24201c !important;
+  color: #e8dcc5 !important;
+  border: 1px solid #555 !important;
+}
+
+body.dark-mode .search-edit::placeholder {
+  color: #aaa !important;
+}
+
+body.dark-mode .search-edit:focus {
+  border-color: #8a6d3b !important;
+  outline: none !important;
+}
+
+/* フッター・著作権 */
+body.dark-mode .footer,
+body.dark-mode #footer {
+  background: #171411 !important;
+  color: #ddd !important;
+}
+
+body.dark-mode .source-org.copyright,
+body.dark-mode .source-org.copyright a {
+  color: #fff !important;
+}
+
+/* カテゴリー */
+body.dark-mode .category-list,
+body.dark-mode .widget_categories {
+  background: #171411 !important;
+  color: #ddd !important;
+}
+
+body.dark-mode .widget_categories a,
+body.dark-mode .cat-item a,
+body.dark-mode .widget_categories .widget-title {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .widget_categories .count {
+  color: #aaa !important;
+}
+
+/* 記事内パーツ（引用・吹き出し・ボックス・目次） */
+body.dark-mode blockquote,
+body.dark-mode .speech-balloon,
+body.dark-mode .blank-box,
+body.dark-mode .box,
+body.dark-mode .toc,
+body.dark-mode .common-icon-box,
+body.dark-mode .block-box,
+body.dark-mode .information-box,
+body.dark-mode .wp-block-cocoon-blocks-icon-box {
+  background: #24201c !important;
+  color: #ddd !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode blockquote {
+  border-color: #8a6d3b !important;
+}
+
+body.dark-mode blockquote p,
+body.dark-mode .speech-balloon p,
+body.dark-mode .common-icon-box p,
+body.dark-mode .block-box p,
+body.dark-mode .information-box p {
+  color: #ddd !important;
+}
+
+body.dark-mode .speech-person,
+body.dark-mode .toc a {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .common-icon-box a,
+body.dark-mode .block-box a,
+body.dark-mode .information-box a {
+  color: #d9a85f !important;
+}
+
+/* NOT FOUND */
+body.dark-mode .posts-not-found h2,
+body.dark-mode .posts-not-found p {
+  color: #ffffff !important;
+}
+
+/* HOME固定ページ (page-id-513) 特有設定 */
+body.dark-mode.page-id-513 #book {
+  background: #171411;
+}
+
+body.dark-mode.page-id-513 .book-section {
+  background: #24201c !important;
+  color: #ddd !important;
+}
+
+body.dark-mode.page-id-513 #book h2,
+body.dark-mode.page-id-513 #book a,
+body.dark-mode.page-id-513 .hero-text h1 {
+  color: #f2e5c7 !important;
+}
+
+body.dark-mode.page-id-513 #book p {
+  color: #d8c7a5 !important;
+}
+
+body.dark-mode.page-id-513 .hero-text h4 {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode.page-id-513 .hero-text p {
+  color: #ddd !important;
+}
+
+/* HOME Profile Box 星空カラー */
+body.dark-mode.page-id-513 .home-profile-box {
+  background: #101d3a !important;
+  color: #e8dcc5 !important;
+  border-color: #304a78 !important;
+}
+
+body.dark-mode.page-id-513 .home-profile-box p,
+body.dark-mode.page-id-513 .home-profile-box li {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode.page-id-513 .home-profile-box h2,
+body.dark-mode.page-id-513 .home-profile-box h3 {
+  color: #f2e5c7 !important;
+}
+
+body.dark-mode.page-id-513 .home-profile-box a {
+  color: #9ecbff !important;
+}
+
+/* WPForms ダークモード */
+body.dark-mode .wpforms-container-full {
+  background: #171411 !important;
+}
+
+body.dark-mode .wpforms-container-full p {
+  color: #ffffff !important;
+}
+
+body.dark-mode .wpforms-field-label,
+body.dark-mode .wpforms-field-sublabel {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .wpforms-container-full input[type="text"],
+body.dark-mode .wpforms-container-full input[type="email"],
+body.dark-mode .wpforms-container-full textarea,
+body.dark-mode .wpforms-field-email input {
+  background: #24201c !important;
+  color: #ffffff !important;
+  border: 1px solid #555 !important;
+}
+
+body.dark-mode .wpforms-container-full ::placeholder {
+  color: #aaa !important;
+}
+
+body.dark-mode .wpforms-container-full input:focus,
+body.dark-mode .wpforms-container-full textarea:focus {
+  border-color: #8a6d3b !important;
+}
+
+body.dark-mode .wpforms-submit {
+  background: #B9E089 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px !important;
+}
+
+body.dark-mode .wpforms-submit:hover {
+  background: #B9E089 !important;
+  color: #EA6969 !important;
+}
+
+body.dark-mode .wpforms-required-label {
+  color: #EA6969 !important;
+}
+.source-org.copyright,
+.source-org.copyright a {
+  color:#fff !important;
+}
+.widget-sidebar-title.widget-title {
+  color:#222 !important;
+}
+/* ライトモード：サイドバー見出し黒 */
+.widget-sidebar-title.widget-title,
+.widget-sidebar-scroll-title.widget-title {
+  color: #222 !important;
+}
+/* ライトモード サイドバー文字 */
+.widget-sidebar .widget-title,
+.widget-sidebar p,
+.widget-sidebar a {
+  color:#222 !important;
+}
+.toc,
+.toc .toc-title,
+.toc a {
+  color: #222 !important;
+}
+.breadcrumb,
+.breadcrumb a,
+.breadcrumb-caption {
+  color: #222 !important;
+}
+
+/* =====================
+SNSメッセージ ライトモード
+===================== */
+
+.sns-share-message,
+.sns-follow-message {
+  color: #222 !important;
+}
+.open-book:hover {
+  color:#EA6969 !important;
+}
+/* 本棚を開くボタン ライトモード */
+.open-book {
+  color: #222 !important;
+  -webkit-text-fill-color: #222 !important;
+  border-color: #222 !important;
+}
+
+/* ダークモード */
+body.dark-mode .open-book {
+  color: #e8dcc5 !important;
+  -webkit-text-fill-color: #e8dcc5 !important;
+  border-color: #e8dcc5 !important;
+}
+/* 本棚を開くボタン ホバー（ライトモード） */
+.open-book:hover {
+  background: #222 !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  border-color: #222 !important;
+}
+
+
+/* ダークモード ホバー */
+body.dark-mode .open-book:hover {
+  background: #e8dcc5 !important;
+  color: #171411 !important;
+  -webkit-text-fill-color: #171411 !important;
+  border-color: #e8dcc5 !important;
+}
+/* ダークモード フッターメニュー */
+body.dark-mode .footer-bottom.fnm-text-width .menu-footer li a {
+    color: #e8dcc5 !important;
+    -webkit-text-fill-color: #e8dcc5 !important;
+}
+/* ダークモード フォローメッセージ */
+body.dark-mode .sns-follow-message {
+  color: #e8dcc5 !important;
+}
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+
+/* 1023px以下 */
+@media screen and (max-width: 1023px) {
+  /* 必要ならばここにコードを書く */
+}
+
+/* 834px以下 */
+@media screen and (max-width: 834px) {
+  .logo {
+    background-color: #3d2323c7;
+    transform: translateY(65%);
+    height: 50px;
+    padding-top: 15px;
+  }
+
+  .tagline {
+    transform: translateY(-100%);
+  }
+
+  .dark-menu {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    left: auto !important;
+    z-index: 99999 !important;
+  }
+}
+
+/* 480px以下 */
+@media screen and (max-width: 480px) {
+  /* 必要ならばここにコードを書く */
+}
+/* ==================================
+** スマホ（iOS/Android）の強制ダークモード・自動色反転の完全ブロック
+================================== */
+
+@media (prefers-color-scheme: dark) {
+  /* スマホがダークモードでも、サイト全体の背景と文字色を強制的に元の色に固定 */
+  html, body, #container, #content, .main, .article, .entry-content, .sidebar {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+  }
+
+  /* 本棚（2枚目）の背景色を元のベージュに固定 */
+  #book {
+    background-color: #f5f1e8 !important;
+  }
+
+  /* 本棚のカード背景を白に固定 */
+  .book-section {
+    background-color: #ffffff !important;
+  }
+
+  /* 本棚の見出し（見づらかった文字）を元の濃い茶色に固定 */
+  #book h2,
+  .book-section h2 {
+    color: #3d2323 !important;
+  }
+
+  /* 本棚の説明文を元のグレーに固定 */
+  #book p,
+  .book-section p {
+    color: #555555 !important;
+  }
+}
+
+/* ==================================
+** スマホ上部の不要な白余白（隙間）を完全削除
+================================== */
+
+/* コンテンツエリア全体の上の余白をゼロにする */
+#content,
+#content-in,
+.main,
+.article {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* ヒーローエリアの上の隙間をゼロにする */
+.home-hero,
+.home-hero-image {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* スマホ時のみ、ヘッダー下の不要な隙間を詰める */
+@media (max-width: 768px) {
+  #header,
+  .header-container {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+/* ==================================
+** 手動ダークモード切替時の #book（本棚）色連動
+================================== */
+
+/* 手動でダークモードがONになった時（bodyにdark-modeやdarkクラスが付いた時） */
+body.dark-mode #book,
+body.dark-theme #book,
+body[data-theme="dark"] #book {
+  background-color: #1e1e1e !important; /* ダークモード時の本棚背景（濃いグレー/黒） */
+}
+
+/* ダークモード時のカード部分 */
+body.dark-mode .book-section,
+body.dark-theme .book-section,
+body[data-theme="dark"] .book-section {
+  background-color: #2d2d2d !important; /* ダークモード時のカード背景 */
+  border: 1px solid #444444 !important;
+}
+
+/* ダークモード時の文字色 */
+body.dark-mode .book-section h2,
+body.dark-theme .book-section h2,
+body[data-theme="dark"] .book-section h2 {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+body.dark-mode .book-section p,
+body.dark-theme .book-section p,
+body[data-theme="dark"] .book-section p {
+  color: #cccccc !important;
+  -webkit-text-fill-color: #cccccc !important;
+}
+/* ダークモード：サイドバー新着記事タイトル */
+body.dark-mode .new-entry-card-title,
+body.dark-mode .widget-entry-card-title,
+body.dark-mode .card-title {
+  color: #e8dcc5 !important;
+}
+
+body.dark-mode .widget-sidebar p {
+  color: #e8dcc5 !important;
+}
+/* =====================
+記事内の表 ダークモード
+===================== */
+
+body.dark-mode .wp-block-table table {
+  background: #24201c !important;
+  color: #ddd !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode .wp-block-table th {
+  background: #3a3128 !important;
+  color: #f2e5c7 !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode .wp-block-table td {
+  background: #24201c !important;
+  color: #ddd !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode .wp-block-table strong {
+  color: #f2e5c7 !important;
+}
+
+body.dark-mode .wp-block-table code {
+   background: #24201c !important;
+  color: #ddd !important;
+  border-color: #555 !important;
+}

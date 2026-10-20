@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "cocoon-blocks/timeline-item",
+  "category": "cocoon-block",
+  "parent": [
+    "cocoon-blocks/timeline"
+  ],
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "ラベル"
+    },
+    "title": {
+      "type": "string",
+      "default": "タイトル"
+    }
+  },
+  "example": {},
+  "supports": {
+    "anchor": true,
+    "inserter": false,
+    "html": false
+  }
+}

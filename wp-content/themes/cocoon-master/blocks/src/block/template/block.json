@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "cocoon-blocks/template",
+  "category": "cocoon-block",
+  "keywords": [
+    "template"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": "-1"
+    },
+    "classNames": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {},
+  "supports": {
+    "customClassName": true,
+    "anchor": true,
+    "html": false
+  }
+}

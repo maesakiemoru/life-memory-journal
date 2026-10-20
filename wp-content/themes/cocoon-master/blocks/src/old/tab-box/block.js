@@ -1,0 +1,253 @@
+/**
+ * Cocoon Blocks
+ * @author: yhira
+ * @link: https://wp-cocoon.com/
+ * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ */
+
+import { THEME_NAME, BLOCK_CLASS } from '../../helpers';
+import { createLegacyStyleDeprecation } from '../../style-attribute-compat';
+
+import { __ } from '@wordpress/i18n';
+import { registerBlockType } from '@wordpress/blocks';
+import {
+  InnerBlocks,
+  RichText,
+  InspectorControls,
+  useBlockProps,
+} from '@wordpress/block-editor';
+const { PanelBody, SelectControl, BaseControl } = wp.components;
+import { Fragment } from '@wordpress/element';
+const DEFAULT_MSG = __(
+  'こちらをクリックして設定変更。この入力は公開ページで反映されません。',
+  THEME_NAME
+);
+const DEFAULT_STYLE = 'blank-box bb-tab bb-check';
+
+const BLOCK_ATTRIBUTES = {
+  content: {
+    type: 'string',
+    source: 'html',
+    selector: 'div',
+    default: DEFAULT_MSG,
+  },
+  boxStyle: {
+    type: 'string',
+    default: DEFAULT_STYLE,
+  },
+  style: {
+    type: 'object',
+  },
+  color: {
+    type: 'string',
+    default: '',
+  },
+};
+
+const BLOCK_SUPPORTS = { html: false, inserter: false };
+
+// deprecatedの履歴スキーマを現行定義から独立させ、将来の変更波及を防ぎます。
+const LEGACY_API_VERSION = 3;
+const LEGACY_DEFAULT_STYLE = 'blank-box bb-tab bb-check';
+const LEGACY_BLOCK_ATTRIBUTES = {
+  content: {
+    type: 'string',
+    source: 'html',
+    selector: 'div',
+    default: DEFAULT_MSG,
+  },
+  style: {
+    type: 'string',
+    default: LEGACY_DEFAULT_STYLE,
+  },
+  color: {
+    type: 'string',
+    default: '',
+  },
+};
+const LEGACY_BLOCK_SUPPORTS = { html: false, inserter: false };
+
+function save( { attributes } ) {
+  const blockProps = useBlockProps.save( {
+    className: attributes.boxStyle + attributes.color + BLOCK_CLASS,
+  } );
+  return (
+    <div { ...blockProps }>
+      <InnerBlocks.Content />
+    </div>
+  );
+}
+
+// 旧style属性を使って、保存済みの歴史的HTMLだけを再現します。
+function legacySave( { attributes } ) {
+  const blockProps = useBlockProps.save( {
+    className: attributes.style + attributes.color + BLOCK_CLASS,
+  } );
+  return (
+    <div { ...blockProps }>
+      <InnerBlocks.Content />
+    </div>
+  );
+}
+
+registerBlockType( 'cocoon-blocks/tab-box', {
+  apiVersion: 3,
+  title: __( 'タブボックス', THEME_NAME ),
+  icon: 'dismiss',
+  category: THEME_NAME + '-old',
+  description: __(
+    'タブにメッセージ内容を伝えるための文字が書かれているボックスです。',
+    THEME_NAME
+  ),
+
+  attributes: BLOCK_ATTRIBUTES,
+  supports: BLOCK_SUPPORTS,
+
+  deprecated: [
+    createLegacyStyleDeprecation( {
+      apiVersion: LEGACY_API_VERSION,
+      attributes: LEGACY_BLOCK_ATTRIBUTES,
+      supports: LEGACY_BLOCK_SUPPORTS,
+      legacySave,
+      attributeName: 'boxStyle',
+      defaultValue: LEGACY_DEFAULT_STYLE,
+    } ),
+  ],
+
+  edit( { attributes, setAttributes } ) {
+    const { content, boxStyle, color } = attributes;
+
+    // function onChange(event){
+    //   setAttributes({style: event.target.value});
+    // }
+
+    // function onChangeColor(event){
+    //   setAttributes({color: event.target.value});
+    // }
+
+    // function onChangeContent(newContent){
+    //   setAttributes( { content: newContent } );
+    // }
+
+    return (
+      <Fragment>
+        <InspectorControls>
+          <PanelBody title={ __( 'スタイル設定', THEME_NAME ) }>
+            <SelectControl
+              label={ __( 'タイプ', THEME_NAME ) }
+              value={ boxStyle }
+              onChange={ ( value ) => setAttributes( { boxStyle: value } ) }
+              options={ [
+                {
+                  value: 'blank-box bb-tab bb-check',
+                  label: __( 'チェック', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-comment',
+                  label: __( 'コメント', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-point',
+                  label: __( 'ポイント', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-tips',
+                  label: __( 'ティップス', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-hint',
+                  label: __( 'ヒント', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-pickup',
+                  label: __( 'ピックアップ', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-bookmark',
+                  label: __( 'ブックマーク', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-memo',
+                  label: __( 'メモ', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-download',
+                  label: __( 'ダウンロード', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-break',
+                  label: __( 'ブレイク', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-amazon',
+                  label: __( 'Amazon', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-ok',
+                  label: __( 'OK', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-ng',
+                  label: __( 'NG', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-good',
+                  label: __( 'GOOD', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-bad',
+                  label: __( 'BAD', THEME_NAME ),
+                },
+                {
+                  value: 'blank-box bb-tab bb-profile',
+                  label: __( 'プロフィール', THEME_NAME ),
+                },
+              ] }
+              __nextHasNoMarginBottom={ true }
+              __next40pxDefaultSize={ true } // 新しいデフォルトサイズに対応
+            />
+
+            <SelectControl
+              label={ __( '色設定', THEME_NAME ) }
+              value={ color }
+              onChange={ ( value ) => setAttributes( { color: value } ) }
+              options={ [
+                {
+                  value: '',
+                  label: __( '灰色', THEME_NAME ),
+                },
+                {
+                  value: ' bb-yellow',
+                  label: __( '黄色', THEME_NAME ),
+                },
+                {
+                  value: ' bb-red',
+                  label: __( '赤色', THEME_NAME ),
+                },
+                {
+                  value: ' bb-blue',
+                  label: __( '青色', THEME_NAME ),
+                },
+                {
+                  value: ' bb-green',
+                  label: __( '緑色', THEME_NAME ),
+                },
+              ] }
+              __nextHasNoMarginBottom={ true }
+              __next40pxDefaultSize={ true } // 新しいデフォルトサイズに対応
+            />
+          </PanelBody>
+        </InspectorControls>
+
+        <div className={ attributes.boxStyle + attributes.color + BLOCK_CLASS }>
+          <span className={ 'box-block-msg' }>
+            <RichText value={ content } placeholder={ DEFAULT_MSG } />
+          </span>
+          <InnerBlocks />
+        </div>
+      </Fragment>
+    );
+  },
+
+  save,
+} );

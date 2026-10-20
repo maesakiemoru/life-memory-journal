@@ -1,0 +1,1510 @@
+/**
+ * 0.0 リセットcss
+ *
+ * デフォルトのスタイル削除
+ */
+
+#cloudsecure-wp-security *,
+#cloudsecure-wp-security ::before,
+#cloudsecure-wp-security ::after {
+	box-sizing: border-box;
+}
+
+#cloudsecure-wp-security button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+[role="button"] {
+	cursor: pointer;
+}
+
+/**
+ * 1.0 共通パーツ
+ *
+ * 各ページて用いるパーツ
+ */
+
+/* display:flexの標準セット */
+#cloudsecure-wp-security .flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+
+/*　ヘッダー */
+#cloudsecure-wp-security .header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+/* ヘッダーのロゴ */
+#cloudsecure-wp-security .header-logo {
+	width: min(100%, 380px);
+	aspect-ratio: 380/42;
+	background-image: url("https://maesakiemoru.github.io/life-memory-journal/wp-content/plugins/cloudsecure-wp-security/assets/images/logo.svg?v=2");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* コンテンツの全体を囲む */
+#cloudsecure-wp-security {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #1d2327;
+	font-family: "Meiryo", "メイリオ", sans-serif;
+}
+
+/* ページのタイトルとその説明＋エラー、完了メッセージのエリア */
+#cloudsecure-wp-security .top-area {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+/*　ページのタイトルとマニュアルページへのテキスト*/
+#cloudsecure-wp-security .title-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	order: 1;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+/* ページのタイトル */
+#cloudsecure-wp-security .title-block-title {
+	order: -1;
+	padding: 0 !important;
+	width: -moz-fit-content;
+	width: fit-content;
+	font-size: 23px !important;
+	font-weight: 700 !important;
+}
+
+/* マニュアルページへのテキスト */
+#cloudsecure-wp-security .title-block-small-text {
+	margin: 0 !important;
+	padding-right: 16px;
+	width: -moz-fit-content;
+	width: fit-content;
+	font-size: 13px;
+}
+
+/* マニュアルページへのリンク */
+#cloudsecure-wp-security .title-block-link {
+	position: relative;
+	text-decoration: underline !important;
+	font-size: 13px;
+	outline: 1;
+}
+
+#cloudsecure-wp-security .title-block-link::after {
+	position: absolute;
+	top: 50%;
+	right: -4px;
+	width: 8px;
+	height: 8px;
+	background-image: url("https://maesakiemoru.github.io/life-memory-journal/wp-content/plugins/cloudsecure-wp-security/assets/images/link.png");
+	background-size: cover;
+	transform: translateY(-50%) translateX(100%);
+	content: "";
+}
+
+/* タイトル下のテキスト */
+#cloudsecure-wp-security .title-bottom-text {
+	order: 3;
+	font-size: 13px;
+}
+
+#cloudsecure-wp-security .title-bottom-text strong {
+	font-weight: 700;
+}
+
+/* エラーメッセージと完了メッセージを囲む */
+#cloudsecure-wp-security .error-success-area {
+	order: 2;
+	width: 100%;
+}
+
+/* エラーメッセージと完了メッセージ */
+#cloudsecure-wp-security .error-box,
+#cloudsecure-wp-security .success-box,
+#cloudsecure-wp-security .info-box {
+	position: relative;
+	margin-bottom: 12px;
+	border: 1px solid #f0f0f1;
+	padding: 12px 12px 12px 17px;
+	width: 100%;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+#cloudsecure-wp-security .notice {
+	width: 100%;
+}
+
+#cloudsecure-wp-security .error-box:last-child,
+#cloudsecure-wp-security .success-box:last-child,
+#cloudsecure-wp-security .info-box:last-child {
+	margin-bottom: 24px;
+}
+
+#cloudsecure-wp-security .error-box::after,
+#cloudsecure-wp-security .success-box::after,
+#cloudsecure-wp-security .info-box::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 4px;
+	height: 100%;
+	content: "";
+}
+
+#cloudsecure-wp-security .error-box::after {
+	background-color: #d63638;
+}
+
+#cloudsecure-wp-security .success-box::after {
+	background-color: #00a32a;
+}
+
+#cloudsecure-wp-security .info-box::after {
+	background-color: #72aee6;
+}
+
+#cloudsecure-wp-security .error-box.red {
+	background-color: #fbefef;
+}
+
+#cloudsecure-wp-security .success-box.green {
+	background-color: #ebf8ee;
+}
+
+#cloudsecure-wp-security .info-box.blue {
+	background-color: #f0f6fc;
+}
+
+#cloudsecure-wp-security .success-box a{
+	display: inline-block;
+	position: relative;
+	padding-right: 12px;
+	word-break: break-all;
+}
+
+#cloudsecure-wp-security .success-box a::after{
+	position: absolute;
+	top: 6px;
+	right: 2px;
+	width: 8px;
+	height: 8px;
+	background-image: url("https://maesakiemoru.github.io/life-memory-journal/wp-content/plugins/cloudsecure-wp-security/assets/images/link.png");
+	background-size: cover;
+	content: "";
+}
+
+/* 各ページの内容を囲む */
+#cloudsecure-wp-security .box {
+	margin-bottom: 20px;
+	border: 1px solid #dbdcdd;
+	padding-bottom: 12px;
+	width: 100%;
+	background-color: #fff;
+}
+
+/* ダッシュボード（最上位メニュー: body.toplevel_page_cloudsecurewp）以外のページでは box の下paddingを0pxにする */
+body:not(.toplevel_page_cloudsecurewp) #cloudsecure-wp-security .box {
+	padding-bottom: 0;
+}
+
+#cloudsecure-wp-security .box.mt-20 {
+	margin-top: 20px;
+}
+
+#cloudsecure-wp-security .box:last-child {
+	margin-bottom: 0;
+}
+
+/* boxの上部 */
+#cloudsecure-wp-security .box-top {
+	border-bottom: 1px solid #dbdcdd;
+	padding: 12px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* boxの上部(グレー) */
+#cloudsecure-wp-security .box-top-gray {
+	border-bottom: 1px solid #dbdcdd;
+	padding: 12px;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: #E4E5E5;
+	color: #4F565B;
+}
+
+/* boxの下部 */
+#cloudsecure-wp-security .box-bottom {
+	padding: 12px 24px 0px 24px;
+}
+
+/* ダッシュボード（最上位メニュー: body.toplevel_page_cloudsecurewp）以外のページでは box-bottom の上paddingを0pxにする */
+body:not(.toplevel_page_cloudsecurewp) #cloudsecure-wp-security .box-bottom {
+	padding: 0 24px 0 24px;
+}
+
+#cloudsecure-wp-security .box-bottom.pt-0 {
+	padding-top: 0;
+}
+
+/* box内の各行 */
+#cloudsecure-wp-security .box-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	border-bottom: 1px solid #dbdcdd;
+	padding: 12px 0px 12px 0px;
+}
+
+/* ダッシュボード（最上位メニュー: body.toplevel_page_cloudsecurewp）以外のページでは box-row の上下paddingを24pxにする */
+body:not(.toplevel_page_cloudsecurewp) #cloudsecure-wp-security .box-row {
+	padding: 24px 0 24px 0;
+}
+
+#cloudsecure-wp-security .box-row.pb-0 {
+	padding-bottom: 0;
+}
+
+#cloudsecure-wp-security .box-row.flex-start {
+	align-items: flex-start;
+}
+
+#cloudsecure-wp-security .box-row:last-child {
+	border: none;
+}
+
+/* boxの各行のタイトル */
+#cloudsecure-wp-security .box-row-title {
+	margin-right: 22.5px;
+	width: 227px;
+	color: #1d2327;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+#cloudsecure-wp-security .box-row-title.pt-12 {
+	padding-top: 12px;
+}
+
+#cloudsecure-wp-security .box-row-title a {
+	color: #1d2327;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#cloudsecure-wp-security .box-row-title.not-label {
+	width: 275px;
+}
+
+/* boxの行の内容 */
+#cloudsecure-wp-security .box-row-content {
+	width: calc(100% - 297.5px);
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#cloudsecure-wp-security .box-row-content.radio-btns {
+	min-width: 100px;
+}
+
+/* 説明文（.description）のマージンを0にする */
+#cloudsecure-wp-security .description {
+	margin: 0;
+}
+
+/* ラジオ設定欄の説明文（.description）とラジオボタンの間隔を12pxにする */
+#cloudsecure-wp-security .radio-btns .description {
+	margin: 12px 0 0 0;
+}
+
+#cloudsecure-wp-security input[type="radio"] {
+	display: none;
+}
+
+#cloudsecure-wp-security input[type="checkbox"] {
+	display: none;
+}
+
+#cloudsecure-wp-security input[type="text"] {
+	border: 1px solid #dbdcdd;
+	border-radius: 4px;
+	padding: 4px 7px;
+}
+
+/* 有効、無効のボタンを囲む */
+#cloudsecure-wp-security .enabled-or-disabled {
+	display: flex;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	width: -moz-fit-content;
+	width: fit-content;
+	overflow: hidden;
+}
+
+#cloudsecure-wp-security .enabled-or-disabled__btn+label {
+	padding: 0px 18px;
+	height: 32px;
+	background-color: #dbdcdd;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+#cloudsecure-wp-security .enabled-or-disabled__btn:checked+label {
+	background-color: #329ff1;
+}
+
+
+/* 丸型のラジオボタン */
+#cloudsecure-wp-security .circle-radio+label {
+	display: inline-block;
+	position: relative;
+	padding-left: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/* 2番目以降のラジオボタンの上に間隔をつける（最後の下にはスペースを作らない） */
+#cloudsecure-wp-security .circle-radio~.circle-radio+label {
+	margin-top: 8px;
+}
+
+#cloudsecure-wp-security .circle-radio+label::after {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	border: 1px solid #dbdcdd;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	content: "";
+}
+
+#cloudsecure-wp-security .circle-radio+label::before {
+	display: none;
+	position: absolute;
+	top: 6px;
+	left: 4px;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	background-color: #329ff1;
+	content: "";
+}
+
+#cloudsecure-wp-security .circle-radio:checked+label::before {
+	display: block;
+}
+
+/* 変更を保存のボタン */
+#cloudsecure-wp-security #submit-btn-area .button {
+	border: none;
+	border-radius: 3px;
+	height: 32px;
+	background-color: #0f8fef !important;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+#cloudsecure-wp-security #submit-btn-area .button:hover{
+	background-color: #0A68AE;
+}
+
+/* 注釈のような色が薄いテキスト */
+#cloudsecure-wp-security .pale-text {
+	color: #646970;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5384615385;
+}
+
+/* ログインURL変更画面の .pale-text のみ上に12pxの間隔をあける */
+#cloudsecure-wp-security .pale-text.mt-12 {
+	margin: 12px 0 0 0;
+}
+
+/*チェックボックスのラベル */
+#cloudsecure-wp-security .checkbox+label {
+	display: block;
+	position: relative;
+	padding-left: 24.5px;
+}
+
+#cloudsecure-wp-security .checkbox+label::before {
+	position: absolute;
+	top: 9px;
+	left: 0;
+	z-index: 1;
+	transform: translateY(-50%);
+	border: 1px solid #dbdcdd;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	content: "";
+}
+
+#cloudsecure-wp-security .checkbox+label::after {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	z-index: 2;
+	width: 11px;
+	height: 8px;
+	background-image: url("https://maesakiemoru.github.io/life-memory-journal/wp-content/plugins/cloudsecure-wp-security/assets/images/check.png");
+	background-size: cover;
+	content: "";
+}
+
+#cloudsecure-wp-security .checkbox:checked+label::before {
+	border: none;
+	background-color: #0f8fef;
+}
+
+
+/**
+ * 2.0 ダッシュボード
+ *
+ * ダッシュボードて使われるパーツ
+ */
+
+/* 有効のラベル */
+#cloudsecure-wp-security .flag {
+	border-radius: 200px;
+	width: 34px;
+	height: 20px;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* 有効のラベル（有効） */
+#cloudsecure-wp-security .val-t {
+	position: relative;
+	margin-right: 14px;
+	background-color: #329ff1;
+	font-size: 0;
+	content: "\6709\52b9";
+}
+
+#cloudsecure-wp-security .val-t:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	content: "\6709\52b9";
+}
+
+/* 有効のラベル（無効） */
+#cloudsecure-wp-security .val-f {
+	opacity: 0;
+	margin-right: 14px;
+	background-color: #dd0000;
+	font-size: 0;
+	content: "";
+}
+
+/* ダッシュボードのbox */
+#cloudsecure-wp-security .box.dash-box {
+	margin-top: -16px;
+}
+
+
+/**
+ * 3.0 ログインURL変更ページ
+ *
+ * ログインURL変更ページのパーツ
+ */
+
+/* input前のテキスト */
+#cloudsecure-wp-security .before-input {
+	margin-right: 20px;
+	width: -moz-fit-content;
+	width: fit-content;
+	white-space: nowrap;
+}
+
+/* 変更後のログインurlの入力欄 */
+#cloudsecure-wp-security .rename-login-page-name-input {
+	flex-grow: 1;
+}
+
+
+/**
+ * 4.0 管理画面アクセス制限ページ
+ *
+ * 管理画面アクセス制限ページのパーツ
+ */
+
+/* 除外パスのテキストエリア*/
+#cloudsecure-wp-security .restrict-textarea {
+	margin-bottom: 8px;
+	border: 1px solid #b7b9bc;
+	padding: 12px;
+	width: 100%;
+	height: 224px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5384615385;
+}
+
+
+/**
+ * 5.0 REST API無効化ページ
+ *
+ * REST API無効化ページのパーツ
+ */
+
+/* 除外プラグインのエリア */
+#cloudsecure-wp-security .remove-plugin-area {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	-moz-column-gap: 20px;
+	column-gap: 20px;
+	row-gap: 12px;
+	padding: 12px 0px;
+}
+
+/* 除外プラグインのエリアのテキスト */
+#cloudsecure-wp-security .remove-plugin-area-text {
+	width: calc(50% - 10px);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5384615385;
+}
+
+/* 除外リスト・除外できるテーマとプラグインの見出し */
+#cloudsecure-wp-security .remove-plugin-area-label {
+	width: calc(50% - 10px);
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.5384615385;
+}
+
+/* 除外プラグインのテキストエリアを囲む */
+#cloudsecure-wp-security .remove-plugin-area-textarea-wrapper {
+	position: relative;
+	width: calc(50% - 10px);
+}
+
+/* 除外プラグインのテキストエリア */
+#cloudsecure-wp-security .remove-plugin-area-textarea {
+	position: relative;
+	border: 1px solid #b7b9bc;
+	padding: 8px 10px;
+	width: 100%;
+	height: 216px;
+}
+
+/* 除外プラグインのテキストエリアのようなdivを囲む */
+#cloudsecure-wp-security .remove-plugin-area-like-textarea-wrapper {
+	position: relative;
+	width: calc(50% - 10px);
+}
+
+#cloudsecure-wp-security .remove-plugin-area-like-textarea-wrapper::after {
+	position: absolute;
+	top: 50%;
+	left: -5.5px;
+	transform: translateY(-50%) translateX(-100%);
+	z-index: 2;
+	border-style: solid;
+	border-top: 15px solid transparent;
+	border-right: 10px solid #b7b9bc;
+	border-bottom: 15px solid transparent;
+	border-left: 0;
+	width: 0;
+	height: 0;
+	content: "";
+}
+
+/* 除外プラグインのテキストエリアのようなdiv */
+#cloudsecure-wp-security .remove-plugin-area-like-textarea {
+	border: 1px solid #b7b9bc;
+	border-radius: 3px;
+	padding: 8px 10px;
+	width: 100%;
+	height: 216px;
+	overflow: auto;
+}
+
+#cloudsecure-wp-security .remove-plugin-area-like-textarea ul{
+	margin: 0;
+}
+
+/* 有効なプラグインのリスト */
+#cloudsecure-wp-security #active-plugins li {
+	display: flex;
+	align-items: center;
+	-moz-column-gap: 2px;
+	column-gap: 2px;
+}
+
+/* 有効なテーマ・プラグインのグループ見出し（-- テーマ -- / -- プラグイン --） */
+#cloudsecure-wp-security #active-plugins li.exclude-group-label {
+	display: block;
+}
+
+/* 有効なプラグインのリスト横のボタン */
+#cloudsecure-wp-security .btn-exclude {
+	display: block;
+	width: 13px;
+	height: 13px;
+	background-image: url("https://maesakiemoru.github.io/life-memory-journal/wp-content/plugins/cloudsecure-wp-security/assets/images/add.png");
+	background-size: cover;
+	font-size: 0;
+}
+
+#cloudsecure-wp-security .btn-exclude:hover {
+	cursor: pointer;
+}
+
+
+/**
+ * 6.0 ログイン通知ページ
+ *
+ * ログイン通知ページのパーツ
+ */
+
+/* ログイン通知ページのテキストエリア */
+#cloudsecure-wp-security .login-notification-textarea {
+	border: 1px solid #dbdcdd;
+	border-radius: 4px;
+	padding: 4px 10px;
+	width: 100%;
+	height: 148px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5384615385;
+}
+
+
+/**
+ * 7.0 ログイン履歴ページ
+ *
+ * ログイン履歴ページのパーツ
+ */
+
+/* 絞り込みのセレクトボックス */
+#cloudsecure-wp-security #login-log .tablenav .login-log-row select {
+	margin-right: 24px;
+	border: 1px solid #dbdcdd;
+	padding: 6px 22.6px 5px 12px;
+	width: 172px;
+	height: 31px;
+	font-size: 13px;
+	line-height: 1;
+}
+
+/* テーブルの各セル */
+#cloudsecure-wp-security #login-log .widefat td,
+#cloudsecure-wp-security #login-log .widefat th {
+	color: #1d2327;
+}
+
+/* ページネーション横のテキスト */
+#cloudsecure-wp-security #login-log .displaying-num {
+	color: #646970;
+	font-size: 11px;
+}
+
+/* ページネーションのボタン */
+#cloudsecure-wp-security #login-log .button,
+#cloudsecure-wp-security #login-log .button.disabled {
+	border-color: #b7b9bc !important;
+	color: #b7b9bc !important;
+}
+
+/* 現在のページの表示部分 */
+#cloudsecure-wp-security #login-log .current-page {
+	border-color: #b7b9bc;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+}
+
+/* 現在のページの表示部分横のテキスト */
+#cloudsecure-wp-security #login-log .tablenav-paging-text {
+	padding-top: 0;
+}
+
+/* 入力欄の共通 */
+#cloudsecure-wp-security #login-log input[type="text"] {
+	color: #1d2327;
+}
+
+#cloudsecure-wp-security #login-log input[type="text"]::-moz-placeholder {
+	color: #d1d1d1;
+}
+
+#cloudsecure-wp-security #login-log input[type="text"]::placeholder {
+	color: #d1d1d1;
+}
+
+/* テーブル下にあるtfootを非表示 */
+#cloudsecure-wp-security .custom-table-class tfoot {
+	display: none;
+}
+
+/* ログイン履歴ぺージ上部の絞り込み部分 */
+#cloudsecure-wp-security .login-log {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	-moz-column-gap: 60.5px;
+	column-gap: 60.5px;
+	row-gap: 13px;
+	margin-bottom: 13px;
+}
+
+/* 絞り込み部分の各行 */
+#cloudsecure-wp-security .login-log-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 13px;
+	margin-bottom: 13px;
+}
+
+#cloudsecure-wp-security .login-log-row:last-child {
+	margin-bottom: 0;
+}
+
+#cloudsecure-wp-security .login-log-row span {
+	margin-right: 12px;
+}
+
+/* 絞り込みの入力欄 */
+#cloudsecure-wp-security .login-log-row input[type="text"] {
+	margin-right: 12px;
+	border: 1px solid #dbdcdd;
+	padding: 6px 22.6px 5px 12px;
+	width: 172px;
+	height: 31px;
+	font-size: 13px;
+}
+
+/* 絞り込み行の入力欄、チェックボックス部分（ラベルも含む） */
+#cloudsecure-wp-security .login-log-row-right {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 13px;
+}
+
+/* 絞り込み部分のボタンを囲む */
+#cloudsecure-wp-security .login-log-btns {
+	display: flex;
+	-moz-column-gap: 15px;
+	column-gap: 15px;
+}
+
+/* 絞り込みボタンとクリアボタンの共通スタイル */
+#cloudsecure-wp-security .login-log-reset-btn,
+#cloudsecure-wp-security .login-log-done-btn {
+	border-style: none;
+	border-radius: 3px;
+	padding: 6px 12px 5px;
+	color: #fff;
+	font-size: 13px;
+}
+
+/* 絞り込みボタン */
+#cloudsecure-wp-security .login-log-done-btn {
+	background-color: #329ff1;
+}
+
+#cloudsecure-wp-security .login-log-done-btn:hover {
+	background-color: #0A68AE;
+}
+
+/* クリアボタン */
+#cloudsecure-wp-security .login-log-reset-btn {
+	background-color: #b7b9bc;
+}
+
+#cloudsecure-wp-security .login-log-reset-btn:hover {
+	background-color: #868A92;
+}
+
+
+/**
+ * 8.0 メディアクエリ 768px
+ *
+ * 768px以下の時のスタイル
+ */
+@media screen and (max-width: 768px) {
+
+	/* boxの各行のタイトル */
+	#cloudsecure-wp-security .box-row-title {
+		width: 100%;
+	}
+
+	/* boxの行の内容 */
+	#cloudsecure-wp-security .box-row-content {
+		width: 100%;
+	}
+
+	/* input前にあるテキスト */
+	#cloudsecure-wp-security .before-input {
+		white-space: pre-wrap;
+	}
+
+	/* 除外プラグインのエリアのテキスト */
+	#cloudsecure-wp-security .remove-plugin-area-text {
+		width: 100%;
+	}
+
+	#cloudsecure-wp-security .remove-plugin-area-text.order-1 {
+		order: 1;
+	}
+
+	#cloudsecure-wp-security .remove-plugin-area-text.order-4 {
+		order: 4;
+	}
+
+	/* 除外リスト・除外できるテーマとプラグインの見出し */
+	#cloudsecure-wp-security .remove-plugin-area-label {
+		width: 100%;
+	}
+
+	#cloudsecure-wp-security .remove-plugin-area-label.order-2 {
+		order: 2;
+	}
+
+	#cloudsecure-wp-security .remove-plugin-area-label.order-5 {
+		order: 5;
+	}
+
+	/* 除外プラグインのテキストエリアを囲む */
+	#cloudsecure-wp-security .remove-plugin-area-textarea-wrapper {
+		order: 3;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	/* 除外プラグインのテキストエリア横の矢印 */
+	#cloudsecure-wp-security .remove-plugin-area-textarea-wrapper::after {
+		position: absolute;
+		bottom: -25px;
+		left: 50%;
+		transform: translateX(-50%);
+		border-style: solid;
+		border-width: 0 15px 10px 15px;
+		border-color: transparent transparent #b7b9bc transparent;
+		width: 0;
+		height: 0;
+		content: "";
+	}
+
+	/* 除外プラグインのテキストエリアのようなdivを囲む */
+	#cloudsecure-wp-security .remove-plugin-area-like-textarea-wrapper {
+		order: 6;
+		width: 100%;
+	}
+
+	#cloudsecure-wp-security .remove-plugin-area-like-textarea-wrapper::after {
+		display: none;
+	}
+}
+
+
+/**
+ * 9.0 メディアクエリ 1100px
+ *
+ * 1100px以下の時のスタイル
+ */
+@media screen and (max-width: 1100px) {
+
+	/* 変更後のログインurlの入力欄 */
+	#cloudsecure-wp-security .rename-login-page-name-input {
+		flex-grow: 0;
+		width: 100%;
+	}
+}
+
+
+/**
+ * 10.0 メディアクエリ 330px
+ *
+ * 330px以下の時のスタイル
+ */
+@media screen and (max-width: 330px) {
+
+	/* ページネーションのボタン */
+	#cloudsecure-wp-security #login-log .button,
+	#cloudsecure-wp-security #login-log .button.disabled {
+		min-width: 30px;
+		min-height: 30px;
+	}
+
+	/* 現在のページの表示部分 */
+	#cloudsecure-wp-security #login-log .current-page {
+		height: 30px;
+	}
+
+	/* ページネーションの戻るボタン */
+	#cloudsecure-wp-security #login-log .tablenav .tablenav-pages .tablenav-pages-navspan {
+		min-width: 30px;
+		min-height: 30px;
+		font-size: 16px;
+	}
+}
+
+
+/**
+* 11.0 メディアクエリ 782px
+*
+* 782px以下の時のスタイル
+*/
+@media screen and (max-width: 782px) {
+
+	/* 現在のページの表示部分 */
+	#cloudsecure-wp-security #login-log .current-page {
+		height: 44px;
+	}
+
+	/* ページネーションを囲むspan */
+	#cloudsecure-wp-security #login-log .pagination-links {
+		display: flex;
+		justify-content: center;
+		-moz-column-gap: 4px;
+		column-gap: 4px;
+		margin: 0 auto;
+		width: 100%;
+		white-space: nowrap;
+	}
+
+	/* ページネーションの入力欄と最大ページ数を囲むspan */
+	#cloudsecure-wp-security #login-log .paging-input {
+		display: flex;
+		align-items: center;
+		-moz-column-gap: 5px;
+		column-gap: 5px;
+		white-space: nowrap;
+	}
+}
+
+
+/**
+* 12.0 メディアクエリ 783px
+*
+* 782px以上の時のスタイル
+*/
+@media screen and (min-width: 783px) {
+
+	/* テーブルのトップの各セル */
+	#cloudsecure-wp-security #login-log th.sortable a,
+	#cloudsecure-wp-security #login-log th.sorted a,
+	#cloudsecure-wp-security .cloudsecure-wp-security_page_server_error_notification th.sortable a,
+	#cloudsecure-wp-security .cloudsecure-wp-security_page_server_error_notification th.sorted a {
+		padding: 12px 23px;
+		padding-right: 8px;
+		font-size: 13px;
+	}
+
+	/*テーブルのbodyの各セル */
+	#cloudsecure-wp-security .widefat td {
+		padding: 12px 23px;
+		padding-right: 8px;
+	}
+}
+
+
+/**
+ * 13.0 シンプルWAFページ
+ *
+ * シンプルWAFページのパーツ
+ */
+
+/* パンくずリスト */
+#cloudsecure-wp-security .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+/* パンくずリストの要素間に「>」を追加 */
+#cloudsecure-wp-security .breadcrumb__list:not(:last-of-type)::after {
+  content: ">";
+  margin: 0 0.6em;
+}
+
+/* 画面の遷移用ボタン */
+#cloudsecure-wp-security .link-button a {
+	display: inline-block;
+	background-color: #fff;
+	border: solid 1px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+#cloudsecure-wp-security .link-button a:hover {
+	background-color: #F2F7FA
+}
+
+#cloudsecure-wp-security .link-button a:focus {
+	border: none;
+}
+
+/* 次ページへ向かう画面遷移用ボタン */
+#cloudsecure-wp-security .link-button.next-page a::after{
+	content: ">";
+  margin: 0 0 0 0.6em;
+}
+
+/* 前ページへ向かう画面遷移用ボタン */
+#cloudsecure-wp-security .link-button.back-page a::before{
+	content: "<";
+  margin: 0 0.6em 0 0;
+}
+
+/* --waf機能画面-- */
+/* 遷移用ボタンと有効無効ボタンの位置調整用 */
+#cloudsecure-wp-security .waf-enabled-or-disabled-and-link-button-flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: start;
+}
+
+/* --waf検知履歴一覧画面-- */
+/* 遷移用ボタンとページング表示の位置調整用 */
+#cloudsecure-wp-security .waf-table-and-link-button a {
+	position: relative;
+}
+
+#cloudsecure-wp-security .waf-link-button-position a {
+	position: absolute;
+	margin-bottom: 13px;
+}
+
+/* 小さい画面だと遷移用ボタンとページング表示が被るため、上下に並ぶよう調整 */
+@media screen and (max-width: 783px) {
+
+	#cloudsecure-wp-security .waf-table-and-link-button a {
+		position:static;
+	}
+
+	#cloudsecure-wp-security .waf-link-button-position a {
+		position: static;
+	}
+}
+/* 新しいキーを生成リンク */
+#two-fa-setting-area #regenerate-key {
+	text-decoration: none;
+}
+#two-fa-setting-area #regenerate-key .regenerate-key-text {
+	text-decoration: underline;
+}
+
+/* 以下 2段階認証の認証方法設定ページのスタイル */
+/* ボタン関連 */
+#two-fa-setting-area .button {
+	font-size: 14px !important;
+	line-height: 0 !important;
+	min-height: 32px !important;
+}
+#two-fa-setting-area .button-gray {
+	background-color: #b7b9bc !important;
+	border-color: #b7b9bc !important;
+	color: #fff !important;
+}
+
+#two-fa-setting-area .button-gray:hover {
+	background-color: #9fa2a6 !important;
+	border-color: #9fa2a6 !important;
+}
+
+#two-fa-setting-area .button-blue {
+	background-color: #329FF1 !important;
+	border-color: #329FF1 !important;
+	color: #fff !important;
+}
+#two-fa-setting-area .button-blue:hover {
+	background-color: #2088D6 !important;
+	border-color: #2088D6 !important;
+}
+/* コンテンツスタイル関連 */
+#cloudsecure-wp-security #two-fa-setting-area .box {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#cloudsecure-wp-security #two-fa-setting-area .box-bottom {
+	padding: 0 24px !important;
+}
+#cloudsecure-wp-security #two-fa-setting-area .box-row {
+	padding: 24px 0 !important;
+}
+#cloudsecure-wp-security #two-fa-setting-area .box-row-title {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+#cloudsecure-wp-security #two-fa-setting-area .status-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* リカバリーコード説明 */
+#cloudsecure-wp-security #two-fa-setting-area .description-recovery-code {
+	width: 211px;
+	padding: 6px 12px;
+	border-radius: 4px;
+	background-color: #F7F7F8;
+}
+#cloudsecure-wp-security #two-fa-setting-area .description-text {
+	margin: 0;
+	font-size: 11px;
+	font-weight: 400;
+	color: #646970;
+}
+/* アイコン付きステータス表示エリア */
+#two-fa-setting-area .status-registered-back-none {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	color: #00A32A;
+}
+#two-fa-setting-area .status-not-registered-back-none {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #d73a49;
+}
+/* モーダルスタイル関連 */
+#two-fa-setting-area .setting-modal,
+#two-fa-setting-area .confirm-modal {
+	display: none;
+	position: fixed;
+	z-index: 99999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100dvh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#two-fa-setting-area .setting-modal-content,
+#two-fa-setting-area .confirm-modal-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 8px;
+	width: 90%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#two-fa-setting-area .setting-modal-content {
+	max-width: 650px;
+}
+#two-fa-setting-area .confirm-modal-content {
+	max-width: 400px;
+}
+#two-fa-setting-area .setting-modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+	border-bottom: 1px solid #DBDCDD;
+}
+#two-fa-setting-area .setting-modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 24px 24px 32px 24px;
+}
+#two-fa-setting-area .confirm-modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	padding: 24px;
+}
+#two-fa-setting-area .confirm-message-area {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+#two-fa-setting-area .confirm-message-body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+#two-fa-setting-area .modal-btn-area-end{
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
+}
+#two-fa-setting-area .modal-btn-area-center{
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+#two-fa-setting-area .modal-close {
+	cursor: pointer;
+}
+#cloudsecure-wp-security #two-fa-setting-area h2,
+#two-fa-setting-area .h2-text {
+	margin: 0;
+	font-size: 14px;
+}
+#two-fa-setting-area .modal-text,
+#two-fa-setting-area .status-text {
+	font-size: 13px !important;
+	margin: 0 !important;
+}
+#cloudsecure-wp-security #setting-modal .info-box,
+#cloudsecure-wp-security #setting-modal .error-box {
+	margin: 0 !important;
+	font-size: 13px !important;
+}
+/* 認証方法選択画面モーダル関連 */
+.auth-method-options {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+#cloudsecure-wp-security #two-fa-setting-area .circle-radio {
+	margin: 0 !important;
+	flex-shrink: 0 !important;
+}
+#cloudsecure-wp-security #two-fa-setting-area .circle-radio+label {
+	cursor: pointer !important;
+}
+#cloudsecure-wp-security #two-fa-setting-area .circle-radio+label::after {
+	position: absolute !important;
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+}
+
+#cloudsecure-wp-security #two-fa-setting-area .circle-radio+label::before {
+	position: absolute !important;  
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+}
+#two-fa-setting-area .auth-method-icon,
+#two-fa-setting-area .auth-method-text {
+	vertical-align: middle;
+}
+/* アプリ認証モーダル関連 */
+#two-fa-setting-area .qr-setup-container {
+	display: flex;
+	gap: 32px;
+	padding-left: 8px;
+}
+#two-fa-setting-area #qrcode {
+	display: inline-block;
+}
+#two-fa-setting-area .setup-key-section {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding-top: 16px;
+}
+#two-fa-setting-area .input-code-section {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+#two-fa-setting-area .verification-code-email::placeholder,
+#two-fa-setting-area .verification-code-app::placeholder {
+	color: #cccccc;
+}
+#two-fa-setting-area .verification-code-app {
+	width: 160px;
+	height: 38px;
+	padding: 4px 7px;
+	text-align: left;
+	border: 1px solid #DBDCDD;
+	border-radius: 4px;
+}
+/* メール認証モーダル関連 */
+#two-fa-setting-area .verification-code-email {
+	width: 207px;
+	height: 38px;
+	padding: 4px 7px;
+	text-align: left;
+	border: 1px solid #DBDCDD;
+	border-radius: 4px;
+}
+#two-fa-setting-area .resend-email-code-active {
+	pointer-events: auto;
+	cursor: pointer;
+}
+#two-fa-setting-area .resend-email-code-inactive {
+	pointer-events: none;
+	color: #646970;
+	cursor: not-allowed;
+	text-decoration: none;
+}
+/* リカバリーコードモーダル関連 */
+#two-fa-setting-area .recovery-modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding-top: 24px;
+}
+#two-fa-setting-area .recovery-modal-body-top {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 0 24px;
+}
+#two-fa-setting-area .recovery-modal-body-bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 16px 24px;
+	background-color: #f0f0f1;
+	border-radius: 0 0 8px 8px;
+}
+#two-fa-setting-area .recovery-text-area {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+#two-fa-setting-area .recovery-text {
+	display: flex;
+	gap: 8px;
+}
+#two-fa-setting-area .recovery-codes-grid {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	justify-content: center;
+	gap: 8px 20px; 				
+	padding: 12px 0;
+	border-radius: 8px;
+	border: 1px solid #D2D2D2;
+}
+#two-fa-setting-area .recovery-code-item {
+	background: none;
+	border: none;				
+	font-family: 'BIZ UDGothic', monospace;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+#two-fa-setting-area .black-circle {
+	margin-top: 7px;
+	width: 4px;
+	height: 4px;
+	flex-shrink: 0;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* タブレット対応 */
+@media (max-width: 1024px) {
+	#cloudsecure-wp-security #two-fa-setting-area .box-row {
+		display: flex !important;
+		flex-direction: column !important;
+		column-gap: 20px !important;
+		align-items: flex-start !important;
+	}
+	#cloudsecure-wp-security #two-fa-setting-area .box-row-title {
+		flex-direction: row !important;
+		width: 100% !important;
+		align-items: center !important;
+	}
+	#cloudsecure-wp-security #two-fa-setting-area .box-row-content {
+		width: 100% !important;
+	}
+	#two-fa-setting-area .pc-only {
+		display: none;
+	}
+	#cloudsecure-wp-security #two-fa-setting-area .description-recovery-code {
+		width: auto;
+		display: inline-block;
+	}
+}
+
+/* スマートフォン対応 */
+@media (max-width: 768px) {
+	#cloudsecure-wp-security #two-fa-setting-area .box-row-title {
+		flex-direction: column !important;
+		width: 100% !important;
+		align-items: flex-start !important;
+	}
+	#cloudsecure-wp-security #two-fa-setting-area .status-area {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	#cloudsecure-wp-security #two-fa-setting-area .status-area-text,
+	#cloudsecure-wp-security #two-fa-setting-area .status-area-btn {
+		margin-right: auto !important;
+	}
+	#two-fa-setting-area .setting-modal-body {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		padding: 16px 16px 24px 16px;
+		max-height: 510px;
+		overflow: auto;
+	}
+	#two-fa-setting-area .qr-setup-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}				
+	#two-fa-setting-area .setup-key-section {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		text-align: center;
+		padding: 0;
+	}
+	#two-fa-setting-area .verification-code-email {
+		width: 180px;
+		height: 38px;
+		padding: 4px 7px;
+		text-align: left;
+		border: 1px solid #DBDCDD;
+		border-radius: 4px;
+	}
+	#two-fa-setting-area .recovery-modal-body {
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+		padding: 0;
+	}
+	#two-fa-setting-area .recovery-modal-body-top {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		padding: 16px 16px 24px 16px;
+	}
+}

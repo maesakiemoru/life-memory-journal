@@ -1,0 +1,348 @@
+.required-error {
+	border: 1px solid red !important;
+}
+
+.stripe_tax_for_woocommerce_message {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	margin: 0;
+	padding: 0 12px;
+	word-wrap: break-word;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+
+.stripe_tax_for_woocommerce_message.stripe_tax_for_woocommerce_message_info {
+	border-left-color: #72aee6;
+}
+
+.stripe_tax_for_woocommerce_message.stripe_tax_for_woocommerce_message_error {
+	border-left-color: #d63638;
+}
+
+.stripe_tax_for_woocommerce_message.stripe_tax_for_woocommerce_message_success {
+	border-left-color: #00a32a;
+}
+
+.stripe_tax_for_woocommerce_message.stripe_tax_for_woocommerce_message_warning {
+	border-left-color: #dba617;
+}
+
+.stripe_tax_for_woocommerce_message p {
+	line-height: 28px;
+	margin: 0;
+}
+
+.stripe_tax_for_woocommerce_unsaved_notice {
+	display: none;
+	background: #fef8e7;
+	border-color: #dba617;
+}
+
+.stripe_tax_for_woocommerce_unsaved_notice p {
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.stripe_tax_for_woocommerce_button_authorize .stripe_tax_for_woocommerce_message p {
+	line-height: 26px;
+}
+
+.stripe_tax_for_woocommerce_button_authorize .page-title-action {
+	top: 0;
+	margin-bottom: 4px;
+}
+
+table.form-table.stripe_tax_for_woocommerce_settings p {
+	margin: 0;
+}
+
+/* Keep tooltip icon aligned with label text instead of row-centered absolute positioning. */
+table.form-table.stripe_tax_for_woocommerce_settings th {
+	vertical-align: top !important;
+	padding-right: 10px;
+}
+
+table.form-table.stripe_tax_for_woocommerce_settings th > label {
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+}
+
+table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip {
+	position: static;
+	display: inline-block;
+	float: none !important;
+	margin: 0 0 0 6px;
+	transform: none;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip.stfwc-help-mode-tip {
+	margin-top: -3px!important;
+}
+
+table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip::after {
+	margin: 0;
+	line-height: 1;
+	position: relative;
+	top: -2px;
+}
+
+/* Move only the Mode/Sandbox help icon slightly higher. */
+table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip.js-mode-tip::after {
+	top: -5px;
+}
+
+.woocommerce table.form-table.stripe_tax_for_woocommerce_settings input[type="submit"],
+.woocommerce table.form-table.stripe_tax_for_woocommerce_settings input[type="text"] {
+	margin-bottom: 4px;
+}
+
+.woocommerce_options_panel ._stripe_tax_for_woocommerce_tax_code_field .select2-selection__rendered {
+	font-size: 14px;
+}
+
+.woocommerce_options_panel ._stripe_tax_for_woocommerce_tax_code_field .select2-container
+{
+	width: 50% !important;
+}
+
+.woocommerce_options_panel ._stripe_tax_for_woocommerce_tax_code_field > .woocommerce-help-tip {
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+.woocommerce_options_panel ._stripe_tax_for_woocommerce_tax_code_field .stfwc-product-tax-code-note {
+	margin-top: 15px;
+	display: block;
+}
+
+.stripe_tax_for_woocommerce_tax_ids .select2-container{
+	vertical-align: top;
+}
+
+.margin-top-5px{
+	margin-top: 5px;
+}
+
+.stripe_tax_for_woocommerce_button_disabled {
+	color: #a7aaad !important;
+	border-color: #dcdcde !important;
+	background: #f6f7f7 !important;
+	box-shadow: none !important;
+	cursor: default;
+	transform: none !important;
+	pointer-events: none;
+}
+
+.stripe_tax_for_woocommerce_button_authorize #stripe_tax_for_woocommerce_button_id_disconnect_from_stripe {
+	padding-right: 58px;
+}
+
+.stripe_tax_for_woocommerce_hidden {
+	display: none;
+}
+
+#select2-stripe_tax_for_woocommerce_id_live_mode_country-container {
+	font-weight: 600;
+}
+
+.stripe_tax_for_woocommerce_state_row .select2-selection__rendered {
+	font-weight: 600;
+}
+
+.stripe_tax_for_woocommerce_list_registration_country {
+	display: flex;
+	align-items: center;
+}
+
+.stripe_tax_for_woocommerce_list_registration_country > svg {
+	margin-right: 4px;
+}
+
+.stripe_tax_for_woocommerce_list_registration_country > * {
+	flex: 0 0 auto;
+}
+
+#stripe_tax_for_woocommerce_message_id_calculate_tax_error{
+	background-color: #f5cdcd;
+	display: block;
+}
+
+@media only screen and (max-width: 1280px) {
+	.woocommerce_options_panel ._stripe_tax_for_woocommerce_tax_code_field .select2-container {
+		width: 80% !important;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	/* Keep help tips directly next to labels on narrow admin layouts. */
+	table.form-table.stripe_tax_for_woocommerce_settings th {
+		display: block;
+		padding-right: 0;
+	}
+
+	table.form-table.stripe_tax_for_woocommerce_settings th > label {
+		display: inline;
+	}
+
+	table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip,
+	.woocommerce table.form-table.stripe_tax_for_woocommerce_settings th .woocommerce-help-tip {
+		display: inline-block !important;
+		position: static !important;
+		float: none !important;
+		clear: none !important;
+		margin: 0 0 0 6px !important;
+		vertical-align: middle;
+		transform: none;
+		right: auto !important;
+		left: auto !important;
+	}
+
+	table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip::after,
+	table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip.js-mode-tip::after {
+		top: -2px;
+	}
+
+	table.form-table.stripe_tax_for_woocommerce_settings th .stfwc-help-tip.js-mode-tip::after {
+		top: -5px;
+	}
+
+	.stripe_tax_for_woocommerce_settings.form-table td .stripe_tax_for_woocommerce_message p {
+		font-size: 16px;
+		line-height: 38px;
+		margin: 0;
+	}
+
+	.stripe_tax_for_woocommerce_settings.form-table td .button {
+		vertical-align: top;
+	}
+
+	.stripe_tax_for_woocommerce_button_authorize #stripe_tax_for_woocommerce_button_id_disconnect_from_stripe {
+		padding-right: 84px;
+	}
+
+	.stripe_tax_for_woocommerce_button_authorize .stripe_tax_for_woocommerce_message p {
+		font-size: 14px;
+		line-height: 38px;
+	}
+}
+
+.stripe_tax_for_woocommerce_step{
+	margin-bottom: 50px;
+}
+
+/* container */
+.stripe_tax_for_woocommerce_switch{
+	display: inline-flex;         /* put slider + text on one line */
+	align-items: center;
+	gap: 8px;                     /* space between slider and text */
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+/* hide native checkbox without covering content */
+.stripe_tax_for_woocommerce_switch input{
+	position: absolute;
+	opacity: 0;
+	width: 1px;
+	height: 1px;
+	margin: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);        /* prevents overlay */
+	white-space: nowrap;
+}
+
+/* slider track */
+.stripe_tax_for_woocommerce_switch .slider{
+	position: relative;
+	display: inline-block;
+	width: 42px;
+	height: 22px;
+	background: #2271b1;
+	border-radius: 9999px;
+	transition: background .2s ease;
+}
+
+/* slider knob */
+.stripe_tax_for_woocommerce_switch .slider::before{
+	content: "";
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	width: 18px;
+	height: 18px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	transition: transform .2s ease;
+}
+
+/* checked state */
+.stripe_tax_for_woocommerce_switch input:checked + .slider{
+	background: hsl(207, 35%, 39%);          /* WP blue */
+}
+.stripe_tax_for_woocommerce_switch input:checked + .slider::before{
+	transform: translateX(20px);
+}
+
+/* text */
+.stripe_tax_for_woocommerce_switch .switch-text{
+	font: inherit;
+	color: #1d2327;
+	user-select: none;
+}
+
+.stripe_tax_for_woocommerce_settings .js-mode-current-label{
+	margin-top: 8px!important;
+}
+
+.stripe_tax_for_woocommerce_key_field_row {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* When Select2 is disabled */
+.select2-container--disabled .select2-selection--single {
+	border: 1px solid rgba(220,220,222,.75) !important;
+	background-color: rgba(255,255,255,.5)!important;   /* optional: softer bg for disabled */
+	cursor: not-allowed;
+
+}
+
+/* Select2 v4 (default theme) */
+.select2-container--disabled
+	.select2-selection--single
+	.select2-selection__arrow {
+	display: none;                /* hide the arrow */
+}
+
+/* remove the extra right space where the arrow was */
+.select2-container--disabled
+	.select2-selection--single
+	.select2-selection__rendered {
+	padding-right: 8px;           /* adjust as you like */
+	color: rgba(44,51,56,.5)!important;
+}
+
+.stripe_tax_disabled,
+.stripe_tax_disabled *
+{
+	color: #a9a9a9 !important;
+	pointer-events: none;
+}
+
+/* Prevent the WP admin footer text from overlapping the tax registrations
+   list table's bulk actions/Apply controls when the page content is short. */
+.stripe_tax_for_woocommerce_step_3,
+.stripe_tax_for_woocommerce_registrations_list_form {
+	margin-bottom: 60px;
+}

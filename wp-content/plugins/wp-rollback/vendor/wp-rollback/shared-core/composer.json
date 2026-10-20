@@ -1,0 +1,19 @@
+{
+    "name": "wp-rollback/shared-core",
+    "description": "Shared core functionality for WP Rollback",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "WpRollback\\SharedCore\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}

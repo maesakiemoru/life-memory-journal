@@ -1,0 +1,86 @@
+/**
+ * Amazon商品リンクブロック - ブロック登録
+ * @author: yhira
+ * @link: https://wp-cocoon.com/
+ * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ */
+import { THEME_NAME, fixBrokenStaticHtml } from '../../helpers';
+import { __ } from '@wordpress/i18n';
+import { RawHTML } from '@wordpress/element';
+
+import edit from './edit';
+import save from './save';
+import metadata from './block.json';
+
+// ブロック名をエクスポート
+const { name } = metadata;
+export { metadata, name };
+
+// icomoonの\ea87（icon-amazon-logo）と同じAmazonロゴアイコン
+const amazonIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1024 1024"
+    width="24"
+    height="24"
+  >
+    { /* icomoonフォントのY軸反転を補正 */ }
+    <g transform="translate(0, 1024) scale(1, -1)">
+      <path d="M869.757 125.187c-97.051-71.62-237.525-109.68-358.623-109.68-169.71 0-322.467 62.625-438.028 167.115-8.996 8.13-1.038 19.376 9.86 12.974 124.731-72.658 279.044-116.254 438.374-116.254 107.431 0 225.588 22.316 334.403 68.507 16.262 6.92 30.102-10.898 14.012-22.662zM910.066 171.205c-12.456 15.916-82 7.612-113.313 3.806-9.514-1.038-10.898 7.092-2.422 13.148 55.532 38.924 146.528 27.68 157.081 14.704 10.726-13.148-2.768-104.317-54.84-147.912-7.958-6.746-15.57-3.114-12.11 5.708 11.936 29.236 38.060 94.629 25.604 110.545zM681.018 235.56l0.173-0.173c21.452 18.856 60.030 52.591 81.828 70.756 8.65 6.92 7.092 18.51 0.346 28.198-19.548 26.988-40.308 48.958-40.308 98.781v166.077c0 70.41 4.844 134.938-46.882 183.377-40.828 39.098-108.642 52.937-160.541 52.937-101.376 0-214.516-37.886-238.217-163.136-2.595-13.32 7.266-20.414 15.916-22.316l103.279-11.244c9.688 0.519 16.608 10.034 18.51 19.722 8.822 43.076 44.98 64.009 85.634 64.009 21.97 0 46.882-7.958 59.857-27.68 14.878-21.97 12.974-51.899 12.974-77.33v-13.84c-61.76-6.92-142.549-11.418-200.331-36.848-66.777-28.89-113.659-87.71-113.659-174.208 0-110.718 69.718-166.077 159.503-166.077 75.772 0 117.119 17.818 175.592 77.676 19.376-28.026 25.604-41.692 61.068-71.102 8.13-4.325 18.164-3.979 25.258 2.422zM573.587 495.401c0-41.52 1.038-76.118-19.894-112.967-16.954-30.102-43.768-48.439-73.696-48.439-40.828 0-64.701 31.14-64.701 77.156 0 90.824 81.482 107.258 158.465 107.258v-23.008z" />
+    </g>
+  </svg>
+);
+
+// deprecated: 過去にバックスラッシュが消失したstaticHtmlを持つブロックのマイグレーション
+const deprecated = [
+  {
+    // 旧バージョンの属性定義（block.jsonと同一）
+    attributes: metadata.attributes,
+    // 壊れたデータを持つブロックかどうかを判定
+    isEligible( attributes ) {
+      const { staticHtml } = attributes;
+      // staticHtmlが u003c で始まっていれば壊れたデータ
+      return (
+        staticHtml &&
+        typeof staticHtml === 'string' &&
+        staticHtml.startsWith( 'u003c' )
+      );
+    },
+    // 壊れたstaticHtmlを修復して新しい属性に変換
+    migrate( attributes ) {
+      return {
+        ...attributes,
+        staticHtml: fixBrokenStaticHtml( attributes.staticHtml ),
+      };
+    },
+    // 旧save関数: 壊れたstaticHtmlを復元してからHTML出力（DB内のコンテンツと一致させる）
+    save( { attributes } ) {
+      const { staticHtml, asin } = attributes;
+      if ( ! asin ) {
+        return null;
+      }
+      // DB内のinnerHTMLは正常なHTMLなので、壊れたテキストを復元して一致させる
+      const html = fixBrokenStaticHtml( staticHtml );
+      return <RawHTML>{ html }</RawHTML>;
+    },
+  },
+];
+
+// ブロック設定をエクスポート
+export const settings = {
+  // ブロック表示名
+  title: __( 'Amazon商品リンク', THEME_NAME ),
+  // アイコン
+  icon: amazonIcon,
+  // ブロック説明文
+  description: __(
+    'Amazon商品をエディタ内で検索・選択し、静的な商品リンクを挿入します。',
+    THEME_NAME
+  ),
+  // エディタコンポーネント
+  edit,
+  // 保存コンポーネント
+  save,
+  // 旧フォーマットのブロックデータを自動修復するための定義
+  deprecated,
+};
